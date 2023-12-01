@@ -1,0 +1,1298 @@
+[
+  {
+    "name": "Fixed Deposit-2Y&above",
+    "institute_code": "Samriddhi Fin",
+    "institute_name": "Samriddhi Finance Co.",
+    "interest": "11.75%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 1
+  },
+  {
+    "name": "Fixed Deposit-3Y&above",
+    "institute_code": "Best Finance",
+    "institute_name": "Best Finance Co.",
+    "interest": "11.50%",
+    "minimum_balance": "0",
+    "max_tenure": "3 years",
+    "id": 2
+  },
+  {
+    "name": "Fixed Deposit-1Yto2Y",
+    "institute_code": "Samriddhi Fin",
+    "institute_name": "Samriddhi Finance Co.",
+    "interest": "11.50%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 3
+  },
+  {
+    "name": "Fixed Deposit- 3 yrs and above",
+    "institute_code": "Gurkhas Finan",
+    "institute_name": "Gurkhas Finance Ltd",
+    "interest": "11.50%",
+    "minimum_balance": "0",
+    "max_tenure": "3 years",
+    "id": 4
+  },
+  {
+    "name": "Fixed Deposit-3Y&above",
+    "institute_code": "Progressive",
+    "institute_name": "Progressive Fin. Co.",
+    "interest": "11.50%",
+    "minimum_balance": "0",
+    "max_tenure": "3 years",
+    "id": 5
+  },
+  {
+    "name": "Fixed Deposit-Above1Y",
+    "institute_code": "Narayani Dev.",
+    "institute_name": "Narayani Bikas Bank",
+    "interest": "11.50%",
+    "minimum_balance": "0",
+    "max_tenure": "1.08 years",
+    "id": 6
+  },
+  {
+    "name": "Fixed Deposit-3Y&above",
+    "institute_code": "Nepal Finance",
+    "institute_name": "Nepal Finance Co.",
+    "interest": "11.50%",
+    "minimum_balance": "0",
+    "max_tenure": "3 years",
+    "id": 7
+  },
+  {
+    "name": "Fixed Deposit-3Y&above",
+    "institute_code": "Goodwill Finan.",
+    "institute_name": "Goodwill Finance Co.",
+    "interest": "11.50%",
+    "minimum_balance": "0",
+    "max_tenure": "3 years",
+    "id": 8
+  },
+  {
+    "name": "Fixed Deposit-6Mto1Y",
+    "institute_code": "Narayani Dev.",
+    "institute_name": "Narayani Bikas Bank",
+    "interest": "11.45%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 9
+  },
+  {
+    "name": "Fixed Deposit-10M",
+    "institute_code": "Corporate Dev",
+    "institute_name": "Corporate Bikas Bank",
+    "interest": "11.40%",
+    "minimum_balance": "0",
+    "max_tenure": "10 months",
+    "id": 10
+  },
+  {
+    "name": "Fixed Deposit-3Mto6M",
+    "institute_code": "Narayani Dev.",
+    "institute_name": "Narayani Bikas Bank",
+    "interest": "11.40%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 11
+  },
+  {
+    "name": "Fixed Deposit-9 month",
+    "institute_code": "Samriddhi Fin",
+    "institute_name": "Samriddhi Finance Co.",
+    "interest": "11.30%",
+    "minimum_balance": "0",
+    "max_tenure": "9 months",
+    "id": 12
+  },
+  {
+    "name": "Fixed Deposit-2Yto<3Y",
+    "institute_code": "Progressive",
+    "institute_name": "Progressive Fin. Co.",
+    "interest": "11.25%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 13
+  },
+  {
+    "name": "Fixed Deposit-2Y&above",
+    "institute_code": "Guheshwori",
+    "institute_name": "Guheshwori Finance",
+    "interest": "11.25%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 14
+  },
+  {
+    "name": "Fixed Deposit-3Y&above",
+    "institute_code": "Reliance Fin.",
+    "institute_name": "Reliance Finance Ltd.",
+    "interest": "11.25%",
+    "minimum_balance": "0",
+    "max_tenure": "3 years",
+    "id": 15
+  },
+  {
+    "name": "Fixed Deposit-6Mto2Y",
+    "institute_code": "Corporate Dev",
+    "institute_name": "Corporate Bikas Bank",
+    "interest": "11.25%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 16
+  },
+  {
+    "name": "Fixed Deposit-6 month",
+    "institute_code": "Samriddhi Fin",
+    "institute_name": "Samriddhi Finance Co.",
+    "interest": "11.15%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 17
+  },
+  {
+    "name": "Fixed Deposit-2Y&above",
+    "institute_code": "Green Develop.",
+    "institute_name": "Green Dev. Bank",
+    "interest": "11.05%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 18
+  },
+  {
+    "name": "Fixed Deposit-Upto2Y",
+    "institute_code": "Corporate Dev",
+    "institute_name": "Corporate Bikas Bank",
+    "interest": "11.00%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 19
+  },
+  {
+    "name": "Fixed Deposit-2Yto<3Y",
+    "institute_code": "Nepal Finance",
+    "institute_name": "Nepal Finance Co.",
+    "interest": "11.00%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 20
+  },
+  {
+    "name": "Fixed Deposit-2Yto<3Y",
+    "institute_code": "Best Finance",
+    "institute_name": "Best Finance Co.",
+    "interest": "11.00%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 21
+  },
+  {
+    "name": "Fixed Deposit",
+    "institute_code": "Samriddhi Fin",
+    "institute_name": "Samriddhi Finance Co.",
+    "interest": "11.00%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 22
+  },
+  {
+    "name": "Fixed Deposit-2Yto<3Y",
+    "institute_code": "Gurkhas Finan",
+    "institute_name": "Gurkhas Finance Ltd",
+    "interest": "11.00%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 23
+  },
+  {
+    "name": "Fixed Deposit-2Y&above",
+    "institute_code": "Central Fin",
+    "institute_name": "Central Finance Ltd",
+    "interest": "11.00%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 24
+  },
+  {
+    "name": "Fixed Deposit-2Y",
+    "institute_code": "Goodwill Finan.",
+    "institute_name": "Goodwill Finance Co.",
+    "interest": "11.00%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 25
+  },
+  {
+    "name": "Fixed Deposit-2Y&above",
+    "institute_code": "Manjushree",
+    "institute_name": "Manjushree Finance",
+    "interest": "11.00%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 26
+  },
+  {
+    "name": "Fixed Deposit-2Yto<3Y",
+    "institute_code": "Reliance Fin.",
+    "institute_name": "Reliance Finance Ltd.",
+    "interest": "11.00%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 27
+  },
+  {
+    "name": "Fixed Deposit-1Y&above",
+    "institute_code": "Karnali Bikas",
+    "institute_name": "Karnali Bikas Bank",
+    "interest": "10.85%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 28
+  },
+  {
+    "name": "Fixed Deposit-3Mto9M",
+    "institute_code": "Karnali Bikas",
+    "institute_name": "Karnali Bikas Bank",
+    "interest": "10.75%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 29
+  },
+  {
+    "name": "SuperFD-5Y&above",
+    "institute_code": "Corporate Dev",
+    "institute_name": "Corporate Bikas Bank",
+    "interest": "10.75%",
+    "minimum_balance": "1",
+    "max_tenure": "5.08 years",
+    "id": 30
+  },
+  {
+    "name": "Fixed Deposit-1 to< 2 yr",
+    "institute_code": "Gurkhas Finan",
+    "institute_name": "Gurkhas Finance Ltd",
+    "interest": "10.75%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 31
+  },
+  {
+    "name": "Fixed Deposit-Below2Y",
+    "institute_code": "Nepal Finance",
+    "institute_name": "Nepal Finance Co.",
+    "interest": "10.75%",
+    "minimum_balance": "0",
+    "max_tenure": "1.92 years",
+    "id": 32
+  },
+  {
+    "name": "Fixed Deposit-1Yto<2Y",
+    "institute_code": "Best Finance",
+    "institute_name": "Best Finance Co.",
+    "interest": "10.75%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 33
+  },
+  {
+    "name": "Fixed Deposit-1Yto<2Y",
+    "institute_code": "Guheshwori",
+    "institute_name": "Guheshwori Finance",
+    "interest": "10.75%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 34
+  },
+  {
+    "name": "Fixed Deposit- 1 to < 2 yrs",
+    "institute_code": "Reliance Fin.",
+    "institute_name": "Reliance Finance Ltd.",
+    "interest": "10.75%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 35
+  },
+  {
+    "name": "Fixed Deposit-1Yto<2Y",
+    "institute_code": "Manjushree",
+    "institute_name": "Manjushree Finance",
+    "interest": "10.75%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 36
+  },
+  {
+    "name": "Fixed Deposit-1 to < 2 year",
+    "institute_code": "Central Fin",
+    "institute_name": "Central Finance Ltd",
+    "interest": "10.75%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 37
+  },
+  {
+    "name": "Fixed Deposit-1Yto<2Y",
+    "institute_code": "Progressive",
+    "institute_name": "Progressive Fin. Co.",
+    "interest": "10.75%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 38
+  },
+  {
+    "name": "Fixed Deposit-1Yto<2Y",
+    "institute_code": "Green Develop.",
+    "institute_name": "Green Dev. Bank",
+    "interest": "10.65%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 39
+  },
+  {
+    "name": "Fixed Deposit-1Yto5Y",
+    "institute_code": "Himalayan",
+    "institute_name": "Himalayan Bank",
+    "interest": "10.603%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 40
+  },
+  {
+    "name": "Fixed Deposit-3Y&above",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "10.603%",
+    "minimum_balance": "0",
+    "max_tenure": "3 years",
+    "id": 41
+  },
+  {
+    "name": "Fixed Deposit-3M&above",
+    "institute_code": "Machhapuchhre",
+    "institute_name": "Machhapuchhre Bank",
+    "interest": "10.603%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 42
+  },
+  {
+    "name": "Fixed Deposit-1Y&above",
+    "institute_code": "Sindhu Bikas",
+    "institute_name": "Sindhu Bikas Bank",
+    "interest": "10.60%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 43
+  },
+  {
+    "name": "Fixed Deposit-1 yr & above",
+    "institute_code": "Shangrila Dev.",
+    "institute_name": "Shangrila Bikas Bank",
+    "interest": "10.60%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 44
+  },
+  {
+    "name": "Fixed Deposit-1Y&above",
+    "institute_code": "Lumbini Bikas",
+    "institute_name": "Lumbini Bikas Bank",
+    "interest": "10.60%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 45
+  },
+  {
+    "name": "Fixed Deposit-1Y",
+    "institute_code": "Goodwill Finan.",
+    "institute_name": "Goodwill Finance Co.",
+    "interest": "10.60%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 46
+  },
+  {
+    "name": "Fixed Deposit-9M",
+    "institute_code": "Nepal Finance",
+    "institute_name": "Nepal Finance Co.",
+    "interest": "10.60%",
+    "minimum_balance": "0",
+    "max_tenure": "9 months",
+    "id": 47
+  },
+  {
+    "name": "Fixed Deposit->6Mto9M",
+    "institute_code": "Best Finance",
+    "institute_name": "Best Finance Co.",
+    "interest": "10.60%",
+    "minimum_balance": "0",
+    "max_tenure": "7 months",
+    "id": 48
+  },
+  {
+    "name": "Fixed Deposit-9 Month",
+    "institute_code": "Progressive",
+    "institute_name": "Progressive Fin. Co.",
+    "interest": "10.60%",
+    "minimum_balance": "0",
+    "max_tenure": "9 months",
+    "id": 49
+  },
+  {
+    "name": "Fixed Deposit-9M",
+    "institute_code": "Reliance Fin.",
+    "institute_name": "Reliance Finance Ltd.",
+    "interest": "10.60%",
+    "minimum_balance": "0",
+    "max_tenure": "9 months",
+    "id": 50
+  },
+  {
+    "name": "Fixed Deposit-9 Month",
+    "institute_code": "Central Fin",
+    "institute_name": "Central Finance Ltd",
+    "interest": "10.60%",
+    "minimum_balance": "0",
+    "max_tenure": "9 months",
+    "id": 51
+  },
+  {
+    "name": "Fixed Deposit- 9 month",
+    "institute_code": "Guheshwori",
+    "institute_name": "Guheshwori Finance",
+    "interest": "10.60%",
+    "minimum_balance": "0",
+    "max_tenure": "9 months",
+    "id": 52
+  },
+  {
+    "name": "Fixed Deposit- 9 month",
+    "institute_code": "Gurkhas Finan",
+    "institute_name": "Gurkhas Finance Ltd",
+    "interest": "10.60%",
+    "minimum_balance": "0",
+    "max_tenure": "9 months",
+    "id": 53
+  },
+  {
+    "name": "Fixed Deposit-9M",
+    "institute_code": "Manjushree",
+    "institute_name": "Manjushree Finance",
+    "interest": "10.60%",
+    "minimum_balance": "0",
+    "max_tenure": "9 months",
+    "id": 54
+  },
+  {
+    "name": "Fixed Deposit-1Y&above",
+    "institute_code": "Pokhara Finan.",
+    "institute_name": "Pokhara Finance",
+    "interest": "10.60%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 55
+  },
+  {
+    "name": "Fixed Deposit",
+    "institute_code": "Corporate Dev",
+    "institute_name": "Corporate Bikas Bank",
+    "interest": "10.50%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 56
+  },
+  {
+    "name": "Fixed Deposit-3Mto<1Y",
+    "institute_code": "Sindhu Bikas",
+    "institute_name": "Sindhu Bikas Bank",
+    "interest": "10.50%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 57
+  },
+  {
+    "name": "Fixed Deposit-Below 1 Y",
+    "institute_code": "Shangrila Dev.",
+    "institute_name": "Shangrila Bikas Bank",
+    "interest": "10.50%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 58
+  },
+  {
+    "name": "Fixed Deposit- 6 Month",
+    "institute_code": "Progressive",
+    "institute_name": "Progressive Fin. Co.",
+    "interest": "10.50%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 59
+  },
+  {
+    "name": "Fixed Deposit-2Y&above",
+    "institute_code": "Shree Invest",
+    "institute_name": "Shree Invest &Finance",
+    "interest": "10.50%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 60
+  },
+  {
+    "name": "Fixed Deposit-6M",
+    "institute_code": "Green Develop.",
+    "institute_name": "Green Dev. Bank",
+    "interest": "10.40%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 61
+  },
+  {
+    "name": "Fixed Deposit-6m",
+    "institute_code": "Gurkhas Finan",
+    "institute_name": "Gurkhas Finance Ltd",
+    "interest": "10.40%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 62
+  },
+  {
+    "name": "Fixed Deposit->3Mto6M",
+    "institute_code": "Best Finance",
+    "institute_name": "Best Finance Co.",
+    "interest": "10.40%",
+    "minimum_balance": "0",
+    "max_tenure": "4 months",
+    "id": 63
+  },
+  {
+    "name": "Fixed Deposit-180 Days",
+    "institute_code": "Pokhara Finan.",
+    "institute_name": "Pokhara Finance",
+    "interest": "10.40%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 64
+  },
+  {
+    "name": "Fixed Deposit-6 month",
+    "institute_code": "Guheshwori",
+    "institute_name": "Guheshwori Finance",
+    "interest": "10.40%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 65
+  },
+  {
+    "name": "Fixed Deposit-6M",
+    "institute_code": "Manjushree",
+    "institute_name": "Manjushree Finance",
+    "interest": "10.40%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 66
+  },
+  {
+    "name": "Fixed Deposit- 6M",
+    "institute_code": "Reliance Fin.",
+    "institute_name": "Reliance Finance Ltd.",
+    "interest": "10.40%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 67
+  },
+  {
+    "name": "Fixed Deposit-6 month",
+    "institute_code": "Central Fin",
+    "institute_name": "Central Finance Ltd",
+    "interest": "10.40%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 68
+  },
+  {
+    "name": "Fixed Deposit-9M",
+    "institute_code": "Goodwill Finan.",
+    "institute_name": "Goodwill Finance Co.",
+    "interest": "10.40%",
+    "minimum_balance": "0",
+    "max_tenure": "9 months",
+    "id": 69
+  },
+  {
+    "name": "Fixed Deposit-270 days",
+    "institute_code": "Pokhara Finan.",
+    "institute_name": "Pokhara Finance",
+    "interest": "10.40%",
+    "minimum_balance": "0",
+    "max_tenure": "9 months",
+    "id": 70
+  },
+  {
+    "name": "Fixd Desposit-6M",
+    "institute_code": "Nepal Finance",
+    "institute_name": "Nepal Finance Co.",
+    "interest": "10.40%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 71
+  },
+  {
+    "name": "Fixed Deposit-3M",
+    "institute_code": "Green Develop.",
+    "institute_name": "Green Dev. Bank",
+    "interest": "10.30%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 72
+  },
+  {
+    "name": "Fixed Deposit-6M",
+    "institute_code": "Goodwill Finan.",
+    "institute_name": "Goodwill Finance Co.",
+    "interest": "10.30%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 73
+  },
+  {
+    "name": "General Fixed Deposit",
+    "institute_code": "Corporate Dev",
+    "institute_name": "Corporate Bikas Bank",
+    "interest": "10.25%",
+    "minimum_balance": "10",
+    "max_tenure": "3 months",
+    "id": 74
+  },
+  {
+    "name": "Fixed Deposit-3m<1Y",
+    "institute_code": "Lumbini Bikas",
+    "institute_name": "Lumbini Bikas Bank",
+    "interest": "10.25%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 75
+  },
+  {
+    "name": "Fixed Deposit",
+    "institute_code": "Gurkhas Finan",
+    "institute_name": "Gurkhas Finance Ltd",
+    "interest": "10.25%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 76
+  },
+  {
+    "name": "Fixed Deposit-3M",
+    "institute_code": "Goodwill Finan.",
+    "institute_name": "Goodwill Finance Co.",
+    "interest": "10.25%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 77
+  },
+  {
+    "name": "Fixed Deposit-1Yto<2Y",
+    "institute_code": "Shree Invest",
+    "institute_name": "Shree Invest &Finance",
+    "interest": "10.25%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 78
+  },
+  {
+    "name": "Fixed Deposit-3m & above",
+    "institute_code": "Prime Bank",
+    "institute_name": "Prime Commercial Bank",
+    "interest": "10.25%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 79
+  },
+  {
+    "name": "Fixed Deposit-3 month",
+    "institute_code": "Best Finance",
+    "institute_name": "Best Finance Co.",
+    "interest": "10.25%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 80
+  },
+  {
+    "name": "Fixed Deposit-3 Month",
+    "institute_code": "Progressive",
+    "institute_name": "Progressive Fin. Co.",
+    "interest": "10.25%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 81
+  },
+  {
+    "name": "Fixed Deposit-3 month",
+    "institute_code": "Pokhara Finan.",
+    "institute_name": "Pokhara Finance",
+    "interest": "10.25%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 82
+  },
+  {
+    "name": "Fixed Deposit-3 mo",
+    "institute_code": "Guheshwori",
+    "institute_name": "Guheshwori Finance",
+    "interest": "10.25%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 83
+  },
+  {
+    "name": "Fixed Deposit-3M",
+    "institute_code": "Manjushree",
+    "institute_name": "Manjushree Finance",
+    "interest": "10.25%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 84
+  },
+  {
+    "name": "Fixed Deposit-3M",
+    "institute_code": "Reliance Fin.",
+    "institute_name": "Reliance Finance Ltd.",
+    "interest": "10.25%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 85
+  },
+  {
+    "name": "Fixed Deposit",
+    "institute_code": "Central Fin",
+    "institute_name": "Central Finance Ltd",
+    "interest": "10.25%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 86
+  },
+  {
+    "name": "Fixed Deposit-3M",
+    "institute_code": "Nepal Finance",
+    "institute_name": "Nepal Finance Co.",
+    "interest": "10.25%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 87
+  },
+  {
+    "name": "Fixed Deposit- 9M",
+    "institute_code": "Shree Invest",
+    "institute_name": "Shree Invest &Finance",
+    "interest": "10.15%",
+    "minimum_balance": "0",
+    "max_tenure": "9 months",
+    "id": 88
+  },
+  {
+    "name": "Fixed Deposit-3m to 2Y",
+    "institute_code": "Miteri Bikas",
+    "institute_name": "Miteri Bikas Bank",
+    "interest": "10.05%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 89
+  },
+  {
+    "name": "Fixed Deposit-Above 6 Months",
+    "institute_code": "Kumari Bank",
+    "institute_name": "Kumari Bank",
+    "interest": "10.01%",
+    "minimum_balance": "0",
+    "max_tenure": "7 months",
+    "id": 90
+  },
+  {
+    "name": "Fixed Deposit-3M",
+    "institute_code": "Shree Invest",
+    "institute_name": "Shree Invest &Finance",
+    "interest": "10.00%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 91
+  },
+  {
+    "name": "Fixed Deposit-6M",
+    "institute_code": "Shree Invest",
+    "institute_name": "Shree Invest &Finance",
+    "interest": "10.00%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 92
+  },
+  {
+    "name": "Fixed Deposit-3M&above",
+    "institute_code": "Laxmi Sunrise",
+    "institute_name": "Laxmi Sunrise",
+    "interest": "10.00%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 93
+  },
+  {
+    "name": "Fixed Deposit-1Y&above",
+    "institute_code": "ICFC Finance",
+    "institute_name": "ICFC Finance Ltd",
+    "interest": "10.00%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 94
+  },
+  {
+    "name": "Fixed Deposit-3M&above",
+    "institute_code": "Siddhartha",
+    "institute_name": "Siddhartha Bank",
+    "interest": "9.99%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 95
+  },
+  {
+    "name": "Fixed Deposit-1Yto<2Y",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "9.76%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 96
+  },
+  {
+    "name": "Fixed Deposit-1Y&above",
+    "institute_code": "Garima Bikas",
+    "institute_name": "Garima Bikas Bank",
+    "interest": "9.75%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 97
+  },
+  {
+    "name": "Fixed Deposit-3Mto<1Y",
+    "institute_code": "ICFC Finance",
+    "institute_name": "ICFC Finance Ltd",
+    "interest": "9.75%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 98
+  },
+  {
+    "name": "Fixed Deposit-1Yto5Y",
+    "institute_code": "Excel Bikas",
+    "institute_name": "Excel Bikas Bank",
+    "interest": "9.65%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 99
+  },
+  {
+    "name": "Fixed Deposit-3m&above",
+    "institute_code": "Global IME",
+    "institute_name": "Global IME Bank",
+    "interest": "9.60%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 100
+  },
+  {
+    "name": "Fixed Deposit-3m & above",
+    "institute_code": "Citizens Bank",
+    "institute_name": "Citizens Bank International",
+    "interest": "9.60%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 101
+  },
+  {
+    "name": "Fixed Deposit->1Yto5Y",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "9.512%",
+    "minimum_balance": "0",
+    "max_tenure": "1.08 years",
+    "id": 102
+  },
+  {
+    "name": "Fixed Deposit-3M&above",
+    "institute_code": "NIMB",
+    "institute_name": "Nepal Investment Mega Bank",
+    "interest": "9.51%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 103
+  },
+  {
+    "name": "Fixed Deposit-9M",
+    "institute_code": "Himalayan",
+    "institute_name": "Himalayan Bank",
+    "interest": "9.51%",
+    "minimum_balance": "0",
+    "max_tenure": "9 months",
+    "id": 104
+  },
+  {
+    "name": "Fixed Deposit-3Mto6M",
+    "institute_code": "Kumari Bank",
+    "institute_name": "Kumari Bank",
+    "interest": "9.51%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 105
+  },
+  {
+    "name": "Fixed Depsit->6Mto1Y",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "9.51%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 106
+  },
+  {
+    "name": "Fixed Deposit-3m<1Y",
+    "institute_code": "Garima Bikas",
+    "institute_name": "Garima Bikas Bank",
+    "interest": "9.50%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 107
+  },
+  {
+    "name": "Fixed Deposit-2 to <3 yr",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "9.50%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 108
+  },
+  {
+    "name": "Fixed Deposit-9Mto<1Y",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "9.50%",
+    "minimum_balance": "0",
+    "max_tenure": "9 months",
+    "id": 109
+  },
+  {
+    "name": "Fixed Deposit-2Y&above",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "9.50%",
+    "minimum_balance": "0",
+    "max_tenure": "2 years",
+    "id": 110
+  },
+  {
+    "name": "Fixed Deposit-9M",
+    "institute_code": "Excel Bikas",
+    "institute_name": "Excel Bikas Bank",
+    "interest": "9.45%",
+    "minimum_balance": "0",
+    "max_tenure": "9 months",
+    "id": 111
+  },
+  {
+    "name": "Fixed Deposit-1yto10Y",
+    "institute_code": "Muktinath",
+    "institute_name": "Muktinath Bikas Bank",
+    "interest": "9.40%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 112
+  },
+  {
+    "name": "Fixed Deposit-1Y&above",
+    "institute_code": "Shine Resunga",
+    "institute_name": "Shine Resunga BB",
+    "interest": "9.40%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 113
+  },
+  {
+    "name": "Fixed Deposit-1Y&above",
+    "institute_code": "Jyoti Bikas",
+    "institute_name": "Jyoti Bikas Bank",
+    "interest": "9.40%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 114
+  },
+  {
+    "name": "Fixed Deposit-1Y&above",
+    "institute_code": "Mahalaxmi",
+    "institute_name": "Mahalaxmi Bikas Bank",
+    "interest": "9.40%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 115
+  },
+  {
+    "name": "Fixed Deposit-1Year&above",
+    "institute_code": "Kamana Sewa",
+    "institute_name": "Kamana Sewa B.Bank",
+    "interest": "9.40%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 116
+  },
+  {
+    "name": "Fixed Deposit-3m < 1Y",
+    "institute_code": "Muktinath",
+    "institute_name": "Muktinath Bikas Bank",
+    "interest": "9.30%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 117
+  },
+  {
+    "name": "Fixed Deposit-3m < 1Y",
+    "institute_code": "Shine Resunga",
+    "institute_name": "Shine Resunga BB",
+    "interest": "9.30%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 118
+  },
+  {
+    "name": "Fixed Deposit-3M",
+    "institute_code": "Jyoti Bikas",
+    "institute_name": "Jyoti Bikas Bank",
+    "interest": "9.30%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 119
+  },
+  {
+    "name": "Fixed Deposit-6Mto<1Y",
+    "institute_code": "Jyoti Bikas",
+    "institute_name": "Jyoti Bikas Bank",
+    "interest": "9.30%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 120
+  },
+  {
+    "name": "Fixed Deposit-3m<1Y",
+    "institute_code": "Mahalaxmi",
+    "institute_name": "Mahalaxmi Bikas Bank",
+    "interest": "9.30%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 121
+  },
+  {
+    "name": "Fixed Deposit-6Mto<1Y",
+    "institute_code": "Kamana Sewa",
+    "institute_name": "Kamana Sewa B.Bank",
+    "interest": "9.30%",
+    "minimum_balance": "0",
+    "max_tenure": "7 months",
+    "id": 122
+  },
+  {
+    "name": "Fixed Deposit-6M",
+    "institute_code": "Excel Bikas",
+    "institute_name": "Excel Bikas Bank",
+    "interest": "9.25%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 123
+  },
+  {
+    "name": "Fixed Deposit-3Mto5Y",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "9.224%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 124
+  },
+  {
+    "name": "Fixed Deposit-1 to < 2 yrs",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "9.20%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 125
+  },
+  {
+    "name": "Fixed Deposit-6M",
+    "institute_code": "Himalayan",
+    "institute_name": "Himalayan Bank",
+    "interest": "9.103%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 126
+  },
+  {
+    "name": "Fixed Deposit-3M&above",
+    "institute_code": "Nabil Bank",
+    "institute_name": "Nabil Bank",
+    "interest": "9.10%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 127
+  },
+  {
+    "name": "Fixed Deposit-3M",
+    "institute_code": "Excel Bikas",
+    "institute_name": "Excel Bikas Bank",
+    "interest": "9.05%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 128
+  },
+  {
+    "name": "Fixed Deposit-Upto 6M",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "9.01%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 129
+  },
+  {
+    "name": "Fixed Deposit-3 m to 5yr",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "9.00%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 130
+  },
+  {
+    "name": "Fixed Deposit-3M&above",
+    "institute_code": "Everest Bank",
+    "institute_name": "Everest Bank",
+    "interest": "9.00%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 131
+  },
+  {
+    "name": "Fixed Deposit-6Mto<9M",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "9.00%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 132
+  },
+  {
+    "name": "Fixed Deposit-3m & above",
+    "institute_code": "Prabhu Bank",
+    "institute_name": "Prabhu Bank",
+    "interest": "9.00%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 133
+  },
+  {
+    "name": "Fixed Deposit-3M&above",
+    "institute_code": "Sanima Bank",
+    "institute_name": "Sanima Bank",
+    "interest": "9.00%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 134
+  },
+  {
+    "name": "Fixed Deposit-91 days",
+    "institute_code": "SCB",
+    "institute_name": "Standard Chartered Bank",
+    "interest": "8.97%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 135
+  },
+  {
+    "name": "Fixed Deposit-3Mto15Y",
+    "institute_code": "NIC Asia",
+    "institute_name": "NIC ASIA Bank",
+    "interest": "8.968%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 136
+  },
+  {
+    "name": "Fixed Deposit-3Mto<6M",
+    "institute_code": "Kamana Sewa",
+    "institute_name": "Kamana Sewa B.Bank",
+    "interest": "8.80%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 137
+  },
+  {
+    "name": "Fixed Deposit-3M",
+    "institute_code": "Himalayan",
+    "institute_name": "Himalayan Bank",
+    "interest": "8.603%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 138
+  },
+  {
+    "name": "Cumulative FD",
+    "institute_code": "Nabil Bank",
+    "institute_name": "Nabil Bank",
+    "interest": "8.60%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 139
+  },
+  {
+    "name": "Fixed Deposit-6 m to < 1 yr",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "8.50%",
+    "minimum_balance": "0",
+    "max_tenure": "6 months",
+    "id": 140
+  },
+  {
+    "name": "Fixed Deposit-3Mto<6M",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "8.50%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 141
+  },
+  {
+    "name": "Fixed Deposit-3 to< 6mo",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "7.60%",
+    "minimum_balance": "0",
+    "max_tenure": "3 months",
+    "id": 142
+  },
+  {
+    "name": "Fixed Deposit (121 to 364 days)",
+    "institute_code": "SCB",
+    "institute_name": "Standard Chartered Bank",
+    "interest": "5.25%",
+    "minimum_balance": "0",
+    "max_tenure": "11 months",
+    "id": 143
+  },
+  {
+    "name": "Fixed Deposit-1Y&above",
+    "institute_code": "SCB",
+    "institute_name": "Standard Chartered Bank",
+    "interest": "5.25%",
+    "minimum_balance": "0",
+    "max_tenure": "1 year",
+    "id": 144
+  }
+]
