@@ -33,7 +33,7 @@ foreach ($data as $record) {
     // $minBalance = $record['minimum_balance'];
     // $maxTenure = $record['max_tenure'];
 
-    $sql = "INSERT INTO bank ( name) VALUES ('$name')";
+    $sql = "INSERT INTO salaryRate ( name) VALUES ('$name')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Record inserted successfully<br>";

@@ -1,0 +1,714 @@
+[
+    {
+    "name": "Staff Saving",
+    "institute_code": "Samriddhi Fin",
+    "institute_name": "Samriddhi Finance Co.",
+    "interest": "9.00%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Salary Saving",
+    "institute_code": "Samriddhi Fin",
+    "institute_name": "Samriddhi Finance Co.",
+    "interest": "9.00%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Talab Bachat",
+    "institute_code": "Best Finance",
+    "institute_name": "Best Finance Co.",
+    "interest": "8.50%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Employee Saving",
+    "institute_code": "Central Fin",
+    "institute_name": "Central Finance Ltd",
+    "interest": "8.00%",
+    "minimum_balance": "100",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Swablambi payroll",
+    "institute_code": "Reliance Fin.",
+    "institute_name": "Reliance Finance Ltd.",
+    "interest": "7.75%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "New Smart Salary",
+    "institute_code": "Machhapuchhre",
+    "institute_name": "Machhapuchhre Bank",
+    "interest": "7.603%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Special Payroll",
+    "institute_code": "Himalayan",
+    "institute_name": "Himalayan Bank",
+    "interest": "7.603%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Staff Savings",
+    "institute_code": "Guheshwori",
+    "institute_name": "Guheshwori Finance",
+    "interest": "7.50%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Premium Karmachari",
+    "institute_code": "Prime Bank",
+    "institute_name": "Prime Commercial Bank",
+    "interest": "7.46%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Employee Saving",
+    "institute_code": "Progressive",
+    "institute_name": "Progressive Fin. Co.",
+    "interest": "7.25%",
+    "minimum_balance": "1,000",
+    "max_tenure": "-"
+    },
+    {
+    "name": "  Payroll Savings",
+    "institute_code": "Gurkhas Finan",
+    "institute_name": "Gurkhas Finance Ltd",
+    "interest": "7.00%",
+    "minimum_balance": "200",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Staff Savings",
+    "institute_code": "Gurkhas Finan",
+    "institute_name": "Gurkhas Finance Ltd",
+    "interest": "7.00%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Employee Account",
+    "institute_code": "ICFC Finance",
+    "institute_name": "ICFC Finance Ltd",
+    "interest": "7.00%",
+    "minimum_balance": "100",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Employee Savings",
+    "institute_code": "Karnali Bikas",
+    "institute_name": "Karnali Bikas Bank",
+    "interest": "6.85%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Salary Savings",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "6.75%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Gold Payroll Savings",
+    "institute_code": "Nabil Bank",
+    "institute_name": "Nabil Bank",
+    "interest": "6.70%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Premium Super Talab",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "6.603%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Talab Bachat",
+    "institute_code": "Citizens Bank",
+    "institute_name": "Citizens Bank Int'l",
+    "interest": "6.60%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Sarbashrestha Talab Bachat",
+    "institute_code": "NIC Asia",
+    "institute_name": "NIC ASIA Bank",
+    "interest": "6.585%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Staff Savings",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "6.585%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Platinum Payroll",
+    "institute_code": "Sanima Bank",
+    "institute_name": "Sanima Bank",
+    "interest": "6.585%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "NBL Staff Salary",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "6.585%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Salary Saving",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "6.585%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Staff saving",
+    "institute_code": "Narayani Dev.",
+    "institute_name": "Narayani Bikas Bank",
+    "interest": "6.50%",
+    "minimum_balance": "1",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Karmachari Savings",
+    "institute_code": "Pokhara Finan.",
+    "institute_name": "Pokhara Finance",
+    "interest": "6.50%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Talab Bachat",
+    "institute_code": "Pokhara Finan.",
+    "institute_name": "Pokhara Finance",
+    "interest": "6.50%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Staff Salary Account",
+    "institute_code": "Mahalaxmi",
+    "institute_name": "Mahalaxmi Bikas Bank",
+    "interest": "6.40%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Shakti Bachat",
+    "institute_code": "Laxmi Sunrise",
+    "institute_name": "Laxmi Sunrise",
+    "interest": "6.40%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Suva Laxmi Savings",
+    "institute_code": "Laxmi Sunrise",
+    "institute_name": "Laxmi Sunrise",
+    "interest": "6.40%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Karmachari Savings",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "6.00%",
+    "minimum_balance": "100",
+    "max_tenure": "-"
+    },
+    {
+    "name": "N.Army Karmachari Saving",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "6.00%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Talabi Bachat Khata",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "6.00%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Staff Saving",
+    "institute_code": "Shangrila Dev.",
+    "institute_name": "Shangrila Bikas Bank",
+    "interest": "6.00%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Staff Saving Account",
+    "institute_code": "Karnali Bikas",
+    "institute_name": "Karnali Bikas Bank",
+    "interest": "5.85%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Kramachari Bachat",
+    "institute_code": "Green Develop.",
+    "institute_name": "Green Dev. Bank",
+    "interest": "5.65%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Staff Bachat",
+    "institute_code": "Green Develop.",
+    "institute_name": "Green Dev. Bank",
+    "interest": "5.65%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Surakshit Talab Khata",
+    "institute_code": "Machhapuchhre",
+    "institute_name": "Machhapuchhre Bank",
+    "interest": "5.603%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Salary Management A/C",
+    "institute_code": "Machhapuchhre",
+    "institute_name": "Machhapuchhre Bank",
+    "interest": "5.603%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Talab Khata",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "5.603%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Super Talab Khata",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "5.603%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Special Salary Management",
+    "institute_code": "Machhapuchhre",
+    "institute_name": "Machhapuchhre Bank",
+    "interest": "5.603%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Karmachari Bachat",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "5.603%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Corporate Salary Package",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "5.603%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Smart Salary",
+    "institute_code": "Machhapuchhre",
+    "institute_name": "Machhapuchhre Bank",
+    "interest": "5.603%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Ujyalo Karmachari Bachat",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "5.603%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Talab Khata",
+    "institute_code": "Lumbini Bikas",
+    "institute_name": "Lumbini Bikas Bank",
+    "interest": "5.60%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Salary Saving",
+    "institute_code": "Shangrila Dev.",
+    "institute_name": "Shangrila Bikas Bank",
+    "interest": "5.60%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Payroll Account",
+    "institute_code": "Shangrila Dev.",
+    "institute_name": "Shangrila Bikas Bank",
+    "interest": "5.60%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Karmachari Salary Savings",
+    "institute_code": "Sindhu Bikas",
+    "institute_name": "Sindhu Bikas Bank",
+    "interest": "5.60%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "TU Pension Saving",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "5.585%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Salary Saving",
+    "institute_code": "Kumari Bank",
+    "institute_name": "Kumari Bank",
+    "interest": "5.51%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Premium Salary",
+    "institute_code": "Kumari Bank",
+    "institute_name": "Kumari Bank",
+    "interest": "5.51%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Staff Savings",
+    "institute_code": "NIMB",
+    "institute_name": "Nepal Investment Mega Bank",
+    "interest": "5.50%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Karmachari Savings",
+    "institute_code": "NIMB",
+    "institute_name": "Nepal Investment Mega Bank",
+    "interest": "5.50%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Professional Staff  A/C",
+    "institute_code": "NIMB",
+    "institute_name": "Nepal Investment Mega Bank",
+    "interest": "5.50%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Sulabh Employees Khata",
+    "institute_code": "Prime Bank",
+    "institute_name": "Prime Commercial Bank",
+    "interest": "5.46%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Generall Payroll Account",
+    "institute_code": "Prime Bank",
+    "institute_name": "Prime Commercial Bank",
+    "interest": "5.46%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "General Staff Savings",
+    "institute_code": "Prime Bank",
+    "institute_name": "Prime Commercial Bank",
+    "interest": "5.46%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Premium Payroll Savings",
+    "institute_code": "Nabil Bank",
+    "institute_name": "Nabil Bank",
+    "interest": "5.20%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Staff Saving",
+    "institute_code": "Miteri Bikas",
+    "institute_name": "Miteri Bikas Bank",
+    "interest": "5.05%",
+    "minimum_balance": "500",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Corporate Salary",
+    "institute_code": "Everest Bank",
+    "institute_name": "Everest Bank",
+    "interest": "5.00%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Payroll Saving (NFPO)",
+    "institute_code": "Everest Bank",
+    "institute_name": "Everest Bank",
+    "interest": "5.00%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Staff Saving-EBL",
+    "institute_code": "Everest Bank",
+    "institute_name": "Everest Bank",
+    "interest": "5.00%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Saving Salary",
+    "institute_code": "Everest Bank",
+    "institute_name": "Everest Bank",
+    "interest": "5.00%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Payroll Plus Account",
+    "institute_code": "SCB",
+    "institute_name": "Standard Chartered Bank",
+    "interest": "5.00%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Super Salary",
+    "institute_code": "Siddhartha",
+    "institute_name": "Siddhartha Bank",
+    "interest": "5.00%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Karmchari Savings",
+    "institute_code": "Excel Bikas",
+    "institute_name": "Excel Bikas Bank",
+    "interest": "5.00%",
+    "minimum_balance": "100",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Mero Talab Account",
+    "institute_code": "Excel Bikas",
+    "institute_name": "Excel Bikas Bank",
+    "interest": "5.00%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Staff Saving",
+    "institute_code": "Garima Bikas",
+    "institute_name": "Garima Bikas Bank",
+    "interest": "4.75%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Employee Saving",
+    "institute_code": "Garima Bikas",
+    "institute_name": "Garima Bikas Bank",
+    "interest": "4.75%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Corporate Staff Savings",
+    "institute_code": "Nabil Bank",
+    "institute_name": "Nabil Bank",
+    "interest": "4.70%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Rastra Sewak Savings",
+    "institute_code": "Citizens Bank",
+    "institute_name": "Citizens Bank Int'l",
+    "interest": "4.60%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Navaratna Salary",
+    "institute_code": "Global IME",
+    "institute_name": "Global IME Bank",
+    "interest": "4.60%",
+    "minimum_balance": "100",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Karmachari Bachat",
+    "institute_code": "Global IME",
+    "institute_name": "Global IME Bank",
+    "interest": "4.60%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Dirghayu Talab",
+    "institute_code": "Sanima Bank",
+    "institute_name": "Sanima Bank",
+    "interest": "4.585%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Special Salary",
+    "institute_code": "Sanima Bank",
+    "institute_name": "Sanima Bank",
+    "interest": "4.585%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Cham. Talab Bachat ",
+    "institute_code": "NIC Asia",
+    "institute_name": "NIC ASIA Bank",
+    "interest": "4.585%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Super C.Talab Bachat ",
+    "institute_code": "NIC Asia",
+    "institute_name": "NIC ASIA Bank",
+    "interest": "4.585%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "New SC Talab Bachat ",
+    "institute_code": "NIC Asia",
+    "institute_name": "NIC ASIA Bank",
+    "interest": "4.585%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "New PSC Talab A/C- Prime",
+    "institute_code": "NIC Asia",
+    "institute_name": "NIC ASIA Bank",
+    "interest": "4.585%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "New PSC Talab A/C- Normal",
+    "institute_code": "NIC Asia",
+    "institute_name": "NIC ASIA Bank",
+    "interest": "4.585%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Karmachari Bachat",
+    "institute_code": "Muktinath",
+    "institute_name": "Muktinath Bikas Bank",
+    "interest": "4.40%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Salary Saving ",
+    "institute_code": "Kamana Sewa",
+    "institute_name": "Kamana Sewa B.Bank",
+    "interest": "4.40%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Karmachari Bachat",
+    "institute_code": "Mahalaxmi",
+    "institute_name": "Mahalaxmi Bikas Bank",
+    "interest": "4.40%",
+    "minimum_balance": "100",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Staff Saving",
+    "institute_code": "Jyoti Bikas",
+    "institute_name": "Jyoti Bikas Bank",
+    "interest": "4.40%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Salary Savings",
+    "institute_code": "Jyoti Bikas",
+    "institute_name": "Jyoti Bikas Bank",
+    "interest": "4.40%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Salary Saving",
+    "institute_code": "Shine Resunga",
+    "institute_name": "Shine Resunga BB",
+    "interest": "4.40%",
+    "minimum_balance": "100",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Professional Savings",
+    "institute_code": "Shine Resunga",
+    "institute_name": "Shine Resunga BB",
+    "interest": "4.40%",
+    "minimum_balance": "1",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Salary Savings",
+    "institute_code": "Prabhu Bank",
+    "institute_name": "Prabhu Bank",
+    "interest": "4.00%",
+    "minimum_balance": "0",
+    "max_tenure": "-"
+    }
+    ]
