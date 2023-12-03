@@ -1,0 +1,502 @@
+[
+    {
+    "name": "Nepal Bank Ltd.",
+    "code": "Nepal Bank",
+    "Saving Account": {
+    "rate": "6.585%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.224%"
+    }
+    },
+    {
+    "name": "Rastriya Banijya Bank",
+    "code": "RBB",
+    "Saving Account": {
+    "rate": "6.00%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.00%"
+    }
+    },
+    {
+    "name": "Nabil Bank",
+    "code": "Nabil Bank",
+    "Saving Account": {
+    "rate": "6.70%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.10%"
+    }
+    },
+    {
+    "name": "Nepal Investment Mega Bank",
+    "code": "NIMB",
+    "Saving Account": {
+    "rate": "7.25%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.51%"
+    }
+    },
+    {
+    "name": "Standard Chartered Bank",
+    "code": "SCB",
+    "Saving Account": {
+    "rate": "5.00%"
+    },
+    "Fixed Deposit": {
+    "rate": "8.97%"
+    }
+    },
+    {
+    "name": "Himalayan Bank",
+    "code": "Himalayan",
+    "Saving Account": {
+    "rate": "7.603%"
+    },
+    "Fixed Deposit": {
+    "rate": "10.603%"
+    }
+    },
+    {
+    "name": "Nepal SBI Bank",
+    "code": "Nepal SBI",
+    "Saving Account": {
+    "rate": "5.603%"
+    },
+    "Fixed Deposit": {
+    "rate": "10.603%"
+    }
+    },
+    {
+    "name": "Everest Bank",
+    "code": "Everest Bank",
+    "Saving Account": {
+    "rate": "5.00%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.00%"
+    }
+    },
+    {
+    "name": "NIC ASIA Bank",
+    "code": "NIC Asia",
+    "Saving Account": {
+    "rate": "7.13%"
+    },
+    "Fixed Deposit": {
+    "rate": "8.968%"
+    }
+    },
+    {
+    "name": "Machhapuchhre Bank",
+    "code": "Machhapuchhre",
+    "Saving Account": {
+    "rate": "7.603%"
+    },
+    "Fixed Deposit": {
+    "rate": "10.603%"
+    }
+    },
+    {
+    "name": "Kumari Bank",
+    "code": "Kumari Bank",
+    "Saving Account": {
+    "rate": "6.51%"
+    },
+    "Fixed Deposit": {
+    "rate": "10.01%"
+    }
+    },
+    {
+    "name": "Laxmi Sunrise",
+    "code": "Laxmi Sunrise",
+    "Saving Account": {
+    "rate": "7.40%"
+    },
+    "Fixed Deposit": {
+    "rate": "10.00%"
+    }
+    },
+    {
+    "name": "Siddhartha Bank",
+    "code": "Siddhartha",
+    "Saving Account": {
+    "rate": "7.00%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.99%"
+    }
+    },
+    {
+    "name": "Agriculture Dev. Bank",
+    "code": "Krishi Bikas",
+    "Saving Account": {
+    "rate": "7.00%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.512%"
+    }
+    },
+    {
+    "name": "Global IME Bank",
+    "code": "Global IME",
+    "Saving Account": {
+    "rate": "6.60%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.60%"
+    }
+    },
+    {
+    "name": "Citizens Bank Int'l",
+    "code": "Citizens Bank",
+    "Saving Account": {
+    "rate": "6.60%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.60%"
+    }
+    },
+    {
+    "name": "Prime Commercial Bank",
+    "code": "Prime Bank",
+    "Saving Account": {
+    "rate": "7.46%"
+    },
+    "Fixed Deposit": {
+    "rate": "10.25%"
+    }
+    },
+    {
+    "name": "NMB Bank",
+    "code": "NMB Bank",
+    "Saving Account": {
+    "rate": "6.603%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.76%"
+    }
+    },
+    {
+    "name": "Prabhu Bank",
+    "code": "Prabhu Bank",
+    "Saving Account": {
+    "rate": "7.00%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.00%"
+    }
+    },
+    {
+    "name": "Sanima Bank",
+    "code": "Sanima Bank",
+    "Saving Account": {
+    "rate": "6.585%"
+    },
+    "Fixed Deposit": {
+    "rate": "15.00%"
+    }
+    },
+    {
+    "name": "Narayani Bikas Bank",
+    "code": "Narayani Dev.",
+    "Saving Account": {
+    "rate": "8.25%"
+    },
+    "Fixed Deposit": {
+    "rate": "11.50%"
+    }
+    },
+    {
+    "name": "Karnali Bikas Bank",
+    "code": "Karnali Bikas",
+    "Saving Account": {
+    "rate": "6.25%"
+    },
+    "Fixed Deposit": {
+    "rate": "10.85%"
+    }
+    },
+    {
+    "name": "Excel Bikas Bank",
+    "code": "Excel Bikas",
+    "Saving Account": {
+    "rate": "6.50%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.65%"
+    }
+    },
+    {
+    "name": "Miteri Bikas Bank",
+    "code": "Miteri Bikas",
+    "Saving Account": {
+    "rate": "7.05%"
+    },
+    "Fixed Deposit": {
+    "rate": "10.05%"
+    }
+    },
+    {
+    "name": "Muktinath Bikas Bank",
+    "code": "Muktinath",
+    "Saving Account": {
+    "rate": "6.40%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.40%"
+    }
+    },
+    {
+    "name": "Corporate Bikas Bank",
+    "code": "Corporate Dev",
+    "Saving Account": {
+    "rate": "9.00%"
+    },
+    "Fixed Deposit": {
+    "rate": "11.40%"
+    }
+    },
+    {
+    "name": "Sindhu Bikas Bank",
+    "code": "Sindhu Bikas",
+    "Saving Account": {
+    "rate": "7.60%"
+    },
+    "Fixed Deposit": {
+    "rate": "10.60%"
+    }
+    },
+    {
+    "name": "Green Dev. Bank",
+    "code": "Green Develop.",
+    "Saving Account": {
+    "rate": "7.65%"
+    },
+    "Fixed Deposit": {
+    "rate": "11.05%"
+    }
+    },
+    {
+    "name": "Shangrila Bikas Bank",
+    "code": "Shangrila Dev.",
+    "Saving Account": {
+    "rate": "7.60%"
+    },
+    "Fixed Deposit": {
+    "rate": "10.60%"
+    }
+    },
+    {
+    "name": "Shine Resunga BB",
+    "code": "Shine Resunga",
+    "Saving Account": {
+    "rate": "6.40%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.40%"
+    }
+    },
+    {
+    "name": "Jyoti Bikas Bank",
+    "code": "Jyoti Bikas",
+    "Saving Account": {
+    "rate": "6.40%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.40%"
+    }
+    },
+    {
+    "name": "Garima Bikas Bank",
+    "code": "Garima Bikas",
+    "Saving Account": {
+    "rate": "6.75%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.75%"
+    }
+    },
+    {
+    "name": "Mahalaxmi Bikas Bank",
+    "code": "Mahalaxmi",
+    "Saving Account": {
+    "rate": "6.40%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.40%"
+    }
+    },
+    {
+    "name": "Lumbini Bikas Bank",
+    "code": "Lumbini Bikas",
+    "Saving Account": {
+    "rate": "7.25%"
+    },
+    "Fixed Deposit": {
+    "rate": "10.60%"
+    }
+    },
+    {
+    "name": "Kamana Sewa B.Bank",
+    "code": "Kamana Sewa",
+    "Saving Account": {
+    "rate": "7.40%"
+    },
+    "Fixed Deposit": {
+    "rate": "9.40%"
+    }
+    },
+    {
+    "name": "Gurkhas Finance Ltd",
+    "code": "Gurkhas Finan",
+    "Saving Account": {
+    "rate": "8.00%"
+    },
+    "Fixed Deposit": {
+    "rate": "11.50%"
+    }
+    },
+    {
+    "name": "Goodwill Finance Co.",
+    "code": "Goodwill Finan.",
+    "Saving Account": {
+    "rate": null
+    },
+    "Fixed Deposit": {
+    "rate": "11.50%"
+    }
+    },
+    {
+    "name": "Shree Invest &Finance",
+    "code": "Shree Invest",
+    "Saving Account": {
+    "rate": "8.50%"
+    },
+    "Fixed Deposit": {
+    "rate": "10.50%"
+    }
+    },
+    {
+    "name": "Nepal Finance Co.",
+    "code": "Nepal Finance",
+    "Saving Account": {
+    "rate": null
+    },
+    "Fixed Deposit": {
+    "rate": "11.50%"
+    }
+    },
+    {
+    "name": "Best Finance Co.",
+    "code": "Best Finance",
+    "Saving Account": {
+    "rate": "8.50%"
+    },
+    "Fixed Deposit": {
+    "rate": "11.50%"
+    }
+    },
+    {
+    "name": "Progressive Fin. Co.",
+    "code": "Progressive",
+    "Saving Account": {
+    "rate": "7.25%"
+    },
+    "Fixed Deposit": {
+    "rate": "11.50%"
+    }
+    },
+    {
+    "name": "Janaki Finance Co.",
+    "code": "Janaki Finan.",
+    "Saving Account": {
+    "rate": "9.00%"
+    },
+    "Fixed Deposit": {
+    "rate": "12.50%"
+    }
+    },
+    {
+    "name": "Pokhara Finance",
+    "code": "Pokhara Finan.",
+    "Saving Account": {
+    "rate": "6.60%"
+    },
+    "Fixed Deposit": {
+    "rate": "10.60%"
+    }
+    },
+    {
+    "name": "Central Finance Ltd",
+    "code": "Central Fin",
+    "Saving Account": {
+    "rate": "8.70%"
+    },
+    "Fixed Deposit": {
+    "rate": "11.00%"
+    }
+    },
+    {
+    "name": "Multipurpose Finance",
+    "code": "Multipurpose",
+    "Saving Account": {
+    "rate": "8.50%"
+    },
+    "Fixed Deposit": {
+    "rate": "11.50%"
+    }
+    },
+    {
+    "name": "Samriddhi Finance Co.",
+    "code": "Samriddhi Fin",
+    "Saving Account": {
+    "rate": "9.00%"
+    },
+    "Fixed Deposit": {
+    "rate": "11.75%"
+    }
+    },
+    {
+    "name": "Guheshwori Finance",
+    "code": "Guheshwori",
+    "Saving Account": {
+    "rate": "8.50%"
+    },
+    "Fixed Deposit": {
+    "rate": "11.25%"
+    }
+    },
+    {
+    "name": "ICFC Finance Ltd",
+    "code": "ICFC Finance",
+    "Saving Account": {
+    "rate": "8.50%"
+    },
+    "Fixed Deposit": {
+    "rate": "10.00%"
+    }
+    },
+    {
+    "name": "Manjushree Finance",
+    "code": "Manjushree",
+    "Saving Account": {
+    "rate": "8.25%"
+    },
+    "Fixed Deposit": {
+    "rate": "11.00%"
+    }
+    },
+    {
+    "name": "Reliance Finance Ltd.",
+    "code": "Reliance Fin.",
+    "Saving Account": {
+    "rate": "8.50%"
+    },
+    "Fixed Deposit": {
+    "rate": "11.25%"
+    }
+    }
+    ]

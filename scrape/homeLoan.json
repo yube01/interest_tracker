@@ -1,0 +1,1064 @@
+[
+    {
+    "name": "Home Loan (For Army)",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "8.95% - 8.95%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Everest Bank",
+    "institute_name": "Everest Bank",
+    "interest": "9.31% - 12.81%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Nabil Bank",
+    "institute_name": "Nabil Bank",
+    "interest": "9.45% - 13.45%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Siddhartha",
+    "institute_name": "Siddhartha Bank",
+    "interest": "9.63% - 9.63%",
+    "offer_interest_rate": "10.99%",
+    "processing_fee": null,
+    "max_tenure": "7 years"
+    },
+    {
+    "name": "Home Loan-Women",
+    "institute_code": "Siddhartha",
+    "institute_name": "Siddhartha Bank",
+    "interest": "9.63% - 9.63%",
+    "offer_interest_rate": "10.74%",
+    "processing_fee": null,
+    "max_tenure": "7 years"
+    },
+    {
+    "name": "Housing Loan",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "9.81% - 14.81%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Low Cost",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "9.81% - 14.81%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "NIMB",
+    "institute_name": "Nepal Investment Mega Bank",
+    "interest": "9.83% - 14.83%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Global IME",
+    "institute_name": "Global IME Bank",
+    "interest": "10.01% - 15.01%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Your Own Home Loan",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "10.13% - 10.88%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "20 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "SCB",
+    "institute_name": "Standard Chartered Bank",
+    "interest": "10.22% - 12.22%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "10.30% - 12.30%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "10.30% - 13.30%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "15 years"
+    },
+    {
+    "name": "Land Purchase Loan",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "10.30% - 13.30%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Complex and HL",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "10.30% - 13.30%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Dhukka",
+    "institute_code": "Nabil Bank",
+    "institute_name": "Nabil Bank",
+    "interest": "10.36% - 10.36%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "7 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Machhapuchhre",
+    "institute_name": "Machhapuchhre Bank",
+    "interest": "10.41% - 12.41%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Sulav Home Loan",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "10.45% - 10.45%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Housing Loan",
+    "institute_code": "Citizens Bank",
+    "institute_name": "Citizens Bank Int'l",
+    "interest": "10.64% - 10.64%",
+    "offer_interest_rate": "12.50%",
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Prime Bank",
+    "institute_name": "Prime Commercial Bank",
+    "interest": "10.68% - 15.68%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Repair",
+    "institute_code": "Prime Bank",
+    "institute_name": "Prime Commercial Bank",
+    "interest": "10.68% - 15.68%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loans",
+    "institute_code": "Laxmi Sunrise",
+    "institute_name": "Laxmi Sunrise",
+    "interest": "10.75% - 14.75%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Equity",
+    "institute_code": "Laxmi Sunrise",
+    "institute_name": "Laxmi Sunrise",
+    "interest": "10.75% - 15.75%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Equity Revolving Credit",
+    "institute_code": "Laxmi Sunrise",
+    "institute_name": "Laxmi Sunrise",
+    "interest": "10.75% - 15.75%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Himalayan",
+    "institute_name": "Himalayan Bank",
+    "interest": "10.86% - 15.86%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Himalayan",
+    "institute_name": "Himalayan Bank",
+    "interest": "10.86% - 15.86%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Prime",
+    "institute_code": "NIC Asia",
+    "institute_name": "NIC ASIA Bank",
+    "interest": "10.95% - 12.95%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Global IME",
+    "institute_name": "Global IME Bank",
+    "interest": "10.99% - 13.99%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "11.07% - 13.57%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "11.13% - 11.13%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Mahalaxmi",
+    "institute_name": "Mahalaxmi Bikas Bank",
+    "interest": "11.16% - 15.66%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Equity",
+    "institute_code": "Mahalaxmi",
+    "institute_name": "Mahalaxmi Bikas Bank",
+    "interest": "11.16% - 15.66%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "SCB",
+    "institute_name": "Standard Chartered Bank",
+    "interest": "11.25% - 11.25%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Sanima Bank",
+    "institute_name": "Sanima Bank",
+    "interest": "11.27% - 13.27%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Equity",
+    "institute_code": "Sanima Bank",
+    "institute_name": "Sanima Bank",
+    "interest": "11.27% - 13.27%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Excel Bikas",
+    "institute_name": "Excel Bikas Bank",
+    "interest": "11.36% - 15.36%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Dhukka",
+    "institute_code": "Nabil Bank",
+    "institute_name": "Nabil Bank",
+    "interest": "11.36% - 11.36%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "11.38% - 11.38%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Home Loan-Mahalaxmi",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "11.38% - 11.38%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "11.39% - 13.39%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Shulav Aawas Karja",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "11.39% - 11.39%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Muktinath",
+    "institute_name": "Muktinath Bikas Bank",
+    "interest": "11.47% - 16.47%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Equity",
+    "institute_code": "Muktinath",
+    "institute_name": "Muktinath Bikas Bank",
+    "interest": "11.47% - 16.47%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "11.49% - 11.49%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "20 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Shangrila Dev.",
+    "institute_name": "Shangrila Bikas Bank",
+    "interest": "11.52% - 15.52%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Shine Resunga",
+    "institute_name": "Shine Resunga BB",
+    "interest": "11.53% - 13.53%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Kamana Sewa",
+    "institute_name": "Kamana Sewa B.Bank",
+    "interest": "11.60% - 16.60%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "11.63% - 11.63%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "15 years"
+    },
+    {
+    "name": "Home Loan-Mahalaxmi",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "11.63% - 11.63%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "20 years"
+    },
+    {
+    "name": "Home Loan OD ",
+    "institute_code": "NIC Asia",
+    "institute_name": "NIC ASIA Bank",
+    "interest": "11.70% - 13.70%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Standard",
+    "institute_code": "NIC Asia",
+    "institute_name": "NIC ASIA Bank",
+    "interest": "11.70% - 13.70%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Jyoti Bikas",
+    "institute_name": "Jyoti Bikas Bank",
+    "interest": "11.76% - 16.76%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Kumari Bank",
+    "institute_name": "Kumari Bank",
+    "interest": "11.79% - 11.79%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "7 years"
+    },
+    {
+    "name": "Home Loan-Professional",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "11.89% - 12.89%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Nepalaxmi",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "11.89% - 12.89%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Shulav Aawas Karja",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "11.89% - 11.89%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan (< 2 cr)",
+    "institute_code": "Kumari Bank",
+    "institute_name": "Kumari Bank",
+    "interest": "11.89% - 13.89%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Machhapuchhre",
+    "institute_name": "Machhapuchhre Bank",
+    "interest": "11.91% - 13.91%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Auto Loan",
+    "institute_code": "Machhapuchhre",
+    "institute_name": "Machhapuchhre Bank",
+    "interest": "11.91% - 13.91%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Low Cost Housing",
+    "institute_code": "Prabhu Bank",
+    "institute_name": "Prabhu Bank",
+    "interest": "11.94% - 13.94%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Corporate Dev",
+    "institute_name": "Corporate Bikas Bank",
+    "interest": "11.95% - 16.95%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home loan",
+    "institute_code": "Gurkhas Finan",
+    "institute_name": "Gurkhas Finance Ltd",
+    "interest": "11.96% - 18.96%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed rate",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "11.99% - 11.99%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "15 years"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "SCB",
+    "institute_name": "Standard Chartered Bank",
+    "interest": "12.00% - 12.00%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Home Loans-Fixed rate",
+    "institute_code": "Machhapuchhre",
+    "institute_name": "Machhapuchhre Bank",
+    "interest": "12.00% - 12.00%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Home Loan-Fixed rate",
+    "institute_code": "Prime Bank",
+    "institute_name": "Prime Commercial Bank",
+    "interest": "12.00% - 14.00%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "20 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Sindhu Bikas",
+    "institute_name": "Sindhu Bikas Bank",
+    "interest": "12.03% - 17.03%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan -Fixed Rate",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "12.05% - 12.05%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Home Purchase Loan-Fixed",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "12.05% - 12.05%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Garima Bikas",
+    "institute_name": "Garima Bikas Bank",
+    "interest": "12.05% - 14.05%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "12.25% - 14.25%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Housing Loan",
+    "institute_code": "Karnali Bikas",
+    "institute_name": "Karnali Bikas Bank",
+    "interest": "12.29% - 17.29%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan -Fixed Rate",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "12.30% - 12.30%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Home Purchase-Fixed Rate",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "12.30% - 12.30%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Home Loan-Realestate",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "12.39% - 13.39%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Manjushree",
+    "institute_name": "Manjushree Finance",
+    "interest": "12.40% - 17.20%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "15 years"
+    },
+    {
+    "name": "Prabhu Home Loan",
+    "institute_code": "Prabhu Bank",
+    "institute_name": "Prabhu Bank",
+    "interest": "12.44% - 14.44%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "25 years"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Nabil Bank",
+    "institute_name": "Nabil Bank",
+    "interest": "12.49% - 12.49%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "SCB",
+    "institute_name": "Standard Chartered Bank",
+    "interest": "12.50% - 12.50%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Everest Bank",
+    "institute_name": "Everest Bank",
+    "interest": "12.50% - 12.50%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "7 years"
+    },
+    {
+    "name": "Home Loan -Fixed Rate",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "12.55% - 12.55%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Land Purchase-Fixed Rate",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "12.55% - 12.55%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Purchase-Fixed Rate",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "12.55% - 12.55%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "ICFC Finance",
+    "institute_name": "ICFC Finance Ltd",
+    "interest": "12.58% - 15.58%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Green Develop.",
+    "institute_name": "Green Dev. Bank",
+    "interest": "12.69% - 16.69%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Green Develop.",
+    "institute_name": "Green Dev. Bank",
+    "interest": "12.69% - 16.69%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Pokhara Finan.",
+    "institute_name": "Pokhara Finance",
+    "interest": "12.69% - 16.69%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "12.75% - 12.75%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Miteri Bikas",
+    "institute_name": "Miteri Bikas Bank",
+    "interest": "12.75% - 14.75%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Goodwill Finan.",
+    "institute_name": "Goodwill Finance Co.",
+    "interest": "12.75% - 16.75%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan (> 2 cr)",
+    "institute_code": "Kumari Bank",
+    "institute_name": "Kumari Bank",
+    "interest": "12.89% - 14.89%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Shree Invest",
+    "institute_name": "Shree Invest &Finance",
+    "interest": "12.91% - 18.90%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Nabil Bank",
+    "institute_name": "Nabil Bank",
+    "interest": "12.99% - 12.99%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Prabhu Bank",
+    "institute_name": "Prabhu Bank",
+    "interest": "12.99% - 12.99%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Laxmi Sunrise",
+    "institute_name": "Laxmi Sunrise",
+    "interest": "12.99% - 14.99%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "15 years"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "13.00% - 13.00%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Mahalaxmi HL-Fixed Rate",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "13.00% - 13.00%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Home Loans-Fixed rate",
+    "institute_code": "Machhapuchhre",
+    "institute_name": "Machhapuchhre Bank",
+    "interest": "13.00% - 13.00%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Reliance Fin.",
+    "institute_name": "Reliance Finance Ltd.",
+    "interest": "13.20% - 17.20%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "13.25% - 13.25%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "15 years"
+    },
+    {
+    "name": "Mahalaxmi HL-Fixed Rate",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "13.25% - 13.25%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "20 years"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Nabil Bank",
+    "institute_name": "Nabil Bank",
+    "interest": "13.49% - 13.49%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "15 years"
+    },
+    {
+    "name": "Ghaderi Karja(घडेरी कर्जा)-Fixed Rate",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "13.50% - 13.50%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Himalayan",
+    "institute_name": "Himalayan Bank",
+    "interest": "13.50% - 13.50%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "7 years"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Everest Bank",
+    "institute_name": "Everest Bank",
+    "interest": "13.50% - 13.50%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "13.50% - 13.50%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "3 years"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Lumbini Bikas",
+    "institute_name": "Lumbini Bikas Bank",
+    "interest": "13.70% - 15.70%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "NIC Asia",
+    "institute_name": "NIC ASIA Bank",
+    "interest": "13.76% - 13.76%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Progressive",
+    "institute_name": "Progressive Fin. Co.",
+    "interest": "13.77% - 16.77%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Ghaderi Karja(घडेरी कर्जा)",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "13.89% - 13.89%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Prabhu Bank",
+    "institute_name": "Prabhu Bank",
+    "interest": "13.99% - 13.99%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loans-Fixed rate",
+    "institute_code": "Machhapuchhre",
+    "institute_name": "Machhapuchhre Bank",
+    "interest": "14.00% - 14.00%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Best Finance",
+    "institute_name": "Best Finance Co.",
+    "interest": "14.44% - 18.44%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Everest Bank",
+    "institute_name": "Everest Bank",
+    "interest": "14.50% - 14.50%",
+    "offer_interest_rate": null,
+    "processing_fee": "0.75%",
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "14.50% - 14.50%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "15.00% - 15.00%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Home Loan-Fixed Rate",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "15.50% - 15.50%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Home Loan",
+    "institute_code": "Janaki Finan.",
+    "institute_name": "Janaki Finance Co.",
+    "interest": "18.34% - 20.34%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    }
+    ]
