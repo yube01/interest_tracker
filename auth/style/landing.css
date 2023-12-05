@@ -1,0 +1,59 @@
+body{
+    padding: 1rem 4rem;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.auth{
+    display: flex;
+    gap: 4rem;
+}
+.auth a{
+    text-decoration: none;
+}
+.auth span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(108, 108, 108);
+    cursor: pointer;
+    
+}
+.auth span:hover{
+    color: black;
+}
+
+.logo img{
+    height: 5rem;
+    width: 5rem;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.detail h1{
+    font-size: 5rem;
+    color: rgb(73, 73, 73);
+    
+}
+.detail p{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.landimg img{
+    height: 42rem;
+    width: 40rem;
+    object-fit: cover;
+  
+}
