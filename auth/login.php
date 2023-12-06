@@ -36,7 +36,6 @@
             <img src="../assets/password.png" alt="">
                 <input required type="password" name="password" placeholder="Password">
             </div>
-            <!-- $query = mysql_query(“SELECT * FROM `users` WHERE ‘$name’ IN (username, email) AND `password` = ‘$pass'”) -->
             
             <input type="submit" name="submit" class="button" >
         
@@ -44,5 +43,8 @@
         </div>
         
     </div>
+    <?php 
+    include "../Db/dbLogin.php";
+    ?>
 </body>
 </html>

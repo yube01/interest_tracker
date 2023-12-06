@@ -46,5 +46,8 @@
             <img src="../assets/logo4.jpg" alt="">
         </div>
     </div>
+    <?php 
+    include "../Db/dbRegister.php";
+    ?>
 </body>
 </html>
