@@ -6,8 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    include "../Components/sidebar.php"
-    ?>
+    <h1>Side bar</h1>
 </body>
 </html>

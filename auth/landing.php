@@ -9,15 +9,7 @@
 </head>
 
 <body>
-    <nav>
-        <div class="logo">
-            <a href="landing.php"><img src="../assets/weblogo.png" alt="" ></a>
-        </div>
-        <div class="auth">
-            <a href="login.php"><span>Login</span></a>
-            <a href="register.php"><span>Register</span></a>
-        </div>
-    </nav>
+<?php include "../Components/navbar.php" ?>
     <div class="container">
         <div class="detail">
                 <h1>Bank Interest Tracker</h1>

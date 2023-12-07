@@ -2,10 +2,17 @@ body{
     padding: 1rem 4rem;
     
 }
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo img{
+    height: 5rem;
+    width: 5rem;
+    cursor: pointer;
 }
 .auth{
     display: flex;
@@ -25,11 +32,6 @@ nav{
     color: black;
 }
 
-.logo img{
-    height: 5rem;
-    width: 5rem;
-    cursor: pointer;
-}
 .container{
     display: flex;
     align-items: center;
