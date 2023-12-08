@@ -26,14 +26,17 @@ $data = json_decode($jsonData, true);
 // Insert each record into the database
 foreach ($data as $record) {
    
-    $name = $record['institute_name'];
+    $name = $record['name'];
+    $code = $record['code'];
+    $saving_rate = $record['Saving Account']['rate'];
+    $fixed_rate = $record['Fixed Deposit']['rate'];
     // $instituteCode = $record['institute_code'];
     // $instituteName = $record['institute_name'];
     // $interest = $record['interest'];
     // $minBalance = $record['minimum_balance'];
     // $maxTenure = $record['max_tenure'];
 
-    $sql = "INSERT INTO saving_and_fd ( name) VALUES ('$name')";
+    $sql = "INSERT INTO saving_fixed (name,code,saving_rate,fixed_rate) VALUES ('$name','$code','$saving_rate','$fixed_rate')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Record inserted successfully<br>";

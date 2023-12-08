@@ -1,0 +1,515 @@
+[
+    {
+    "name": "Education Loan",
+    "institute_code": "Everest Bank",
+    "institute_name": "Everest Bank",
+    "interest": "9.31% - 12.81%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Nabil Bank",
+    "institute_name": "Nabil Bank",
+    "interest": "9.45% - 13.95%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Siddhartha",
+    "institute_name": "Siddhartha Bank",
+    "interest": "9.63% - 13.63%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "NMB Bank",
+    "institute_name": "NMB Bank",
+    "interest": "9.81% - 14.81%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "NIMB",
+    "institute_name": "Nepal Investment Mega Bank",
+    "interest": "9.83% - 14.83%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loans",
+    "institute_code": "Global IME",
+    "institute_name": "Global IME Bank",
+    "interest": "10.01% - 15.01%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "10.30% - 13.30%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Citizens Bank",
+    "institute_name": "Citizens Bank Int'l",
+    "interest": "10.64% - 13.64%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Prime Bank",
+    "institute_name": "Prime Commercial Bank",
+    "interest": "10.68% - 15.68%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loans",
+    "institute_code": "Laxmi Sunrise",
+    "institute_name": "Laxmi Sunrise",
+    "interest": "10.75% - 14.75%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Himalayan",
+    "institute_name": "Himalayan Bank",
+    "interest": "10.86% - 15.86%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Mahalaxmi",
+    "institute_name": "Mahalaxmi Bikas Bank",
+    "interest": "11.16% - 15.66%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Sanima Bank",
+    "institute_name": "Sanima Bank",
+    "interest": "11.27% - 13.27%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Excel Bikas",
+    "institute_name": "Excel Bikas Bank",
+    "interest": "11.36% - 15.36%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "11.38% - 11.38%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Shangrila Dev.",
+    "institute_name": "Shangrila Bikas Bank",
+    "interest": "11.52% - 15.52%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "NIC Asia",
+    "institute_name": "NIC ASIA Bank",
+    "interest": "11.70% - 13.70%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Jyoti Bikas",
+    "institute_name": "Jyoti Bikas Bank",
+    "interest": "11.76% - 16.76%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "11.89% - 12.89%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Machhapuchhre",
+    "institute_name": "Machhapuchhre Bank",
+    "interest": "11.91% - 13.91%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Global IME",
+    "institute_name": "Global IME Bank",
+    "interest": "11.99% - 14.99%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "12.07% - 14.07%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan-Fixed rate",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "12.25% - 12.25%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Karnali Bikas",
+    "institute_name": "Karnali Bikas Bank",
+    "interest": "12.29% - 17.29%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Krishi Bikas",
+    "institute_name": "Agriculture Dev. Bank",
+    "interest": "12.30% - 12.30%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Nepal Bank",
+    "institute_name": "Nepal Bank Ltd.",
+    "interest": "12.39% - 13.39%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Manjushree",
+    "institute_name": "Manjushree Finance",
+    "interest": "12.40% - 17.20%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Siddhartha",
+    "institute_name": "Siddhartha Bank",
+    "interest": "12.50% - 12.50%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Garima Bikas",
+    "institute_name": "Garima Bikas Bank",
+    "interest": "12.55% - 14.55%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Green Develop.",
+    "institute_name": "Green Dev. Bank",
+    "interest": "12.69% - 16.69%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Pokhara Finan.",
+    "institute_name": "Pokhara Finance",
+    "interest": "12.69% - 16.69%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Miteri Bikas",
+    "institute_name": "Miteri Bikas Bank",
+    "interest": "12.75% - 14.75%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Goodwill Finan.",
+    "institute_name": "Goodwill Finance Co.",
+    "interest": "12.75% - 16.75%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Shine Resunga",
+    "institute_name": "Shine Resunga BB",
+    "interest": "12.78% - 14.78%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Kumari Bank",
+    "institute_name": "Kumari Bank",
+    "interest": "12.89% - 15.39%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Shree Invest",
+    "institute_name": "Shree Invest &Finance",
+    "interest": "12.91% - 18.90%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Prabhu Bank",
+    "institute_name": "Prabhu Bank",
+    "interest": "12.94% - 14.94%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Laxmi Sunrise",
+    "institute_name": "Laxmi Sunrise",
+    "interest": "12.99% - 14.99%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "15 years"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Everest Bank",
+    "institute_name": "Everest Bank",
+    "interest": "13.00% - 13.00%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "7 years"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Siddhartha",
+    "institute_name": "Siddhartha Bank",
+    "interest": "13.00% - 13.00%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Siddhartha",
+    "institute_name": "Siddhartha Bank",
+    "interest": "13.00% - 13.00%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "RBB",
+    "institute_name": "Rastriya Banijya Bank",
+    "interest": "13.00% - 13.00%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Reliance Fin.",
+    "institute_name": "Reliance Finance Ltd.",
+    "interest": "13.20% - 17.20%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Citizens Bank",
+    "institute_name": "Citizens Bank Int'l",
+    "interest": "13.50% - 13.50%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "13.50% - 13.50%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "3 years"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Himalayan",
+    "institute_name": "Himalayan Bank",
+    "interest": "13.50% - 13.50%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "7 years"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Lumbini Bikas",
+    "institute_name": "Lumbini Bikas Bank",
+    "interest": "13.70% - 15.70%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Citizens Bank",
+    "institute_name": "Citizens Bank Int'l",
+    "interest": "13.75% - 13.75%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "NIC Asia",
+    "institute_name": "NIC ASIA Bank",
+    "interest": "13.76% - 13.76%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Progressive",
+    "institute_name": "Progressive Fin. Co.",
+    "interest": "13.77% - 17.77%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education loan-Fixed Rate",
+    "institute_code": "Nabil Bank",
+    "institute_name": "Nabil Bank",
+    "interest": "13.99% - 13.99%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Everest Bank",
+    "institute_name": "Everest Bank",
+    "interest": "14.00% - 14.00%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Citizens Bank",
+    "institute_name": "Citizens Bank Int'l",
+    "interest": "14.00% - 14.00%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "15 years"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "14.50% - 14.50%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "5 years"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "15.00% - 15.00%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "10 years"
+    },
+    {
+    "name": "Education Loan-Fixed Rate",
+    "institute_code": "Nepal SBI",
+    "institute_name": "Nepal SBI Bank",
+    "interest": "15.50% - 15.50%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    },
+    {
+    "name": "Education Loan",
+    "institute_code": "Janaki Finan.",
+    "institute_name": "Janaki Finance Co.",
+    "interest": "17.34% - 19.34%",
+    "offer_interest_rate": null,
+    "processing_fee": null,
+    "max_tenure": "-"
+    }
+    ]
