@@ -2,6 +2,35 @@
 
 .container{
     display: flex;
-    background-color: rgba(255, 0, 0, 0.127);
-    height: 200vh;
+    background-color: rgba(0, 0, 0, 0.127);
+    min-height: 100vh;
+   
+    
+}
+.side{
+    background-color: #fff;
+}
+
+.deposit{
+    background-color: rgba(0, 0, 0, 0.063);
+    width: 100vw;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+   
+}
+.sbtn{
+    background-color: transparent;
+    position: absolute;
+    right: 3rem;
+ 
+}
+.first{
+    margin-top: 5rem;
+    background-color: white;
+    border-radius: 1rem;
+    width: 70vw;
+    align-items: center;
 }

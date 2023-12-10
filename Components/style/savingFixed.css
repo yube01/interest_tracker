@@ -1,0 +1,23 @@
+.savingFd{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+table{
+    padding: 3rem;
+}
+
+th{
+    padding: 1rem 2.5rem;
+    background-color: red;
+    position: sticky;
+    top: 0.1rem;
+}
+td{
+    background-color: rgba(128, 128, 128, 0.067);
+    padding: 1rem;
+}
+tr:hover{
+    background-color: rgba(0, 0, 0, 0.145);
+}
