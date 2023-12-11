@@ -18,6 +18,9 @@
                 <?php include "../Components/search.php" ?>
             </div>
             <div class="first">
+            <a href="../page/studentSaving.php" class="stlink">
+                <button class="checkStudent">Check Student Saving Interest</button>
+            </a>
                 <?php include "../Components/savingFixed.php" ?>
             </div>
         </div>

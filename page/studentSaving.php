@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin</title>
+    <link rel="stylesheet" href="../home/style/home.css">
+    <title>Student Saving Interest</title>
 </head>
 <body>
-<div class="container">
+    <div class="container">
         <div class="side">
         <?php
              include "../Components/sidebar.php"
@@ -17,12 +18,16 @@
                 <?php include "../Components/search.php" ?>
             </div>
             <div class="first">
-                <?php include "../Components/savingFixed.php" ?>
+            <a href="../home/home.php" class="stlink">
+                <button style="margin-left:25rem" class="checkStudent">Home</button>
+            </a>
+                <?php include "../Components/studentSaving.php" ?>
             </div>
         </div>
         
        
         
     </div>
+    
 </body>
 </html>

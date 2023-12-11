@@ -10,10 +10,13 @@
 <body>
     <div class="sidebar">
         <div class="sidelogo">
-            <img src="../assets/weblogo.png" alt="">
+            <a href="../home/home.php">
+                <img src="../assets/weblogo.png" alt="">
+            </a>
+           
         </div>
         <div class="options">
-            <a href="">
+            <a href="../home/home.php">
                 <div class="ologo">
                     <img src="../assets/icon/deposit.png" alt="">
                     <p>Deposit</p>

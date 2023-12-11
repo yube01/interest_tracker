@@ -4,13 +4,33 @@
    
     
 }
+.stlink{
+    text-decoration: none;
+    color: inherit;
+    
+   
+}
+.checkStudent{
+    margin-left: 20rem;
+    padding: 0.5rem 4rem;
+    background-color:black;
+    border: none;
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+    
+    
+}
+.checkStudent:hover{
+    background-color: rgb(44, 43, 43);
+}
 table{
-    padding: 3rem;
+    padding: 1rem 3rem;
 }
 
 th{
     padding: 1rem 2.5rem;
-    background-color: red;
+    background-color: rgba(0, 213, 255, 0.981);
     position: sticky;
     top: 0.1rem;
 }
