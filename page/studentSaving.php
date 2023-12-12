@@ -17,10 +17,11 @@
             <div class="sbtn">
                 <?php include "../Components/search.php" ?>
             </div>
-            <div class="first">
             <a href="../home/home.php" class="stlink">
-                <button style="margin-left:25rem" class="checkStudent">Home</button>
+                <button style="margin-left:-5rem" class="checkStudent">Home</button>
             </a>
+            <div class="first">
+           
                 <?php include "../Components/studentSaving.php" ?>
             </div>
         </div>

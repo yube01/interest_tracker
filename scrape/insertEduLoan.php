@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 }
 
 // Path to the file containing JSON data
-$jsonFilePath = "educationLoan.json";
+$jsonFilePath = "eduLoan.json";
 
 // Read JSON data from the file
 $jsonData = file_get_contents($jsonFilePath);

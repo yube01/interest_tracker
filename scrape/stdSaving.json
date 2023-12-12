@@ -1,0 +1,178 @@
+[
+    {
+        "name": "Student Saving",
+        "institute_code": "Samriddhi Fin",
+        "institute_name": "Samriddhi Finance Co.",
+        "interest": "9.00",
+        "minimum_balance": "0",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Student Savings",
+        "institute_code": "Reliance Fin.",
+        "institute_name": "Reliance Finance Ltd.",
+        "interest": "7.50",
+        "minimum_balance": "500",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Student Savings",
+        "institute_code": "Progressive",
+        "institute_name": "Progressive Fin. Co.",
+        "interest": "7.25",
+        "minimum_balance": "0",
+        "max_tenure": "-"
+    },
+    {
+        "name": "  Student Savings",
+        "institute_code": "Gurkhas Finan",
+        "institute_name": "Gurkhas Finance Ltd",
+        "interest": "7.00",
+        "minimum_balance": "200",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Corporate Student Scholar",
+        "institute_code": "Corporate Dev",
+        "institute_name": "Corporate Bikas Bank",
+        "interest": "6.50",
+        "minimum_balance": "500",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Student Saving",
+        "institute_code": "Narayani Dev.",
+        "institute_name": "Narayani Bikas Bank",
+        "interest": "6.50",
+        "minimum_balance": "1",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Student Premium.",
+        "institute_code": "RBB",
+        "institute_name": "Rastriya Banijya Bank",
+        "interest": "6.00",
+        "minimum_balance": "0",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Student Saving",
+        "institute_code": "Karnali Bikas",
+        "institute_name": "Karnali Bikas Bank",
+        "interest": "5.85",
+        "minimum_balance": "500",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Yuva Vidharthi Bachat",
+        "institute_code": "Green Develop.",
+        "institute_name": "Green Dev. Bank",
+        "interest": "5.65",
+        "minimum_balance": "0",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Student Saving",
+        "institute_code": "Machhapuchhre",
+        "institute_name": "Machhapuchhre Bank",
+        "interest": "5.603",
+        "minimum_balance": "0",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Bidhharthi Bachat",
+        "institute_code": "Shangrila Dev.",
+        "institute_name": "Shangrila Bikas Bank",
+        "interest": "5.60",
+        "minimum_balance": "0",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Ezee Student a\/c",
+        "institute_code": "NIMB",
+        "institute_name": "Nepal Investment Mega Bank",
+        "interest": "5.25",
+        "minimum_balance": "0",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Students Savings",
+        "institute_code": "Excel Bikas",
+        "institute_name": "Excel Bikas Bank",
+        "interest": "5.00",
+        "minimum_balance": "100",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Student Savings",
+        "institute_code": "Siddhartha",
+        "institute_name": "Siddhartha Bank",
+        "interest": "5.00",
+        "minimum_balance": "0",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Bidhyarthi Bachat",
+        "institute_code": "Citizens Bank",
+        "institute_name": "Citizens Bank Intl",
+        "interest": "4.60",
+        "minimum_balance": "0",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Students Savings",
+        "institute_code": "Global IME",
+        "institute_name": "Global IME Bank",
+        "interest": "4.60",
+        "minimum_balance": "0",
+        "max_tenure": "-"
+    },
+    {
+        "name": "New PSC Bidhyarthi Bachat-Prime",
+        "institute_code": "NIC Asia",
+        "institute_name": "NIC ASIA Bank",
+        "interest": "4.585",
+        "minimum_balance": "0",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Saving Student",
+        "institute_code": "Everest Bank",
+        "institute_name": "Everest Bank",
+        "interest": "4.585",
+        "minimum_balance": "0",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Student Saving",
+        "institute_code": "Shine Resunga",
+        "institute_name": "Shine Resunga BB",
+        "interest": "4.40",
+        "minimum_balance": "100",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Student Saving",
+        "institute_code": "Mahalaxmi",
+        "institute_name": "Mahalaxmi Bikas Bank",
+        "interest": "4.40",
+        "minimum_balance": "100",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Student Saving ",
+        "institute_code": "Kamana Sewa",
+        "institute_name": "Kamana Sewa B.Bank",
+        "interest": "4.40",
+        "minimum_balance": "0",
+        "max_tenure": "-"
+    },
+    {
+        "name": "Student Savings",
+        "institute_code": "Prabhu Bank",
+        "institute_name": "Prabhu Bank",
+        "interest": "4.00",
+        "minimum_balance": "100",
+        "max_tenure": "-"
+    }
+]

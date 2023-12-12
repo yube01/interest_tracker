@@ -1,7 +1,7 @@
 <?php
 
 // Read the existing JSON file
-$jsonData = file_get_contents('educationLoan.json');
+$jsonData = file_get_contents('per.json');
 
 // Decode the JSON data
 $data = json_decode($jsonData, true);
@@ -16,7 +16,7 @@ foreach ($data as &$loan) {
         $middle = ($lower + $upper) / 2;
 
         // Format the middle value and place it back in the "interest" field
-        $loan['interest'] = number_format($middle, 2) . '%';
+        $loan['interest'] = number_format($middle, 2);
     }
 }
 
@@ -24,7 +24,7 @@ foreach ($data as &$loan) {
 $newJsonData = json_encode($data, JSON_PRETTY_PRINT);
 
 // Write the new JSON data to a new file
-file_put_contents('educationLoan1.json', $newJsonData);
+file_put_contents('personalLoan.json', $newJsonData);
 
 echo "New JSON file created successfully!";
 ?>

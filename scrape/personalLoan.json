@@ -1,0 +1,164 @@
+[
+    {
+        "name": "Personal Loan",
+        "institute_code": "NMB Bank",
+        "institute_name": "NMB Bank",
+        "interest": "12.31",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "Prime Bank",
+        "institute_name": "Prime Commercial Bank",
+        "interest": "13.18",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "NIC Asia",
+        "institute_name": "NIC ASIA Bank",
+        "interest": "13.70",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "5 years"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "Muktinath",
+        "institute_name": "Muktinath Bikas Bank",
+        "interest": "13.97",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "Nepal SBI",
+        "institute_name": "Nepal SBI Bank",
+        "interest": "12.57",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "RBB",
+        "institute_name": "Rastriya Banijya Bank",
+        "interest": "11.76",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "Gurkhas Finan",
+        "institute_name": "Gurkhas Finance Ltd",
+        "interest": "15.46",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "Karnali Bikas",
+        "institute_name": "Karnali Bikas Bank",
+        "interest": "14.79",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "ICFC Finance",
+        "institute_name": "ICFC Finance Ltd",
+        "interest": "14.58",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "Pokhara Finan.",
+        "institute_name": "Pokhara Finance",
+        "interest": "15.19",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "SCB",
+        "institute_name": "Standard Chartered Bank",
+        "interest": "12.97",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "Goodwill Finan.",
+        "institute_name": "Goodwill Finance Co.",
+        "interest": "14.75",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "Miteri Bikas",
+        "institute_name": "Miteri Bikas Bank",
+        "interest": "13.75",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "Shree Invest",
+        "institute_name": "Shree Invest &Finance",
+        "interest": "15.91",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "Kumari Bank",
+        "institute_name": "Kumari Bank",
+        "interest": "14.39",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "Progressive",
+        "institute_name": "Progressive Fin. Co.",
+        "interest": "15.77",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "Best Finance",
+        "institute_name": "Best Finance Co.",
+        "interest": "16.44",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    },
+    {
+        "name": "Personal Loan",
+        "institute_code": "Janaki Finan.",
+        "institute_name": "Janaki Finance Co.",
+        "interest": "19.34",
+        "offer_interest_rate": null,
+        "processing_fee": null,
+        "max_tenure": "-"
+    }
+]

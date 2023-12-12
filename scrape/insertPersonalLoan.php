@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 }
 
 // Path to the file containing JSON data
-$jsonFilePath = "stdSaving.json";
+$jsonFilePath = "personalLoan.json";
 
 // Read JSON data from the file
 $jsonData = file_get_contents($jsonFilePath);
@@ -27,10 +27,8 @@ $data = json_decode($jsonData, true);
 foreach ($data as $record) {
    
     $name = $record['institute_name'];
-    $type = $record['name'];
     $code = $record['institute_code'];
     $interest = $record['interest'];
-    $minBalance = $record['minimum_balance'];
 
     // $instituteCode = $record['institute_code'];
     // $instituteName = $record['institute_name'];
@@ -38,7 +36,7 @@ foreach ($data as $record) {
     // $minBalance = $record['minimum_balance'];
     // $maxTenure = $record['max_tenure'];
 
-    $sql = "INSERT INTO student_saving (bank_name,code,type,interest,minBalance) VALUES ('$name','$code','$type','$interest','$minBalance')";
+    $sql = "INSERT INTO personal_loan (name,code,interest) VALUES ('$name','$code','$interest')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Record inserted successfully<br>";

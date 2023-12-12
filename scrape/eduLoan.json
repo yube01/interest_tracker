@@ -3,7 +3,7 @@
         "name": "Education Loan",
         "institute_code": "Everest Bank",
         "institute_name": "Everest Bank",
-        "interest": "11.06%",
+        "interest": "11.06",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -12,7 +12,7 @@
         "name": "Education Loan",
         "institute_code": "Nabil Bank",
         "institute_name": "Nabil Bank",
-        "interest": "11.70%",
+        "interest": "11.70",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -21,7 +21,7 @@
         "name": "Education Loan",
         "institute_code": "Siddhartha",
         "institute_name": "Siddhartha Bank",
-        "interest": "11.63%",
+        "interest": "11.63",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -30,7 +30,7 @@
         "name": "Education Loan",
         "institute_code": "NMB Bank",
         "institute_name": "NMB Bank",
-        "interest": "12.31%",
+        "interest": "12.31",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -39,7 +39,7 @@
         "name": "Education Loan",
         "institute_code": "NIMB",
         "institute_name": "Nepal Investment Mega Bank",
-        "interest": "12.33%",
+        "interest": "12.33",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -48,7 +48,7 @@
         "name": "Education Loan",
         "institute_code": "Krishi Bikas",
         "institute_name": "Agriculture Dev. Bank",
-        "interest": "11.80%",
+        "interest": "11.80",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -57,7 +57,7 @@
         "name": "Education Loan",
         "institute_code": "Citizens Bank",
         "institute_name": "Citizens Bank Intl",
-        "interest": "12.14%",
+        "interest": "12.14",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -66,7 +66,7 @@
         "name": "Education Loan",
         "institute_code": "Prime Bank",
         "institute_name": "Prime Commercial Bank",
-        "interest": "13.18%",
+        "interest": "13.18",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -75,7 +75,7 @@
         "name": "Education Loan",
         "institute_code": "Himalayan",
         "institute_name": "Himalayan Bank",
-        "interest": "13.36%",
+        "interest": "13.36",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -84,7 +84,7 @@
         "name": "Education Loan",
         "institute_code": "Mahalaxmi",
         "institute_name": "Mahalaxmi Bikas Bank",
-        "interest": "13.41%",
+        "interest": "13.41",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -93,7 +93,7 @@
         "name": "Education Loan",
         "institute_code": "Sanima Bank",
         "institute_name": "Sanima Bank",
-        "interest": "12.27%",
+        "interest": "12.27",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -102,7 +102,7 @@
         "name": "Education Loan",
         "institute_code": "Excel Bikas",
         "institute_name": "Excel Bikas Bank",
-        "interest": "13.36%",
+        "interest": "13.36",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -111,7 +111,7 @@
         "name": "Education Loan",
         "institute_code": "RBB",
         "institute_name": "Rastriya Banijya Bank",
-        "interest": "11.38%",
+        "interest": "11.38",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -120,7 +120,7 @@
         "name": "Education Loan",
         "institute_code": "Shangrila Dev.",
         "institute_name": "Shangrila Bikas Bank",
-        "interest": "13.52%",
+        "interest": "13.52",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -129,7 +129,7 @@
         "name": "Education Loan",
         "institute_code": "NIC Asia",
         "institute_name": "NIC ASIA Bank",
-        "interest": "12.70%",
+        "interest": "12.70",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -138,7 +138,7 @@
         "name": "Education Loan",
         "institute_code": "Jyoti Bikas",
         "institute_name": "Jyoti Bikas Bank",
-        "interest": "14.26%",
+        "interest": "14.26",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -147,7 +147,7 @@
         "name": "Education Loan",
         "institute_code": "Nepal Bank",
         "institute_name": "Nepal Bank Ltd.",
-        "interest": "12.39%",
+        "interest": "12.39",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": "5 years"
@@ -156,7 +156,7 @@
         "name": "Education Loan",
         "institute_code": "Machhapuchhre",
         "institute_name": "Machhapuchhre Bank",
-        "interest": "12.91%",
+        "interest": "12.91",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -165,7 +165,7 @@
         "name": "Education Loan",
         "institute_code": "Nepal SBI",
         "institute_name": "Nepal SBI Bank",
-        "interest": "13.07%",
+        "interest": "13.07",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -174,7 +174,7 @@
         "name": "Education Loan",
         "institute_code": "Karnali Bikas",
         "institute_name": "Karnali Bikas Bank",
-        "interest": "14.79%",
+        "interest": "14.79",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -183,7 +183,7 @@
         "name": "Education Loan",
         "institute_code": "Nepal Bank",
         "institute_name": "Nepal Bank Ltd.",
-        "interest": "12.89%",
+        "interest": "12.89",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": "10 years"
@@ -192,7 +192,7 @@
         "name": "Education Loan",
         "institute_code": "Manjushree",
         "institute_name": "Manjushree Finance",
-        "interest": "14.80%",
+        "interest": "14.80",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -201,7 +201,7 @@
         "name": "Education Loan",
         "institute_code": "Garima Bikas",
         "institute_name": "Garima Bikas Bank",
-        "interest": "13.55%",
+        "interest": "13.55",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -210,7 +210,7 @@
         "name": "Education Loan",
         "institute_code": "Green Develop.",
         "institute_name": "Green Dev. Bank",
-        "interest": "14.69%",
+        "interest": "14.69",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -219,7 +219,7 @@
         "name": "Education Loan",
         "institute_code": "Pokhara Finan.",
         "institute_name": "Pokhara Finance",
-        "interest": "14.69%",
+        "interest": "14.69",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -228,7 +228,7 @@
         "name": "Education Loan",
         "institute_code": "Miteri Bikas",
         "institute_name": "Miteri Bikas Bank",
-        "interest": "13.75%",
+        "interest": "13.75",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -237,7 +237,7 @@
         "name": "Education Loan",
         "institute_code": "Goodwill Finan.",
         "institute_name": "Goodwill Finance Co.",
-        "interest": "14.75%",
+        "interest": "14.75",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -246,7 +246,7 @@
         "name": "Education Loan",
         "institute_code": "Shine Resunga",
         "institute_name": "Shine Resunga BB",
-        "interest": "13.78%",
+        "interest": "13.78",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -255,7 +255,7 @@
         "name": "Education Loan",
         "institute_code": "Kumari Bank",
         "institute_name": "Kumari Bank",
-        "interest": "14.14%",
+        "interest": "14.14",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -264,7 +264,7 @@
         "name": "Education Loan",
         "institute_code": "Shree Invest",
         "institute_name": "Shree Invest &Finance",
-        "interest": "15.91%",
+        "interest": "15.91",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -273,7 +273,7 @@
         "name": "Education Loan",
         "institute_code": "Prabhu Bank",
         "institute_name": "Prabhu Bank",
-        "interest": "13.94%",
+        "interest": "13.94",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -282,7 +282,7 @@
         "name": "Education Loan",
         "institute_code": "Reliance Fin.",
         "institute_name": "Reliance Finance Ltd.",
-        "interest": "15.20%",
+        "interest": "15.20",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -291,7 +291,7 @@
         "name": "Education Loan",
         "institute_code": "Lumbini Bikas",
         "institute_name": "Lumbini Bikas Bank",
-        "interest": "14.70%",
+        "interest": "14.70",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -300,7 +300,7 @@
         "name": "Education Loan",
         "institute_code": "Progressive",
         "institute_name": "Progressive Fin. Co.",
-        "interest": "15.77%",
+        "interest": "15.77",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
@@ -309,7 +309,7 @@
         "name": "Education Loan",
         "institute_code": "Janaki Finan.",
         "institute_name": "Janaki Finance Co.",
-        "interest": "18.34%",
+        "interest": "18.34",
         "offer_interest_rate": null,
         "processing_fee": null,
         "max_tenure": ""
