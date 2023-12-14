@@ -22,7 +22,7 @@ if(isset($_POST['submit'])){
             if ($result > 0) {
 
                 echo "user logged";
-                // header("Location: ../login/login.php");
+                // header("Location: ../home/home.php?msg=Login_Sucess");
                 exit();
             } else {
                 echo "password incorrect";

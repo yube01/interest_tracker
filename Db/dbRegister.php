@@ -36,7 +36,7 @@ if(isset($_POST['submit'])){
             if ($sql) {
 
                 echo "user created";
-                // header("Location: ../login/login.php");
+                // header("Location: ../auth/register.php?msg=Register_Sucess");
                 exit();
             } else {
                 echo "not inserted";
