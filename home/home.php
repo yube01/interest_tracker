@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,9 @@
     <title>Home</title>
 </head>
 <body>
+  <!-- <button>
+    <a href="../logout/logout.php">logout</a>
+  </button> -->
     <div class="container">
         <div class="side">
         <?php
@@ -24,6 +29,7 @@
                 <?php include "../Components/savingFixed.php" ?>
             </div>
         </div>
+
         
        
         

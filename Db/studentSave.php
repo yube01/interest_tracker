@@ -2,8 +2,9 @@
 <?php
 
 include "dbConnect.php";
+include "../session/session.php";
 
-$query = "SELECT * from student_saving  ";
+$query = "SELECT * FROM `student_saving` LEFT JOIN star on student_saving.stid = star.stdSav and star.userId = '$userId' ORDER BY student_saving.stid ASC";
 $result = mysqli_query($conn, $query);
 
     while ($row = mysqli_fetch_assoc($result)) {
@@ -15,7 +16,16 @@ $result = mysqli_query($conn, $query);
             <td style="text-align:center"><?php echo $row['minBalance'] ?></td>
 
             <td id="imageCell" style="text-align:center">
-            <img onclick="changeImage(this,'<?php echo $row['stid']; ?>')" src="../assets/icon/star.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt="">
+            <img onclick="changeImage(this,'<?php echo $row['stid']; ?>')" src="<?php
+             if($row['isStar'] == 1){
+                echo "http://localhost/interest_tracker/assets/icon/star1.png";
+             }else{
+                echo "http://localhost/interest_tracker/assets/icon/star.png";
+             }
+             
+             
+             
+             ?>" style="height:1.6rem;width:1.6rem;cursor:pointer" alt="">
             </td>
 
             <td style="text-align:center"><img src="../assets/icon/calculate.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></td>
@@ -30,10 +40,12 @@ $result = mysqli_query($conn, $query);
 ?>
 <script>
     function changeImage(imgElement,id) {
+
         
-        var newImageSrc = '../assets/icon/star1.png';
+        
+        var newImageSrc = 'http://localhost/interest_tracker/assets/icon/star1.png';
         var previousImageSrc = 'http://localhost/interest_tracker/assets/icon/star.png';
-        console.log(id)
+        
       
 
         if (imgElement.src === previousImageSrc) {

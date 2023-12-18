@@ -1,27 +1,24 @@
 <?php
 
 include "dbConnect.php";
+include "../session/session.php";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {
     $id = mysqli_real_escape_string($conn, $_POST['id']);
-    echo $id;
-
-    // $check = "Select stid from star where stid = '$id'";
-    // $query  =   mysqli_query($conn, $check);
-    // $result = mysqli_fetch_assoc($query);
-    // if($result > 0){
-    //     echo "already";
-    //     exit();
-    // }else{
-        $insertQuery = "update star set isStar = '0' where stid = '$id'";
+    
+        $insertQuery = "update star set isStar = '0' where stdSav = '$id' and userId = '$userId'";
         mysqli_query($conn, $insertQuery);
         echo 'Updated';
+} 
 
-    // }
 
+// for savind and fixed table
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['sf'])) {
+    $id = mysqli_real_escape_string($conn, $_POST['sf']);
     
-} else{
-    echo 'Invalid request';
-}
+        $insertQuery = "update star set isStar = '0' where sf = '$id' and userId = '$userId'";
+        mysqli_query($conn, $insertQuery);
+        echo 'Updated';
+} 
 
 ?>

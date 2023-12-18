@@ -23,9 +23,22 @@ if(isset($_POST['submit'])){
 
                 echo "user logged";
                 session_start();
-                
+                $_SESSION['id'] = $result['id'];
+               
 
-                // header("Location: ../home/home.php?msg=Login_Sucess");
+                // $role = $userId['isAdmin'];
+                // if ($role == 0) {
+                //     header("Location: ../user/dashboard.php");
+                //     exit();
+
+                // } elseif ($role == 1) {
+                //     header("Location: ../admin/adminPanel.php");
+                //     exit();
+                // } else {
+                //     echo "server error";
+                // }
+
+                header("Location: ../home/home.php?msg=Login_Sucess");
                 exit();
             } else {
                 echo "password incorrect";
