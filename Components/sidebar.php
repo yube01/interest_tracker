@@ -22,7 +22,7 @@
                     <p>Deposit</p>
                 </div>
             </a>
-            <a href="">
+            <a href="../loan/loan.php">
                 <div class="ologo">
                     <img src="../assets/icon/loans.png" alt="">
                     <p>Loan</p>

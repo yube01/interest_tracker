@@ -21,4 +21,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['sf'])) {
         echo 'Updated';
 } 
 
+//for personal loan
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['pdid'])) {
+    $id = mysqli_real_escape_string($conn, $_POST['pdid']);
+    
+        $insertQuery = "update star set isStar = '0' where pdid = '$id' and userId = '$userId'";
+        mysqli_query($conn, $insertQuery);
+        echo 'Updated';
+} 
+
+
+//for education loan
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['edid'])) {
+    $id = mysqli_real_escape_string($conn, $_POST['edid']);
+    
+        $insertQuery = "update star set isStar = '0' where edid = '$id' and userId = '$userId'";
+        mysqli_query($conn, $insertQuery);
+        echo 'Updated';
+} 
+
 ?>

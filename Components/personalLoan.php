@@ -15,14 +15,12 @@
            <thead>
                 <tr>
                     <th>Bank/Finance</th>
-                    <th>Type</th>
-                    <th>Interest</th>
-                    <th>Minimum Balance</th>
+                    <th>Personal Loan</th>
                     <th>Favorite</th>
                     <th>Calculate</th>
                 </tr>
            </thead>
-            <?php include "../Db/studentSave.php" ?>
+            <?php include "../Db/personalLoan.php" ?>
         </table>
         </center>
     </div>
