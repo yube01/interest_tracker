@@ -34,7 +34,7 @@
                     <p>Calculate</p>
                 </div>
             </a>
-            <a href="">
+            <a href="../starred/starred.php">
                 <div class="ologo">
                     <img src="../assets/icon/star.png" alt="">
                     <p>Starred</p>

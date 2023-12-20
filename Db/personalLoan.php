@@ -14,7 +14,10 @@ $result = mysqli_query($conn, $query);
             <td style="text-align:center"><?php echo $row['interest'] ?></td>
 
             <td id="imageCell" style="text-align:center">
-            <img onclick="changeImage(this,'<?php echo $row['pid']; ?>')" src="<?php
+            <img onclick="changeImage(this,'<?php echo $row['pid']; ?>',
+            '<?php echo $row['name']; ?>',
+            '<?php echo $row['interest']?>'
+            )" src="<?php
              if($row['isStar'] == 1){
                 echo "http://localhost/interest_tracker/assets/icon/star1.png";
              }else{
@@ -37,7 +40,7 @@ $result = mysqli_query($conn, $query);
 
 ?>
 <script>
-    function changeImage(imgElement,pdid) {
+    function changeImage(imgElement,pdid,name,interest) {
 
         
         
@@ -52,7 +55,10 @@ $result = mysqli_query($conn, $query);
             $.ajax({
                 type: 'POST',
                 url: '../Db/savStar.php', // Specify the server-side script to handle the data
-                data: { pdid: pdid },
+                data: { pdid: pdid,
+                        name:name,
+                        interest:interest
+                },
                 success: function(response) {
                     console.log(response); // Log the server's response (you can handle it accordingly)
                 }

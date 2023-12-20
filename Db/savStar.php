@@ -34,6 +34,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {
 // for saving and fixed table star
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['sf'])) {
     $id = mysqli_real_escape_string($conn, $_POST['sf']);
+    $bank = mysqli_real_escape_string($conn, $_POST['name']);
+    $interest = mysqli_real_escape_string($conn, $_POST['interest']);
 
     $check = "Select sf,isStar from star where sf = '$id' and userId = '$userId'";
     $query  =   mysqli_query($conn, $check);
@@ -47,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['sf'])) {
         echo 'Again Updated';
         exit();
     }else{
-        $insertQuery = "INSERT INTO star (isStar,sf,userId) VALUES ('1','$id','$userId')";
+        $insertQuery = "INSERT INTO star (isStar,sf,userId,bank,types,interests) VALUES ('1','$id','$userId','$bank','Fixed Deposit','$interest')";
         mysqli_query($conn, $insertQuery);
         echo 'Bank name saved successfully';
         exit();
@@ -60,7 +62,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['sf'])) {
 //for personal loan table
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['pdid'])) {
     $id = mysqli_real_escape_string($conn, $_POST['pdid']);
-
+    $bank = mysqli_real_escape_string($conn, $_POST['name']);
+    $interest = mysqli_real_escape_string($conn, $_POST['interest']);
     $check = "Select pdid,isStar from star where pdid = '$id' and userId = '$userId'";
     $query  =   mysqli_query($conn, $check);
     $result = mysqli_fetch_assoc($query);
@@ -73,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['pdid'])) {
         echo 'Again Updated';
         exit();
     }else{
-        $insertQuery = "INSERT INTO star (isStar,pdid,userId) VALUES ('1','$id','$userId')";
+        $insertQuery = "INSERT INTO star (isStar,pdid,userId,bank,types,interests) VALUES ('1','$id','$userId','$bank','Personal Loan','$interest')";
         mysqli_query($conn, $insertQuery);
         echo 'Bank name saved successfully';
         exit();
@@ -86,9 +89,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['pdid'])) {
 //for education loan
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['edid'])) {
     $id = mysqli_real_escape_string($conn, $_POST['edid']);
+    $name = mysqli_real_escape_string($conn, $_POST['name']);
+    $interest = mysqli_real_escape_string($conn, $_POST['interest']);
 
     $check = "Select edid,isStar from star where edid = '$id' and userId = '$userId'";
-    $query  =   mysqli_query($conn, $check);
+    $query  = mysqli_query($conn, $check);
     $result = mysqli_fetch_assoc($query);
 
 
@@ -99,7 +104,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['edid'])) {
         echo 'Again Updated';
         exit();
     }else{
-        $insertQuery = "INSERT INTO star (isStar,edid,userId) VALUES ('1','$id','$userId')";
+        $insertQuery = "INSERT INTO star (isStar,edid,userId,bank,types,interests) VALUES ('1','$id','$userId','$name','Student Loan','$interest')";
         mysqli_query($conn, $insertQuery);
         echo 'Bank name saved successfully';
         exit();
