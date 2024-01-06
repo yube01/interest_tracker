@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+}
+.calculate{
+    
+    width: 100vw;
+    padding: 3rem;
+    display: flex;
+    gap:10rem
+}
+.insert{
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+}
+.in input{
+    padding: 0.8rem;
+}

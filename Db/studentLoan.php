@@ -29,7 +29,11 @@ $result = mysqli_query($conn, $query);
              ?>" style="height:1.6rem;width:1.6rem;cursor:pointer" alt="">
             </td>
 
-            <td style="text-align:center"><img src="../assets/icon/calculate.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></td>
+            <td style="text-align:center">
+            <a href="../calculate/calculate.php?rate=<?php echo $row['interest']?>">
+            <img src="../assets/icon/calculate.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt="">
+            </a>
+        </td>
         </tr>
 
 
