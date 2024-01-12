@@ -15,22 +15,26 @@
         ?>
         </div>
         <div class="calculate">
-        
+        <h1>EMI Calculator</h1>
         <div class="insert">
-            <div class="in">
-                <label>Loan Amount</label>
+            <div class="inputValue">
+                <div class="in">
+                <label>Loan Amount (In Rupees)</label>
                 <input type="number" placeholder="Eg: 200000" >
-            </div>
-            <div class="in">
-                <label>Interest Rate</label>
+                </div>
+
+                <div class="in">
+                <label>Interest Rate (per annum)</label>
                 <input type="number" placeholder="Eg: 5%" >
-            </div>
-            <div class="in">
+                </div>
+
+                <div class="in">
                 <label>Loan Tenure</label>
                 <input type="number" placeholder="Eg: 3 years" >
+                </div>
+                <input type="submit" value="Calculate">
             </div>
-        </div>
-        <div class="display">
+            <div class="display">
             <div>
                 <label>Monthly EMI</label>
                 <span>45000</span>
@@ -47,7 +51,13 @@
                 <label>Total Payment</label>
                 <span>4560009</span>
             </div>
+            </div>
+            
+
+        
         </div>
+        <div>
+            <button>Save this data</button>
         </div>
     </div>
 </body>

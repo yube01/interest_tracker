@@ -1,18 +1,51 @@
 .container{
     display: flex;
-}
-.calculate{
     
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.calculate{
+    background-color: rgba(0, 0, 0, 0.127);
     width: 100vw;
     padding: 3rem;
     display: flex;
-    gap:10rem
+    gap:2rem;
+    flex-direction: column;
 }
+h1{
+    text-align: center;
+}
+
 .insert{
     display: flex;
-    gap: 3rem;
+    border: 1px solid black;
+    padding: 4rem;
+    justify-content: space-between;
+}
+
+.inputValue{
+    
+    display: flex;
     flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 .in input{
     padding: 0.8rem;
+}
+.display{
+    
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }

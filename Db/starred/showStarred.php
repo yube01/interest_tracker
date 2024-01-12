@@ -40,10 +40,6 @@ $nums = mysqli_num_rows($result);
 
 <script>
     function deleteStar(id,bank) {
-
-        
-      
-        
             $.ajax({
                 type: 'POST',
                 url: '../Db/starred/deleteStar.php', // Specify the server-side script to handle the data
