@@ -16,41 +16,42 @@
         </div>
         <div class="calculate">
         <h1>EMI Calculator</h1>
-            <div class="insert">
-                <form class="first" method="POST">
+            <div class="insert" method="POST">
+                <div class="first" >
                 <div class="inputValue">
                 <div class="in">
                 <label>Loan Amount (In Rupees)</label>
-                <input type="number" placeholder="Eg: 200000" name="amount">
+                <input type="number" placeholder="Eg: 200000" name="amount" >
                 </div>
 
                 <div class="in">
                 <label>Interest Rate (per annum)</label>
-                <input type="number" placeholder="Eg: 5%" >
+                <input type="number" placeholder="Eg: 5" name="rate" >
                 </div>
 
                 <div class="in">
                 <label>Loan Tenure</label>
-                <input type="number" placeholder="Eg: 3 years" >
+                <input type="number" placeholder="Eg: 3 years" name="time">
                 </div>
                 
                 </div>
-                <input class="submit" name="submit" type="submit" value="Calculate">
-
-</form>
+                <input class="submit" type="submit" value="Calculate">
+                
+            </div>
             <?php
                 if(isset($_POST['submit'])){
                     $amount = $_POST['amount'];
-                    
+                    $rate = $_POST['rate'];
+                    $time = $_POST['time'];
 
-                    echo $amount;
+                    echo $rate;
 
                 }
             ?>
             <div class="display">
             <div>
                 <label>Monthly EMI : </label>
-                <span><?php echo $amount ?></span>
+                <span>45000</span>
             </div>
             <div>
                 <label>Principle : </label>
