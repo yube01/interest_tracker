@@ -59,9 +59,20 @@ h1{
     border-bottom: 2px solid rgba(0, 0, 0, 0.358);
     cursor: pointer;
 }
+
+
+
 .in input:focus{
     border-bottom: 2px solid black;
 }
+
+.in select{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+}
+
 
 .submit{
     width: max-content;
