@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/home.css">
     <link rel="stylesheet" href="./style/style.css">
-    <title>EMI Calculator</title>
+    <title>Saving Calculator</title>
 </head>
 <body>
     <?php
-     if(isset($_GET['rate'])){
-        $rate =  $_GET['rate'];
-    }
+         if(isset($_GET['rate'])){
+            $rate =  $_GET['rate'];
+        }
     ?>
     <div class="container">
         <div class="side">
@@ -20,23 +20,23 @@
         ?>
         </div>
         <div class="calculate">
-        <h1>EMI Calculator</h1>
-        <a href="depositCalculator.php">Switch</a>
+        <h1>Saving Calculator</h1>
+        <a href="calculate.php">Switch</a>
             <div class="insert">
                 <form class="first" method="POST">
                 <div class="inputValue">
                 <div class="in">
-                <label>Loan Amount (In Rupees)</label>
+                <label>Deposit Amount (In Rupees)</label>
                 <input type="number" placeholder="Eg: 200000" name="amount" required>
                 </div>
 
                 <div class="in">
                 <label>Interest Rate (per annum)</label>
-                <input type="number" oninput="validateInterestRate()" name="rate" value="<?php echo $rate?>" placeholder="Eg: 5%" step="any" required>
+                <input type="number" oninput="validateInterestRate()" value="<?php echo $rate;?>" name="rate" placeholder="Eg: 5%" step="any" required>
                 </div>
 
                 <div class="in">
-                <label>Loan Tenure</label>
+                <label>Tenure</label>
                 <input type="number" name="time" placeholder="Eg: 3 years" required >
                 </div>
                 
@@ -45,40 +45,46 @@
 
                 </form>
             <?php
-                $emi = 0;
+
+                $saving = 0;
+                $time = 0;
                 $amount = 0;
                 $payable = 0;
                 $total = 0;
+                
                 if(isset($_POST['submit'])){
                     $amount = $_POST['amount'];
-                    $rate = $_POST['rate']/12/100;
-                    $time = $_POST['time']*12;
-                    echo $rate;
+                    $rate = $_POST['rate']/100;
+                    $time = $_POST['time'];
                     
-                    $emi = $amount * $rate * ((pow(1 + $rate, $time)) / (pow(1 + $rate, $time) - 1));
 
-                    $total = $emi * $time;
+                    $saving = $amount * $time * $rate;
 
-                    $payable = $total - $amount;
+                    $total = $saving + $amount;
                     
                 }
             ?>
             <div class="display">
-            <div>
-                <label>Monthly EMI : </label>
-                <span><?php echo number_format($emi, 0, '', ',') ?></span>
-            </div>
+            
             <div>
                 <label>Principle : </label>
                 <span><?php echo number_format($amount, 0, '', ',');?></span>
             </div>
             <div>
-                <label>Interest Payable : </label>
-                <span><?php echo number_format($payable, 0, '', ',')?></span>
+                <label>Tenure : </label>
+                <span><?php if ($time < 2) {
+                    echo $time . " year";} else {
+                    echo $time . " years";
+                    }?>
+                </span>
             </div>
             <div>
-                <label>Total Payment : </label>
-                <span><?php echo number_format($total, 0, '', ',');?></span>
+                <label>Maturity Amount : </label>
+                <span><?php echo number_format($total, 0, '', ',')?></span>
+            </div>
+            <div>
+                <label>Interest Amount : </label>
+                <span><?php echo number_format($saving, 0, '', ',');?></span>
             </div>
             </div>
             

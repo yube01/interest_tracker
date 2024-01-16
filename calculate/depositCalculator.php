@@ -8,6 +8,14 @@
     <title>Deposit Calculator</title>
 </head>
 <body>
+<?php
+    if(isset($_GET['srate'])){
+        $rate =  $_GET['srate'];
+    }
+    if(isset($_GET['rate'])){
+        $rate =  $_GET['rate'];
+    }
+    ?>
     <div class="container">
         <div class="side">
         <?php
@@ -27,7 +35,7 @@
 
                 <div class="in">
                 <label>Interest Rate (per annum)</label>
-                <input type="number" oninput="validateInterestRate()" name="rate" placeholder="Eg: 5%" step="any" required>
+                <input type="number" oninput="validateInterestRate()" value="<?php echo $rate?>" name="rate" placeholder="Eg: 5%" step="any" required>
                 </div>
 
                 <div class="in">
@@ -57,7 +65,7 @@
                 $amount = 0;
                 $payable = 0;
                 $total = 0;
-                
+                $tax = 0;
                 if(isset($_POST['submit'])){
                     $amount = $_POST['amount'];
                     $rate = $_POST['rate']/100;
@@ -68,6 +76,7 @@
                     $maturity = $amount *(pow((1+($rate/$cp)),($cp*$time)));
 
                     $total = $maturity - $amount;
+                    $tax = $total * 0.05;
                     
                 }
             ?>
@@ -88,6 +97,10 @@
             <div>
                 <label>Maturity Amount : </label>
                 <span><?php echo number_format($maturity, 0, '', ',')?></span>
+            </div>
+            <div>
+                <label>Tax Amount : </label>
+                <span><?php echo number_format($tax, 0, '', ',');?></span>
             </div>
             <div>
                 <label>Interest Amount : </label>
