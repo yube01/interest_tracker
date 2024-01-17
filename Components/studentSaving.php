@@ -18,8 +18,19 @@
                     <th>Type</th>
                     <th>Interest</th>
                     <th>Minimum Balance</th>
-                    <th>Favorite</th>
-                    <th>Calculate</th>
+                    <?php
+                    if (isset($_SESSION['isAdmin']) == 1 ) {
+                        ?>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                        <?php
+                        
+                    }else{
+                        ?>
+                        <th>Favorite</th>
+                        <th>Calculate</th>
+                        <?php
+                    }?>
                 </tr>
            </thead>
             <?php include "../Db/studentSave.php" ?>

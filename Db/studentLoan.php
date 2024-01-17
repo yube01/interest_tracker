@@ -13,7 +13,16 @@ $result = mysqli_query($conn, $query);
             <td><?php echo $row['name'] ?></td>
             <td style="text-align:center"><?php echo $row['interest'] ?></td>
 
-            <td id="imageCell" style="text-align:center">
+            <?php
+                    if (isset($_SESSION['isAdmin']) == 0 ) {
+                        ?>
+                        <td>Edit</td>
+                        <td>Delete</td>
+                        <?php
+                        
+                    }else{
+                        ?>
+                         <td id="imageCell" style="text-align:center">
             <img onclick="changeImage(this,'<?php echo $row['eid']; ?>',
             '<?php echo $row['name']; ?>',
             '<?php echo $row['interest']; ?>'
@@ -34,6 +43,9 @@ $result = mysqli_query($conn, $query);
             <img src="../assets/icon/calculate.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt="">
             </a>
         </td>
+                        <?php
+                    }?>
+           
         </tr>
 
 

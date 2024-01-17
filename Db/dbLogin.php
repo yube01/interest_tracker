@@ -24,6 +24,7 @@ if(isset($_POST['submit'])){
                 echo "user logged";
                 session_start();
                 $_SESSION['id'] = $result['id'];
+                $_SESSION['isAdmin'] = $result['isAdmin'];
                
 
                 // $role = $userId['isAdmin'];

@@ -16,8 +16,19 @@
                 <tr>
                     <th>Bank/Finance</th>
                     <th>Personal Loan</th>
-                    <th>Favorite</th>
-                    <th>Calculate</th>
+                    <?php
+                    if (isset($_SESSION['isAdmin']) == 1 ) {
+                        ?>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                        <?php
+                        
+                    }else{
+                        ?>
+                        <th>Favorite</th>
+                        <th>Calculate</th>
+                        <?php
+                    }?>
                 </tr>
            </thead>
             <?php include "../Db/personalLoan.php" ?>

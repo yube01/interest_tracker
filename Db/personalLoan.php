@@ -23,10 +23,7 @@ $result = mysqli_query($conn, $query);
              }else{
                 echo "http://localhost/interest_tracker/assets/icon/star.png";
              }
-             
-             
-             
-             ?>" style="height:1.6rem;width:1.6rem;cursor:pointer" alt="">
+            ?>" style="height:1.6rem;width:1.6rem;cursor:pointer" alt="">
             </td>
 
             

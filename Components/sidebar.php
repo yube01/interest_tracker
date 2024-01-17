@@ -22,7 +22,10 @@
                     <p>Loan</p>
                 </div>
             </a>
-            <a href="../calculate/calculate.php">
+            <?php
+                if (isset($_SESSION['isAdmin']) == 0 ) {
+                        ?>
+                     <a href="../calculate/calculate.php">
                 <div class="ologo">
                     <img src="../assets/icon/calculate.png" alt="">
                     <p>Calculate</p>
@@ -40,5 +43,9 @@
                     <p>History</p>
                 </div>
             </a>
+                        <?php
+                }
+            ?>
+           
         </div>
     </div>

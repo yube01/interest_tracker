@@ -9,7 +9,7 @@
 <div class="container">
         <div class="side">
         <?php
-             include "../Components/sidebar.php"
+            include "../Components/sidebar.php"
         ?>
         </div>
         <div class="deposit">
@@ -20,9 +20,6 @@
                 <?php include "../Components/savingFixed.php" ?>
             </div>
         </div>
-        
-       
-        
     </div>
 </body>
 </html>

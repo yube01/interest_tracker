@@ -30,7 +30,7 @@ if(isset($_POST['submit'])){
 
 
 
-            $query = "insert into users (username,email,password) values('$username','$email','$password')";
+            $query = "insert into users (username,email,password,isAdmin) values('$username','$email','$password',0)";
             $sql = mysqli_query($conn, $query);
 
             if ($sql) {
