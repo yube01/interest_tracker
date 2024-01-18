@@ -2,7 +2,7 @@
 <?php
 
 include "dbConnect.php";
-include "../session/session.php";
+
 
 $query = "SELECT * FROM `education_loan` LEFT JOIN star on education_loan.eid = star.edid and star.userId = '$userId' ORDER BY education_loan.eid ASC";
 $result = mysqli_query($conn, $query);
@@ -14,10 +14,11 @@ $result = mysqli_query($conn, $query);
             <td style="text-align:center"><?php echo $row['interest'] ?></td>
 
             <?php
-                    if (isset($_SESSION['isAdmin']) == 0 ) {
+                     if($isAdmin == 1){
                         ?>
                         <td>Edit</td>
-                        <td>Delete</td>
+                        <td style="text-align:center"><img onclick="deleteStar()" 
+            src="../assets/icon/bin.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></td>
                         <?php
                         
                     }else{

@@ -1,7 +1,7 @@
 <?php
 
 include "dbConnect.php";
-include "../session/session.php";
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {
     $id = mysqli_real_escape_string($conn, $_POST['id']);

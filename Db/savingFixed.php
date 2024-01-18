@@ -2,7 +2,7 @@
 <?php
 
 include "dbConnect.php";
-include "../session/session.php";
+
 
 $query = "SELECT * FROM `saving_fixed` LEFT JOIN star on saving_fixed.sid = star.sf and star.userId = '$userId' ORDER BY saving_fixed.sid ASC";
 $result = mysqli_query($conn, $query);
@@ -13,6 +13,10 @@ $result = mysqli_query($conn, $query);
             <td><?php echo $row['name'] ?></td>
             <td style="text-align:center;padding:1rem"><?php echo $row['saving_rate'] ?></td>
             <td style="text-align:center"><?php echo $row['fixed_rate'] ?></td>
+            <?php
+                if($isAdmin == 0){
+                    ?>
+
             <td id="imageCell" style="text-align:center">
             <img onclick="changeImage(this,'<?php echo $row['sid']; ?>',
             '<?php echo $row['name']; ?>',
@@ -32,6 +36,16 @@ $result = mysqli_query($conn, $query);
             <img src="../assets/icon/calculate.png" style="height:1.6rem;width:1.6rem" alt="">
             </a>
             </td>
+
+                    <?php
+                }else{
+                    ?>
+                    <td>Edit</td>
+                    <td style="text-align:center"><img onclick="deleteStar()" 
+            src="../assets/icon/bin.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></td>
+                    <?php
+                }
+            ?>
         </tr>
 
 

@@ -18,7 +18,7 @@
                     <th>Saving Account</th>
                     <th>Fixed Account</th>
                     <?php
-                    if (isset($_SESSION['isAdmin']) == 1 ) {
+                    if ($isAdmin == 1 ) {
                         ?>
                         <th>Edit</th>
                         <th>Delete</th>

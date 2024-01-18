@@ -17,7 +17,7 @@
                     <th>Bank/Finance</th>
                     <th>Personal Loan</th>
                     <?php
-                    if (isset($_SESSION['isAdmin']) == 1 ) {
+                    if ($isAdmin == 1 ) {
                         ?>
                         <th>Edit</th>
                         <th>Delete</th>

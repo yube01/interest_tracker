@@ -1,4 +1,5 @@
 
+    <?php include "../session/session.php"; ?>
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../Components/style/sidebar.css">
 
@@ -23,7 +24,7 @@
                 </div>
             </a>
             <?php
-                if (isset($_SESSION['isAdmin']) == 0 ) {
+                if ($isAdmin == 0 ) {
                         ?>
                      <a href="../calculate/calculate.php">
                 <div class="ologo">
@@ -46,6 +47,7 @@
                         <?php
                 }
             ?>
+            <a href="../logout/logout.php">Logout</a>
            
         </div>
     </div>

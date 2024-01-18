@@ -2,7 +2,7 @@
 <?php
 
 include "../Db/dbConnect.php";
-include "../session/session.php";
+
 
 $query = "SELECT bank,types,interests,starid from star where userId = '$userId'";
 $result = mysqli_query($conn, $query);

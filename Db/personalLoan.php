@@ -2,7 +2,7 @@
 <?php
 
 include "dbConnect.php";
-include "../session/session.php";
+
 
 $query = "SELECT * FROM `personal_loan` LEFT JOIN star on personal_loan.pid = star.pdid and star.userId = '$userId' ORDER BY personal_loan.pid ASC";
 $result = mysqli_query($conn, $query);
@@ -12,6 +12,10 @@ $result = mysqli_query($conn, $query);
         <tr>
             <td><?php echo $row['name'] ?></td>
             <td style="text-align:center"><?php echo $row['interest'] ?></td>
+
+            <?php
+                if($isAdmin == 0){
+                    ?>
 
             <td id="imageCell" style="text-align:center">
             <img onclick="changeImage(this,'<?php echo $row['pid']; ?>',
@@ -32,8 +36,17 @@ $result = mysqli_query($conn, $query);
             <img src="../assets/icon/calculate.png" style="height:1.6rem;width:1.6rem" alt="">
             </a>
             </td>
-            
-        </tr>
+
+                    <?php
+                }else{
+                    ?>
+                    <td>Edit</td>
+                    <td style="text-align:center"><img onclick="deleteStar()" 
+            src="../assets/icon/bin.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></td>
+                    <?php
+                }
+            ?>
+            </tr>
 
 
         <?php
