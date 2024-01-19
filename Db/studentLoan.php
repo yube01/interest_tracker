@@ -16,8 +16,9 @@ $result = mysqli_query($conn, $query);
             <?php
                      if($isAdmin == 1){
                         ?>
-                        <td>Edit</td>
-                        <td style="text-align:center"><img onclick="deleteStar()" 
+                        <td style="text-align:center"><img onclick="editInterest()" 
+            src="../assets/icon/edit.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></td>
+                    <td style="text-align:center"><img onclick="deleteInterest()" 
             src="../assets/icon/bin.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></td>
                         <?php
                         

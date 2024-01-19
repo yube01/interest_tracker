@@ -40,8 +40,9 @@ $result = mysqli_query($conn, $query);
                     <?php
                 }else{
                     ?>
-                    <td>Edit</td>
-                    <td style="text-align:center"><img onclick="deleteStar()" 
+                    <td style="text-align:center"><img onclick="editInterest()" 
+            src="../assets/icon/edit.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></td>
+                    <td style="text-align:center"><img onclick="confirmDel('<?php echo $row['stid']; ?>','<?php echo $row['bank_name']; ?>')" 
             src="../assets/icon/bin.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></td>
                     <?php
                 }
@@ -95,6 +96,33 @@ $result = mysqli_query($conn, $query);
             });
         }
     }
+
+    const confirmDel = (id,bank)=>{
+
+         // Display a confirmation dialog
+        const isConfirmed = confirm(`Are you sure you want to delete ${bank}?`);
+
+        // If the user clicks OK, proceed with the deletion
+        if (isConfirmed) {
+        deleteInterest(id);
+    }
+        
+    }
+    
+
+    const deleteInterest = (id)=>{
+        console.log(id)
+        $.ajax({
+                type: 'POST',
+                url: '../Db/admin/delete/deleteBank.php', // Specify the server-side script to handle the data
+                data: { id: id},
+                success: function(response) {
+                    console.log(response); // Log the server's response (you can handle it accordingly)
+                    location.reload()
+                }
+            });
+    }
+
 </script>
     
 
