@@ -20,4 +20,55 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id']))  {
     
 } 
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['eid']))  {
+    $id = mysqli_real_escape_string($conn, $_POST['eid']);
+
+    echo $id;
+
+    $del = "DELETE FROM education_loan WHERE eid = '$id'";
+    $query  =   mysqli_query($conn, $del);
+   
+    if( $query){
+        echo 'Bank name deleted successfully';
+        exit();
+
+     }
+
+    
+} 
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['sidf']))  {
+    $id = mysqli_real_escape_string($conn, $_POST['sidf']);
+
+    echo $id;
+
+    $del = "DELETE FROM saving_fixed WHERE saving_fixed.sid = '$id'";
+    $query  =   mysqli_query($conn, $del);
+   
+    if( $query){
+        echo 'Bank name deleted successfully';
+        exit();
+
+     }
+
+    
+} 
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['pid']))  {
+    $id = mysqli_real_escape_string($conn, $_POST['pid']);
+
+    echo $id;
+
+    $del = "DELETE FROM personal_loan WHERE pid = '$id'";
+    $query  =   mysqli_query($conn, $del);
+   
+    if( $query){
+        echo 'Bank name deleted successfully';
+        exit();
+
+     }
+
+    
+} 
+
 ?>
