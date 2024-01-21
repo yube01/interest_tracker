@@ -1,9 +1,11 @@
 .savingFd{
     display: flex;
     flex-direction: column;
+  
    
     
 }
+
 .stlink{
     text-decoration: none;
     color: inherit;

@@ -20,7 +20,7 @@
                     <?php
                     if ($isAdmin == 1 ) {
                         ?>
-                        <th>Edit</th>
+                        <th onclick="openEdit()">Edit</th>
                         <th>Delete</th>
                         <?php
                         
@@ -36,6 +36,8 @@
             <?php include "../Db/savingFixed.php" ?>
         </table>
         </center>
+        
     </div>
+    
 </body>
 </html>

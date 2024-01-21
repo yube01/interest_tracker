@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    max-width: 100vw;
+    background-image: url(../../../assets/interest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    backdrop-filter: blur(5px); 
+    padding: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.editValue{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+   
+}
+
+.editValue .ed{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.5rem
+}
+.ed input{
+    outline: none;
+    font-size: 1.1rem;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.358);
+    cursor: pointer;
+}
+
+
+
+.ed input:focus{
+    border-bottom: 2px solid black;
+}
+
+.submit{
+    width: max-content;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.896);
+    color: white;
+    border-radius: 10px;
+    
+    
+}
+
+.submit:hover{
+    transform: translateY(-0.2rem);
+    background-color: black;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.758);
+
+}
