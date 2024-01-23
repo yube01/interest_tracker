@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Saving and Fixed Interest</title>
+    <title>Edit Personal Loan Interest</title>
     <link rel="stylesheet" href="./style/edit.css">
 </head>
 <body>
@@ -14,16 +14,15 @@
             <label>Bank/Finance Name</label>
             <input type="text">
         </div>
-
         <div class="ed">
-            <label>Saving Interest Rate</label>
+            <label>Personal Loan Interest Rate</label>
             <input type="number">
         </div>
-
-        <div class="ed">
-            <label>Fixed Interest Rate</label>
-            <input type="text">
+        
+           
         </div>
+
+        
         </div>
         <div class="editBtn">
         <input type="submit" class="submit" value="Edit" name="" id="">

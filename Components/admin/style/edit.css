@@ -58,6 +58,11 @@ input[type=number]::-webkit-outer-spin-button {
     border-bottom: 2px solid black;
 }
 
+.editBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
 .submit{
     width: max-content;
     padding: 0.5rem 1rem;

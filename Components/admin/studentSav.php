@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Saving and Fixed Interest</title>
+    <title>Edit Student Saving Interest</title>
     <link rel="stylesheet" href="./style/edit.css">
 </head>
 <body>
@@ -16,12 +16,17 @@
         </div>
 
         <div class="ed">
+            <label>Type</label>
+            <input type="text">
+        </div>
+
+        <div class="ed">
             <label>Saving Interest Rate</label>
             <input type="number">
         </div>
 
         <div class="ed">
-            <label>Fixed Interest Rate</label>
+            <label>Minimum Balance</label>
             <input type="text">
         </div>
         </div>

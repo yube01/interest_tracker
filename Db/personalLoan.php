@@ -40,8 +40,8 @@ $result = mysqli_query($conn, $query);
                     <?php
                 }else{
                     ?>
-                    <td style="text-align:center"><img onclick="editInterest()" 
-            src="../assets/icon/edit.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></td>
+                    <td style="text-align:center"><a href="../Components/admin/personal.php?id=<?php echo $row['pid']?>"><img onclick="editInterest()" 
+            src="../assets/icon/edit.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></a></td>
                     <td style="text-align:center"><img onclick="confirmDel('<?php echo $row['pid']; ?>','<?php echo $row['name']; ?>')" 
             src="../assets/icon/bin.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></td>
                     <?php
