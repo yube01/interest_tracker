@@ -37,7 +37,9 @@
         </div>
         <div class="editBtn">
         <input type="submit" class="submit" value="Edit">
-        <input type="submit" class="submit" value="Cancel" name="" id="">
+        <a href="../../home/home.php">
+        <button class="submit">Cancel</button>
+        </a>
         </div>
 
         <?php
