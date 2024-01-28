@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("localhost","root","","interest_tracker");
+$conn = mysqli_connect("localhost","root","yube","interest_tracker");
 if(!$conn){
     echo "not connected";
 }
@@ -8,3 +8,4 @@ if(!$conn){
 
 
 ?>
+<!-- net start mysql80 -->
