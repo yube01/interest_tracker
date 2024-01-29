@@ -8,7 +8,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {
     $bank = mysqli_real_escape_string($conn, $_POST['bank']);
     $type = mysqli_real_escape_string($conn, $_POST['type']);
     $interest = mysqli_real_escape_string($conn, $_POST['interest']);
+    $userId = mysqli_real_escape_string($conn, $_POST['user']);
 
+    echo $userId;
     $check = "Select stdSav,isStar from star where stdSav = '$id' and userId = '$userId'";
     $query  =   mysqli_query($conn, $check);
     $result = mysqli_fetch_assoc($query);
@@ -36,6 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['sf'])) {
     $id = mysqli_real_escape_string($conn, $_POST['sf']);
     $bank = mysqli_real_escape_string($conn, $_POST['name']);
     $interest = mysqli_real_escape_string($conn, $_POST['interest']);
+    $userId = mysqli_real_escape_string($conn, $_POST['user']);
 
     $check = "Select sf,isStar from star where sf = '$id' and userId = '$userId'";
     $query  =   mysqli_query($conn, $check);
@@ -67,6 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['pdid'])) {
     $check = "Select pdid,isStar from star where pdid = '$id' and userId = '$userId'";
     $query  =   mysqli_query($conn, $check);
     $result = mysqli_fetch_assoc($query);
+    $userId = mysqli_real_escape_string($conn, $_POST['user']);
 
 
     if( $result > 0 ){
@@ -91,6 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['edid'])) {
     $id = mysqli_real_escape_string($conn, $_POST['edid']);
     $name = mysqli_real_escape_string($conn, $_POST['name']);
     $interest = mysqli_real_escape_string($conn, $_POST['interest']);
+    $userId = mysqli_real_escape_string($conn, $_POST['user']);
 
     $check = "Select edid,isStar from star where edid = '$id' and userId = '$userId'";
     $query  = mysqli_query($conn, $check);

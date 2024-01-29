@@ -4,7 +4,7 @@
 include "../Db/dbConnect.php";
 
 
-$query = "SELECT bank,types,interests,starid from star where userId = '$userId'";
+$query = "SELECT bank,types,interests,starid from star where userId = '$userId' and isStar = '1'";
 $result = mysqli_query($conn, $query);
 $nums = mysqli_num_rows($result);
 

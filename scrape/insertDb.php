@@ -3,7 +3,7 @@
 // Assuming you have a MySQL database
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "yube";
 $dbname = "interest_tracker";
 
 // Create a connection

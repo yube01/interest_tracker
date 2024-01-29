@@ -21,7 +21,7 @@ $result = mysqli_query($conn, $query);
 
             <td id="imageCell" style="text-align:center">
             <img onclick="changeImage(this,'<?php echo $row['stid']; ?>','<?php echo $row['bank_name']; ?>',
-            '<?php echo $row['type']; ?>','<?php echo $row['interest']; ?>'
+            '<?php echo $row['type']; ?>','<?php echo $row['interest']; ?>','<?php echo $userId;?>' 
             )" src="<?php
              if($row['isStar'] == 1){
                 echo "http://localhost/interest_tracker/assets/icon/star1.png";
@@ -63,7 +63,7 @@ $result = mysqli_query($conn, $query);
 
 ?>
 <script>
-    function changeImage(imgElement,id,bank,type,interest) {
+    function changeImage(imgElement,id,bank,type,interest,user) {
 
         
         
@@ -81,7 +81,8 @@ $result = mysqli_query($conn, $query);
                 data: { id: id,
                     bank:bank,
                     type:type,
-                    interest:interest
+                    interest:interest,
+                    user:user
                 },
                 success: function(response) {
                     console.log(response); // Log the server's response (you can handle it accordingly)

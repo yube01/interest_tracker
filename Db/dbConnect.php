@@ -8,4 +8,3 @@ if(!$conn){
 
 
 ?>
-<!-- net start mysql80 -->

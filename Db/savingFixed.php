@@ -4,6 +4,7 @@
 include "dbConnect.php";
 
 
+
 $query = "SELECT * FROM `saving_fixed` LEFT JOIN star on saving_fixed.sid = star.sf and star.userId = '$userId' ORDER BY saving_fixed.sid ASC";
 $result = mysqli_query($conn, $query);
 
@@ -20,7 +21,7 @@ $result = mysqli_query($conn, $query);
             <td id="imageCell" style="text-align:center">
             <img onclick="changeImage(this,'<?php echo $row['sid']; ?>',
             '<?php echo $row['name']; ?>',
-            '<?php echo $row['fixed_rate']?>' )" src="<?php
+            '<?php echo $row['fixed_rate']?>','<?php echo $userId;?>' )" src="<?php
              if($row['isStar'] == 1){
                 echo "http://localhost/interest_tracker/assets/icon/star1.png";
              }else{
@@ -61,7 +62,7 @@ $result = mysqli_query($conn, $query);
 
     
 
-    function changeImage(imgElement,sf,name,interest) {
+    function changeImage(imgElement,sf,name,interest,user) {
 
         
         
@@ -78,7 +79,9 @@ $result = mysqli_query($conn, $query);
                 url: '../Db/savStar.php', // Specify the server-side script to handle the data
                 data: { sf:sf ,
                         name:name,
-                        interest:interest
+                        interest:interest,
+                        user:user
+                        
                 },
                 success: function(response) {
                     console.log(response); // Log the server's response (you can handle it accordingly)
