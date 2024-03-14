@@ -19,10 +19,16 @@
                     <th>Interest</th>
                     <th>Minimum Balance</th>
                     <?php
-                    if ($isAdmin == 1 ) {
+                    if ($isAdmin == 1 || $bank !== "none" ) {
                         ?>
                         <th>Edit</th>
-                        <th>Delete</th>
+                        <?php
+                        if($isAdmin == 1){
+                            ?>
+                            <th>Delete</th>
+                                <?php
+                        }
+                        ?>
                         <?php
                         
                     }else{

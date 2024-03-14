@@ -12,7 +12,8 @@
             <a href="landing.php"><img src="../assets/weblogo.png" alt="" ></a>
         </div>
         <div class="auth">
-            <a href="login.php"><span>Login</span></a>
+            <a href="login.php"><span>User Login</span></a>
+            <a href="bankLogin.php"><span>Bank Login</span></a>
             <a href="register.php"><span>Register</span></a>
         </div>
     </nav>

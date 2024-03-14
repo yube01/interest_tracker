@@ -14,7 +14,6 @@
 .deposit{
     background-color: rgba(0, 0, 0, 0.063);
     width: 100vw;
-    padding: 2rem;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -24,13 +23,61 @@
 .sbtn{
     background-color: transparent;
     position: absolute;
-    right: 3rem;
+    top: 0;
+    margin-bottom: 2rem;
  
 }
 .first{
-    margin-top: 5rem;
+    margin-top: 7rem;
     background-color: white;
     border-radius: 1rem;
     width: 70vw;
     align-items: center;
+    position: relative;
+}
+
+.first a button{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    margin: 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+}
+
+
+.toast{
+    position: absolute;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+}
+.toast2{
+    position: absolute;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+}
+.toast1{
+    position: absolute;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
 }

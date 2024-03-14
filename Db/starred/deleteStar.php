@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {
 
     if($query){
         
-        echo "deleted '$bank'";
+        echo "$bank removed";
     }else{
         echo "error";
     }

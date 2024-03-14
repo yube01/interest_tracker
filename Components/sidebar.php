@@ -26,7 +26,7 @@
             <?php
                 if ($isAdmin == 0 ) {
                         ?>
-                     <a href="../calculate/calculate.php">
+                     <a href="../calculate/calculate.php?bank=none">
                 <div class="ologo">
                     <img src="../assets/icon/calculate.png" alt="">
                     <p>Calculate</p>
@@ -38,7 +38,7 @@
                     <p>Starred</p>
                 </div>
             </a>
-            <a href="">
+            <a href="../history/saving.php">
                 <div class="ologo">
                     <img src="../assets/icon/history.png" alt="">
                     <p>History</p>
@@ -47,7 +47,30 @@
                         <?php
                 }
             ?>
-            <a href="../logout/logout.php">Logout</a>
+            <?php
+                if ($bank != "none" || $isAdmin == 1 ) {
+                    ?>
+            <a href="../request/savingFixed.php?type=savingFix">
+                <div class="ologo">
+                    <img src="../assets/icon/interview.png" alt="">
+                    <p>Request</p>
+                </div>
+            </a>
+                    <?php
+                }
+            ?>
+            <div class="ologo" onclick="onCancel()" style="cursor:pointer" >
+            <img src="../assets/icon/turn-off.png" alt="">    
+            <p>Logout</p>
+            </div>
            
         </div>
     </div>
+    <script>
+        const onCancel = ()=>{
+            const isConfirmed = confirm(`Are you sure you want to Logout`);
+        if(isConfirmed){
+            window.location.href = "../logout/logout.php";
+        }
+        }
+    </script>

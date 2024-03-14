@@ -1,5 +1,5 @@
 <?php
-include "dbConnect.php";
+include "../Db/dbConnect.php";
 if(isset($_POST['submit'])){
     $username = $_POST['username'];
     $email = $_POST['email'];
@@ -8,6 +8,7 @@ if(isset($_POST['submit'])){
 
     if($password != $cpassword){
         echo "Password not matched";
+        header("Location: ../auth/register.php?msg=Password not matched");
         exit();
     }
 
@@ -17,6 +18,7 @@ if(isset($_POST['submit'])){
     $num = mysqli_fetch_assoc($sqls);
     if ($num > 0) {
         echo "username is already used";
+        header("Location: ../auth/register.php?msg=Username already used");
         exit();
     }
 
@@ -25,6 +27,7 @@ if(isset($_POST['submit'])){
             $num = mysqli_fetch_assoc($sqls);
             if ($num > 0) {
                 echo "Email is already used";
+                header("Location: ../auth/register.php?msg=Email already used");
                 exit();
             }
 
@@ -36,10 +39,11 @@ if(isset($_POST['submit'])){
             if ($sql) {
 
                 echo "user created";
-                header("Location: ../auth/login.php?msg=Register_Sucess");
+                header("Location: ../auth/login.php?msg=User Created");
                 
             } else {
                 echo "not inserted";
+                header("Location: ../auth/regitser.php?msg=SQL Error");
             }
 
 }

@@ -3,9 +3,37 @@
 
 include "dbConnect.php";
 
+if($bank != "none"){
+ 
+    $personal = "select * from personal_loan where name = '$bank' and status = 0 ";
+    $perRes = mysqli_query($conn,$personal);
 
-$query = "SELECT * FROM `personal_loan` LEFT JOIN star on personal_loan.pid = star.pdid and star.userId = '$userId' ORDER BY personal_loan.pid ASC";
-$result = mysqli_query($conn, $query);
+    $num = mysqli_num_rows($perRes);
+
+    if($num <= 0){
+        ?>
+        <tr>
+        <td style="text-align:center;padding:1rem" colspan=3>Empty</td>
+        </tr>
+        <?php
+    }else{
+        while ($row = mysqli_fetch_assoc($perRes)) {
+            ?>
+            <tr>
+                <td><?php echo $row['name'] ?></td>
+                <td style="text-align:center"><?php echo $row['interest'] ?></td>
+                <td style="text-align:center"><a href="../Components/admin/personal.php?id=<?php echo $row['pid']?>"><img onclick="editInterest()" 
+                src="../assets/icon/edit.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></a></td>
+                <?php
+    
+        }
+    }
+
+
+
+}else{
+    $query = "SELECT * FROM `personal_loan` as pl LEFT JOIN star on pl.pid = star.pdid and star.userId = '$userId' where pl.status = 0 ORDER BY pl.pid ASC";
+    $result = mysqli_query($conn, $query);
 
     while ($row = mysqli_fetch_assoc($result)) {
         ?>
@@ -32,7 +60,7 @@ $result = mysqli_query($conn, $query);
 
             
             <td style="text-align:center">
-            <a href="../calculate/calculate.php?rate=<?php echo $row['interest']?>">
+            <a href="../calculate/calculate.php?rate=<?php echo $row['interest']?>&bank=<?php echo $row['name']?>&type=Personal Loan&userId=<?php echo $userId?>">
             <img src="../assets/icon/calculate.png" style="height:1.6rem;width:1.6rem" alt="">
             </a>
             </td>
@@ -42,8 +70,16 @@ $result = mysqli_query($conn, $query);
                     ?>
                     <td style="text-align:center"><a href="../Components/admin/personal.php?id=<?php echo $row['pid']?>"><img onclick="editInterest()" 
             src="../assets/icon/edit.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></a></td>
-                    <td style="text-align:center"><img onclick="confirmDel('<?php echo $row['pid']; ?>','<?php echo $row['name']; ?>')" 
+            
+            <?php
+            if($bank == "none"){
+                ?>
+<td style="text-align:center"><img onclick="confirmDel('<?php echo $row['pid']; ?>','<?php echo $row['name']; ?>')" 
             src="../assets/icon/bin.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></td>
+                <?php
+            }
+            ?>
+
                     <?php
                 }
             ?>
@@ -53,6 +89,9 @@ $result = mysqli_query($conn, $query);
         <?php
 
     }
+}
+
+
             
 
 ?>
@@ -79,6 +118,11 @@ $result = mysqli_query($conn, $query);
                 },
                 success: function(response) {
                     console.log(response); // Log the server's response (you can handle it accordingly)
+                    var messageDiv = $('<div>').text(response).addClass('toast2');
+                    $('body').append(messageDiv);
+                    setTimeout(function() {
+                    messageDiv.remove();
+                    }, 2000); // Remove after 4 seconds
                 }
             });
         } else {
@@ -87,9 +131,16 @@ $result = mysqli_query($conn, $query);
             $.ajax({
                 type: 'POST',
                 url: '../Db/update.php', // Specify the server-side script to handle the data
-                data: { pdid: pdid },
+                data: { pdid: pdid,
+                        name:name        
+                },
                 success: function(response) {
                     console.log(response); // Log the server's response (you can handle it accordingly)
+                    var messageDiv = $('<div>').text(response).addClass('toast1');
+                    $('body').append(messageDiv);
+                    setTimeout(function() {
+                    messageDiv.remove();
+                    }, 2000); // Remove after 4 seconds
                 }
             });
         }
@@ -113,9 +164,15 @@ console.log(pid)
 $.ajax({
        type: 'POST',
        url: '../Db/admin/delete/deleteBank.php', // Specify the server-side script to handle the data
-       data: { pid: pid},
+       data: { pid: pid,
+        name:name},
        success: function(response) {
            console.log(response); // Log the server's response (you can handle it accordingly)
+           var messageDiv = $('<div>').text(response).addClass('toast1');
+                    $('body').append(messageDiv);
+                    setTimeout(function() {
+                    messageDiv.remove();
+                    }, 2000); // Remove after 4 seconds
            location.reload()
        }
    });

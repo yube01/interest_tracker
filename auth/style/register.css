@@ -76,3 +76,12 @@ form{
 .logins{
     margin-right: 3rem;
 }
+.toast{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+}

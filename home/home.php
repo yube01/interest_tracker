@@ -9,23 +9,47 @@
     <title>Home</title>
 </head>
 <body>
-  <!-- <button>
-    <a href="../logout/logout.php">logout</a>
-  </button> -->
+
+
     <div class="container">
         <div class="side">
         <?php
              include "../Components/sidebar.php"
         ?>
         </div>
+        <?php
+        if(isset($_GET['msg'])){
+            ?>
+    <div class="toast" id="toast">
+        <?php
+            
+            $msg =  $_GET['msg'];
+            echo $msg;
+            ?>
+                </div>
+                <?php
+        }
+    ?>
+
         <div class="deposit">
             <div class="sbtn">
                 <?php include "../Components/search.php" ?>
             </div>
+
             <div class="first">
-            <a href="../page/studentSaving.php" class="stlink">
-                <button class="checkStudent">Check Student Saving Interest</button>
-            </a>
+
+            <?php
+                if ($isAdmin == 1 ) {
+                    ?>
+                   <a href="../Components/admin/Add/personal.php">
+                    <button>Add Bank</button>
+                   </a>
+                    <?php
+                    
+                }
+            ?>
+
+            
                 <?php include "../Components/savingFixed.php" ?>
             </div>
         </div>
@@ -34,6 +58,11 @@
        
         
     </div>
+    <script>
+    setTimeout(function(){
+        document.getElementById('toast').style.display = 'none';
+    }, 5000); // 4000 milliseconds = 4 seconds
+</script>
     
 </body>
 </html>

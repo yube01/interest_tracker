@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="./style/landing.css">
     <link rel="stylesheet" href="./style/register.css">
+    <script src="./hideToast.js"></script>
     <title>Register</title>
 </head>
 <body>
@@ -38,8 +39,24 @@
             <img src="../assets/logo4.jpg" alt="">
         </div>
     </div>
-    <?php 
-    include "../Db/dbRegister.php";
+
+    <?php
+        if(isset($_GET['msg'])){
+            ?>
+    <div class="toast" id="toast">
+        <?php
+            
+            $msg =  $_GET['msg'];
+            echo $msg;
+            ?>
+                </div>
+                <?php
+        }
     ?>
+
+    <?php 
+    include "../Db/auth/dbRegister.php";
+    ?>
+
 </body>
 </html>

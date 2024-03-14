@@ -5,6 +5,7 @@
 
         $userId =  $_SESSION['id'];
         $isAdmin = $_SESSION['isAdmin'];
+        $bank = $_SESSION['name'];
     } else {
         header("location:../auth/login.php");
     }

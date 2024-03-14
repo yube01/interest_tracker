@@ -6,12 +6,26 @@
     <link rel="stylesheet" href="./style/home.css">
     <link rel="stylesheet" href="./style/style.css">
     <title>EMI Calculator</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./validate.js"></script>
+    <script src="./saveData.js"></script>
 </head>
 <body>
+
+ 
     <?php
-     if(isset($_GET['rate'])){
+    $userId = 0;
+    $banks = $_GET['bank'];
+     if(isset($_GET['bank']) && isset($_GET['rate'])){
         $rate =  $_GET['rate'];
+        $bank = $_GET['bank'];
+        $type = $_GET['type'];
+        $userId = $_GET['userId'];
+
+    }else{
+        $userId = 0;
     }
+
     ?>
     <div class="container">
         <div class="side">
@@ -20,14 +34,32 @@
         ?>
         </div>
         <div class="calculate">
+        <?php
+                if($banks == "none"){
+                    ?>
+        <div class="sbtn1">
+                <?php include "../Components/calculateNav.php" ?>
+            </div>
+            <?php
+                }
+                ?>
         <h1>EMI Calculator</h1>
-        <a href="depositCalculator.php">Switch</a>
+
+  
             <div class="insert">
+            
                 <form class="first" method="POST">
+                <?php
+                if($banks != "none"){
+                    ?>
+                        <h1><?php echo $bank = $_GET['bank'];?></h1>
+                    <?php
+                }
+                ?>
                 <div class="inputValue">
                 <div class="in">
                 <label>Loan Amount (In Rupees)</label>
-                <input type="number" placeholder="Eg: 200000" name="amount" required>
+                <input type="number" oninput="validatePrinciple()" placeholder="Eg: 200000" name="amount" required>
                 </div>
 
                 <div class="in">
@@ -36,8 +68,8 @@
                 </div>
 
                 <div class="in">
-                <label>Loan Tenure</label>
-                <input type="number" name="time" placeholder="Eg: 3 years" required >
+                <label>Loan Tenure (In year)</label>
+                <input type="number" oninput="validateTime()" name="time" placeholder="Eg: 3 years" required >
                 </div>
                 
                 </div>
@@ -45,15 +77,18 @@
 
                 </form>
             <?php
+            
+                $year = 0;
                 $emi = 0;
                 $amount = 0;
                 $payable = 0;
                 $total = 0;
                 if(isset($_POST['submit'])){
                     $amount = $_POST['amount'];
+                    $rates = $_POST['rate'];
                     $rate = $_POST['rate']/12/100;
+                    $year = $_POST['time'];
                     $time = $_POST['time']*12;
-                    echo $rate;
                     
                     $emi = $amount * $rate * ((pow(1 + $rate, $time)) / (pow(1 + $rate, $time) - 1));
 
@@ -65,60 +100,49 @@
             ?>
             <div class="display">
             <div>
-                <label>Monthly EMI : </label>
+                <label>Monthly EMI : Rs.</label>
                 <span><?php echo number_format($emi, 0, '', ',') ?></span>
             </div>
             <div>
-                <label>Principle : </label>
+                <label>Principle : Rs. </label>
                 <span><?php echo number_format($amount, 0, '', ',');?></span>
             </div>
             <div>
-                <label>Interest Payable : </label>
+                <label>Tenure : </label>
+                <span><?php if ($year < 2) {
+                    echo $year . " year";} else {
+                    echo $year . " years";
+                    }?>
+                </span>
+            </div>
+            <div>
+                <label>Interest Payable : Rs. </label>
                 <span><?php echo number_format($payable, 0, '', ',')?></span>
             </div>
             <div>
-                <label>Total Payment : </label>
+                <label>Total Payment : Rs. </label>
                 <span><?php echo number_format($total, 0, '', ',');?></span>
             </div>
+            <?php
+            if($bank != "none" && $amount > 0){
+                ?>
+        <div class="saveBtn">
+            <button onclick="loanData('<?php echo $amount?>','<?php echo $time?>','<?php echo $rates?>',
+            '<?php echo $emi?>','<?php echo $total?>','<?php echo $bank?>',
+            '<?php echo $type?>','<?php echo $userId?>')">Save this data</button>
+        </div>
+                <?php
+            }
+        ?>
             </div>
             
 
         
         </div>
-        <div class="saveBtn">
-            <button>Save this data</button>
-        </div>
+
     </div>
     <script>
-         function validateInterestRate() {
-        // Get the input element for the interest rate
-        var rateInput = document.getElementsByName("rate")[0];
-        
-        // Get the value entered by the user
-        var rateValue = parseFloat(rateInput.value);
 
-        // Check if the rate is greater than 100
-        if (rateValue > 100) {
-            // Display an error message
-            alert("Error: Interest rate cannot be greater than 100.");
-            
-            // Clear the input field
-            rateInput.value = '';
-
-            // Set focus back to the input field
-            rateInput.focus();
-        }
-        if (rateValue < 0) {
-            // Display an error message
-            alert("Error: Interest rate cannot be lower than 0.1.");
-            
-            // Clear the input field
-            rateInput.value = '';
-
-            // Set focus back to the input field
-            rateInput.focus();
-        }
-    }
     </script>
 </body>
 </html>

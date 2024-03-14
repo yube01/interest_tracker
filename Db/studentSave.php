@@ -4,8 +4,41 @@
 include "dbConnect.php";
 
 
-$query = "SELECT * FROM `student_saving` LEFT JOIN star on student_saving.stid = star.stdSav and star.userId = '$userId' ORDER BY student_saving.stid ASC";
-$result = mysqli_query($conn, $query);
+if($bank != "none"){
+ 
+    $personal = "select * from student_saving where bank_name = '$bank' and status = 0 ";
+    $perRes = mysqli_query($conn,$personal);
+
+    $num = mysqli_num_rows($perRes);
+    if($num > 0){
+        while ($row = mysqli_fetch_assoc($perRes)) {
+            ?>
+            <tr>
+                <td><?php echo $row['bank_name'] ?></td>
+                <td style="text-align:center;padding:1rem"><?php echo $row['type'] ?></td>
+                <td style="text-align:center"><?php echo $row['interest'] ?></td>
+                <td style="text-align:center"><?php echo $row['minBalance'] ?></td>
+                <td style="text-align:center"><a href="../Components/admin/studentSav.php?id=<?php echo $row['stid']?>"><img onclick="editInterest()" 
+                src="../assets/icon/edit.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></a></td>
+                <?php
+    
+        }
+    }else{
+        ?>
+        <tr>
+        <td style="text-align:center;padding:1rem" colspan=5>Empty</td>
+        </tr>
+        <?php
+    }
+    
+
+    
+
+}else{
+
+    $query = "SELECT * FROM `student_saving` as ss LEFT JOIN star on ss.stid = star.stdSav and star.userId = '$userId' where ss.status = 0 ORDER BY ss.stid ASC";
+ 
+    $result = mysqli_query($conn, $query);
 
     while ($row = mysqli_fetch_assoc($result)) {
         ?>
@@ -35,7 +68,7 @@ $result = mysqli_query($conn, $query);
             </td>
 
             <td style="text-align:center">
-            <a href="../calculate/depositCalculator.php?rate=<?php echo $row['interest']?>&minBal=<?php echo $row['minBalance']?>"><img src="../assets/icon/calculate.png" style="height:1.6rem;width:1.6rem" alt=""></a>
+            <a href="../calculate/simpleCalculate.php?rate=<?php echo $row['interest']?>&minBal=<?php echo $row['minBalance']?>&bank=<?php echo $row['bank_name']?>&type=<?php echo $row['type']?>&userId=<?php echo $userId?>"><img src="../assets/icon/calculate.png" style="height:1.6rem;width:1.6rem" alt=""></a>
             </td>
                     <?php
                 }else{
@@ -46,8 +79,14 @@ $result = mysqli_query($conn, $query);
             src="../assets/icon/edit.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt="">
                         </a>
                     </td>
-                    <td style="text-align:center"><img onclick="confirmDel('<?php echo $row['stid']; ?>','<?php echo $row['bank_name']; ?>')" 
+                    <?php
+            if($bank == "none"){
+                ?>
+<td style="text-align:center"><img onclick="confirmDel('<?php echo $row['stid']; ?>','<?php echo $row['bank_name']; ?>')" 
             src="../assets/icon/bin.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></td>
+                <?php
+            }
+            ?>
                     <?php
                 }
             ?>
@@ -59,7 +98,10 @@ $result = mysqli_query($conn, $query);
         <?php
 
     }
-            
+           
+
+}
+
 
 ?>
 <script>
@@ -86,6 +128,11 @@ $result = mysqli_query($conn, $query);
                 },
                 success: function(response) {
                     console.log(response); // Log the server's response (you can handle it accordingly)
+                    var messageDiv = $('<div>').text(response).addClass('toast2');
+                    $('body').append(messageDiv);
+                    setTimeout(function() {
+                    messageDiv.remove();
+                    }, 2000); // Remove after 4 seconds
                 }
             });
         } else {
@@ -94,9 +141,14 @@ $result = mysqli_query($conn, $query);
             $.ajax({
                 type: 'POST',
                 url: '../Db/update.php', // Specify the server-side script to handle the data
-                data: { id: id},
+                data: { id: id,bank:bank},
                 success: function(response) {
                     console.log(response); // Log the server's response (you can handle it accordingly)
+                    var messageDiv = $('<div>').text(response).addClass('toast1');
+                    $('body').append(messageDiv);
+                    setTimeout(function() {
+                    messageDiv.remove();
+                    }, 2000); // Remove after 4 seconds
                 }
             });
         }
@@ -120,9 +172,14 @@ $result = mysqli_query($conn, $query);
         $.ajax({
                 type: 'POST',
                 url: '../Db/admin/delete/deleteBank.php', // Specify the server-side script to handle the data
-                data: { id: id},
+                data: { id: id,bank:bank},
                 success: function(response) {
                     console.log(response); // Log the server's response (you can handle it accordingly)
+                    var messageDiv = $('<div>').text(response).addClass('toast');
+                    $('body').append(messageDiv);
+                    setTimeout(function() {
+                    messageDiv.remove();
+                    }, 2000); // Remove after 4 seconds
                     location.reload()
                 }
             });

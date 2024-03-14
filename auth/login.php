@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="./style/landing.css">
     <link rel="stylesheet" href="./style/register.css">
+    <script src="./hideToast.js"></script>
     <title>Login</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
         </div>
 
         <div class="register">
-            <h1>Login</h1>
+            <h1>User Login</h1>
         <form method="POST">
             <div class="inputs">
                 <img src="../assets/user.png" alt="">
@@ -35,8 +36,24 @@
         </div>
         
     </div>
-    <?php 
-    include "../Db/dbLogin.php";
+
+    <?php
+        if(isset($_GET['msg'])){
+            ?>
+    <div class="toast" id="toast">
+        <?php
+            
+            $msg =  $_GET['msg'];
+            echo $msg;
+            ?>
+                </div>
+                <?php
+        }
     ?>
+    <?php 
+    include "../Db/auth/dbLogin.php";
+    ?>
+    <script>
+
 </body>
 </html>

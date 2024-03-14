@@ -3,34 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/home.css">
+
     <link rel="stylesheet" href="./style/style.css">
     <title>Deposit Calculator</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./validate.js"></script>
+    <script src="./saveData.js"></script>
 </head>
 <body>
 <?php
-    if(isset($_GET['srate'])){
-        $rate =  $_GET['srate'];
-    }
-    if(isset($_GET['rate'])){
+
+    $banks = $_GET['bank'];
+     if(isset($_GET['rate'])){
         $rate =  $_GET['rate'];
+        $bank = $_GET['bank'];
+        $type = $_GET['type'];
+        $userId = $_GET['userId'];
+
+
     }
     ?>
+
+
     <div class="container">
         <div class="side">
         <?php
              include "../Components/sidebar.php"
         ?>
         </div>
+
         <div class="calculate">
-        <h1>Deposit Calculator</h1>
-        <a href="calculate.php">Switch</a>
+        <?php
+                if($banks == "none"){
+                    ?>
+        <div class="sbtn1">
+                <?php include "../Components/calculateNav.php" ?>
+            </div>
+            <?php
+                }
+                ?>
+        <h1>Fixed Deposit Calculator</h1>
+
+
+   
             <div class="insert">
+             
                 <form class="first" method="POST">
+                <?php
+                if($banks != "none"){
+                    ?>
+                        <h1><?php echo $bank = $_GET['bank'];?></h1>
+                    <?php
+                }
+                ?>
                 <div class="inputValue">
                 <div class="in">
                 <label>Deposit Amount (In Rupees)</label>
-                <input type="number" placeholder="Eg: 200000" name="amount" required>
+                <input type="number" oninput="validatePrinciple()" placeholder="Eg: 200000" name="amount" required>
                 </div>
 
                 <div class="in">
@@ -50,8 +79,8 @@
                 </div>
 
                 <div class="in">
-                <label>Deposit Tenure</label>
-                <input type="number" name="time" placeholder="Eg: 3 years" required >
+                <label>Deposit Tenure (In year)</label>
+                <input type="number" name="time" oninput="validateTime()" placeholder="Eg: 3 years" required >
                 </div>
                 
                 </div>
@@ -67,6 +96,7 @@
                 $total = 0;
                 $tax = 0;
                 if(isset($_POST['submit'])){
+                    $rates = $_POST['rate'];
                     $amount = $_POST['amount'];
                     $rate = $_POST['rate']/100;
                     $time = $_POST['time'];
@@ -83,7 +113,7 @@
             <div class="display">
             
             <div>
-                <label>Principle : </label>
+                <label>Principle : Rs. </label>
                 <span><?php echo number_format($amount, 0, '', ',');?></span>
             </div>
             <div>
@@ -95,56 +125,37 @@
                 </span>
             </div>
             <div>
-                <label>Maturity Amount : </label>
+                <label>Maturity Amount : Rs.</label>
                 <span><?php echo number_format($maturity, 0, '', ',')?></span>
             </div>
             <div>
-                <label>Tax Amount : </label>
+                <label>Tax Amount : Rs. </label>
                 <span><?php echo number_format($tax, 0, '', ',');?></span>
             </div>
             <div>
-                <label>Interest Amount : </label>
+                <label>Interest Amount : Rs.</label>
                 <span><?php echo number_format($total, 0, '', ',');?></span>
             </div>
+            <?php
+            if($bank != "none" && $amount > 0){
+                ?>
+        <div class="saveBtn">
+            <button onclick="saveData('<?php echo $amount?>','<?php echo $time?>','<?php echo $rates?>',
+            '<?php echo $tax?>','<?php echo $maturity?>','<?php echo $bank?>',
+            '<?php echo $type?>','<?php echo $userId?>')">
+                Save this data
+            </button>
+        </div>
+                <?php
+            }
+        ?>
             </div>
             
 
         
         </div>
-        <div class="saveBtn">
-            <button>Save this data</button>
-        </div>
+
+
     </div>
-    <script>
-         function validateInterestRate() {
-        // Get the input element for the interest rate
-        var rateInput = document.getElementsByName("rate")[0];
-        
-        // Get the value entered by the user
-        var rateValue = parseFloat(rateInput.value);
-
-        // Check if the rate is greater than 100
-        if (rateValue > 100) {
-            // Display an error message
-            alert("Error: Interest rate cannot be greater than 100.");
-            
-            // Clear the input field
-            rateInput.value = '';
-
-            // Set focus back to the input field
-            rateInput.focus();
-        }
-        if (rateValue < 0) {
-            // Display an error message
-            alert("Error: Interest rate cannot be lower than 0.1.");
-            
-            // Clear the input field
-            rateInput.value = '';
-
-            // Set focus back to the input field
-            rateInput.focus();
-        }
-    }
-    </script>
 </body>
 </html>

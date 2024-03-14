@@ -48,10 +48,14 @@ $nums = mysqli_num_rows($result);
                     },
                 success: function(response) {
                     console.log(response)
+                    var messageDiv = $('<div>').text(response).addClass('toast1');
+                    $('body').append(messageDiv);
+                    setTimeout(function() {
+                    messageDiv.remove();
+                    }, 2000); // Remove after 4 seconds
                     setTimeout(() => {
-                        
                         location.reload()
-                    }, 2000); // Log the server's response (you can handle it accordingly)
+                    }, 1500);
                 }
             });
             }

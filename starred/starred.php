@@ -20,9 +20,7 @@
         ?>
         </div>
         <div class="deposit">
-            <div class="sbtn">
-                <?php include "../Components/search.php" ?>
-            </div>
+
             <div class="first">
             
                 <?php include "../Components/starred/starTable.php" ?>

@@ -3,9 +3,37 @@
 
 include "dbConnect.php";
 
+if($bank != "none"){
+ 
+    $personal = "select * from saving_fixed where name = '$bank' and status = 0 ";
+    $perRes = mysqli_query($conn,$personal);
+
+    $num = mysqli_num_rows($perRes);
+    
+    if($num <= 0){
+        ?>
+        <tr>
+        <td style="text-align:center;padding:1rem" colspan=4>Empty</td>
+        </tr>
+        <?php
+    }else{
+        
+         while ($row = mysqli_fetch_assoc($perRes)) {
+            ?>
+            <tr>
+            <td><?php echo $row['name'] ?></td>
+            <td style="text-align:center;padding:1rem"><?php echo $row['saving_rate'] ?></td>
+            <td style="text-align:center"><?php echo $row['fixed_rate'] ?></td>
+            <td style="text-align:center"><a href="../Components/admin/editSavFix.php?id=<?php echo $row['sid']?>"><img onclick="editInterest()" 
+            src="../assets/icon/edit.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></a></td>
+                <?php
+    
+        }
+    }
 
 
-$query = "SELECT * FROM `saving_fixed` LEFT JOIN star on saving_fixed.sid = star.sf and star.userId = '$userId' ORDER BY saving_fixed.sid ASC";
+}else{
+    $query = "SELECT * FROM `saving_fixed` as sfi LEFT JOIN star on sfi.sid = star.sf and star.userId = '$userId' where sfi.status = 0 ORDER BY sfi.sid ASC";
 $result = mysqli_query($conn, $query);
 
     while ($row = mysqli_fetch_assoc($result)) {
@@ -33,17 +61,33 @@ $result = mysqli_query($conn, $query);
              ?>" style="height:1.6rem;width:1.6rem;cursor:pointer" alt="">
             </td>
             <td style="text-align:center">
-            <a href="../calculate/depositCalculator.php?srate=<?php echo $row['saving_rate']?>&frate=<?php echo $row['fixed_rate']?>">
-            <img src="../assets/icon/calculate.png" style="height:1.6rem;width:1.6rem" alt="">
+  
+             
+
+                        <a href="../calculate/simpleCalculate.php?rate=<?php echo $row['saving_rate']?>&bank=<?php echo $row['name']?>&type=Saving Account&userId=<?php echo $userId?>" 
+                        style="text-decoration:none;color:inherit;">
+            Saving Account
             </a>
-            </td>
+            <br>
+            <br>
+            <a href="../calculate/depositCalculator.php?rate=<?php echo $row['fixed_rate']?>&bank=<?php echo $row['name']?>&type=Fixed Account&userId=<?php echo $userId?>" 
+            style="text-decoration:none;color:inherit;">
+            Fixed Account
+            </a>
+                        
 
                     <?php
                 }else{
                     ?>
                     <td style="text-align:center"><a href="../Components/admin/editSavFix.php?id=<?php echo $row['sid']?>"><img src="../assets/icon/edit.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></a></td>
-                    <td style="text-align:center"><img onclick="confirmDel('<?php echo $row['sid']; ?>','<?php echo $row['name']; ?>')" 
+                    <?php
+            if($bank == "none"){
+                ?>
+<td style="text-align:center"><img onclick="confirmDel('<?php echo $row['sid']; ?>','<?php echo $row['name']; ?>')" 
             src="../assets/icon/bin.png" style="height:1.6rem;width:1.6rem;cursor:pointer" alt=""></td>
+                <?php
+            }
+            ?>
                     <?php
                 }
             ?>
@@ -53,6 +97,10 @@ $result = mysqli_query($conn, $query);
         <?php
 
     }
+
+}
+
+
             
 
 ?>
@@ -85,6 +133,11 @@ $result = mysqli_query($conn, $query);
                 },
                 success: function(response) {
                     console.log(response); // Log the server's response (you can handle it accordingly)
+                    var messageDiv = $('<div>').text(response).addClass('toast2');
+                    $('body').append(messageDiv);
+                    setTimeout(function() {
+                    messageDiv.remove();
+                    }, 2000); // Remove after 4 seconds
                 }
             });
         } else {
@@ -93,9 +146,14 @@ $result = mysqli_query($conn, $query);
             $.ajax({
                 type: 'POST',
                 url: '../Db/update.php', // Specify the server-side script to handle the data
-                data: { sf: sf },
+                data: { sf: sf,name:name },
                 success: function(response) {
                     console.log(response); // Log the server's response (you can handle it accordingly)
+                    var messageDiv = $('<div>').text(response).addClass('toast1');
+                    $('body').append(messageDiv);
+                    setTimeout(function() {
+                    messageDiv.remove();
+                    }, 2000); // Remove after 4 seconds
                 }
             });
         }
@@ -118,9 +176,14 @@ console.log(sidf)
 $.ajax({
        type: 'POST',
        url: '../Db/admin/delete/deleteBank.php', // Specify the server-sidfe script to handle the data
-       data: { sidf: sidf},
+       data: { sidf: sidf,name:name},
        success: function(response) {
            console.log(response); // Log the server's response (you can handle it accordingly)
+           var messageDiv = $('<div>').text(response).addClass('toast');
+                    $('body').append(messageDiv);
+                    setTimeout(function() {
+                    messageDiv.remove();
+                    }, 2000); // Remove after 4 seconds
            location.reload()
        }
    });

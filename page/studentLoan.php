@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,10 +18,20 @@
             <div class="sbtn">
                 <?php include "../Components/search.php" ?>
             </div>
-            <a href="../loan/loan.php" class="stlink">
-                <button style="margin-left:-5rem" class="checkStudent">Home</button>
-            </a>
+
+
+            
             <div class="first">
+            <?php
+                if ($isAdmin == 1 ) {
+                    ?>
+                   <a href="../Components/admin/Add/stdLoan.php">
+                    <button>Add Bank</button>
+                   </a>
+                    <?php
+                    
+                }
+            ?>
            
                 <?php include "../Components/studentLoan.php" ?>
             </div>

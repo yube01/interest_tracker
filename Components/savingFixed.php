@@ -18,10 +18,16 @@
                     <th>Saving Account</th>
                     <th>Fixed Account</th>
                     <?php
-                    if ($isAdmin == 1 ) {
+                    if ($isAdmin == 1 || $bank !== "none") {
                         ?>
-                        <th onclick="openEdit()">Edit</th>
-                        <th>Delete</th>
+                        <th>Edit</th>
+                        <?php
+                        if($isAdmin == 1){
+                            ?>
+                            <th>Delete</th>
+                                <?php
+                        }
+                        ?>
                         <?php
                         
                     }else{

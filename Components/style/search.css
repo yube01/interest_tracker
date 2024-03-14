@@ -1,18 +1,28 @@
+nav{
+    display: flex;
+    background-color: #fff;
+    height: 4.5rem;
+    width: 85.9vw;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
 .search{
     display: flex;
     border-radius: 1rem;
-    background-color: rgba(255, 255, 255, 0.907);
+    background-color: white;
     align-items: center;
-    padding: 0.1rem;
+    margin-right: 2rem;
 }
 .search input{
-    padding: 0.5rem 1rem;
     border: none;
     outline: none;
     background-color: transparent;
     font-weight: 500;
     font-size: 1.3rem;
     color: black;
+    padding: 0.5rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.374);
 }
 .search img{
     background-color: transparent;
@@ -20,4 +30,21 @@
     width: 2rem;
     padding: 0.5rem;
     cursor: pointer;
+}
+.banks{
+    display: flex;
+    margin-left: 5rem;
+    gap: 2rem;
+    align-items: center;
+}
+.banks a{
+    color: inherit;
+    text-decoration: none;
+}
+.firsts{
+    padding: 1rem;
+}
+.firsts:hover{
+    background-color: black;
+    color: white;
 }

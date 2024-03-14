@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Student Loan Interest</title>
     <link rel="stylesheet" href="./style/edit.css">
+    <script src="./onEditCancel.js"></script>
 </head>
 <body>
 <?php
     include "../../Db/dbConnect.php";
+    include "../../session/session.php";
      if(isset($_GET['id'])){
         $id =  $_GET['id'];
 
@@ -18,42 +20,50 @@
     }
    
     ?>
-    <form class="container" method="POST">
-        <div class="editValue">
-        <div class="ed">
-            <label>Bank/Finance Name</label>
-            <input type="text" value="<?php echo $data['name']?>">
+<div class="container">
+        <form class="containers" method="POST">
+            <div class="editValue">
+            <?php
+                if($bank == "none"){
+                    ?>
+            <div class="ed">
+                <label>Bank/Finance Name</label>
+                <input type="text" name="bank" value="<?php echo $data['name']?>" required>
+            </div>
+                    <?php
+                }
+            ?>
+    
+            <div class="ed">
+                <label>Student Interest Rate</label>
+                <input type="number" step="0.0001" name="sRate" value="<?php echo $data['interest']?>" required>
+            </div>
+            </div>
+            <div class="editBtn">
+            <?php
+                if($bank == "none"){
+                    ?>
+                    <input type="submit" name="studentLoan" class="submit" value="Edit">
+                    <?php
+                }else{
+                    ?>
+                    <input type="submit" name="rstudentLoan" class="submit" value="Request Edit">
+                    <?php
+                }
+            ?>
+            
+            </div>
+        </form>
+        <?php include "../../Db/admin/edit/editBank.php" ?>
+        <?php include "../../Db/admin/edit/requestEdit.php" ?>
+        <div class="cancel">
+            <a onclick="onEditCancel('stloan')">
+                <img src="../../assets/icon/multiply.png" alt="">
+            </a>
         </div>
-
-        
-        <div class="ed">
-        <label>Student Loan Interest Rate</label>
-            <input type="number" value="<?php echo $data['interest']?>">
-        </div>
-
-        
-           
-        </div>
-
-        
-        </div>
-        <div class="editBtn">
-        <input type="submit" class="submit" value="Edit" name="" id="">
-        <button class="submit" onclick="redirect()">
-            Cancel
-        </button>
-        </div>
+    </div>
 
 
-        
-
-</form>
-
-<script>
-    const redirect = ()=>{
-        window.location.href = "../../home/home.php";
-    }
-</script>
 
 </body>
 </html>
