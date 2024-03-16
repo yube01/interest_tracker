@@ -161,26 +161,21 @@ if($bank != "none"){
 
         // If the user clicks OK, proceed with the deletion
         if (isConfirmed) {
-        deleteInterest(id);
+        deleteInterest(id,bank);
     }
         
     }
     
 
-    const deleteInterest = (id)=>{
+    const deleteInterest = (id,name)=>{
         console.log(id)
         $.ajax({
                 type: 'POST',
                 url: '../Db/admin/delete/deleteBank.php', // Specify the server-side script to handle the data
-                data: { id: id,bank:bank},
+                data: { id: id,name:name},
                 success: function(response) {
                     console.log(response); // Log the server's response (you can handle it accordingly)
-                    var messageDiv = $('<div>').text(response).addClass('toast');
-                    $('body').append(messageDiv);
-                    setTimeout(function() {
-                    messageDiv.remove();
-                    }, 2000); // Remove after 4 seconds
-                    location.reload()
+                    window.location.href = `http://localhost/interest_tracker/page/studentSaving.php?msg2=${name} detail deleted`;
                 }
             });
     }

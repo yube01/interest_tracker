@@ -17,19 +17,11 @@
              include "../Components/sidebar.php"
         ?>
         </div>
-        <?php
-        if(isset($_GET['msg'])){
-            ?>
-    <div class="toast" id="toast">
-        <?php
-            
-            $msg =  $_GET['msg'];
-            echo $msg;
-            ?>
-                </div>
-                <?php
-        }
-    ?>
+
+<?php include "../msgStatus/msg.php" ?> 
+<?php include "../msgStatus/msg1.php" ?> 
+<?php include "../msgStatus/msg2.php" ?> 
+
 
         <div class="deposit">
             <div class="sbtn">

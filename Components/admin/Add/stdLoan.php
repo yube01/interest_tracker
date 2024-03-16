@@ -6,6 +6,7 @@
     <title>Edit Student Loan Interest</title>
     <link rel="stylesheet" href="../style/edit.css">
     <script src="./onCancel.js"></script>
+    <script src="./validate.js"></script>
 </head>
 <body>
 
@@ -24,7 +25,7 @@
     
             <div class="ed">
                 <label>Student Interest Rate</label>
-                <input type="number" step="0.0001" name="sRate" required>
+                <input type="number" step="0.0001" oninput="validateInterestRate()" name="sRate" required>
             </div>
             </div>
             <div class="editBtn">

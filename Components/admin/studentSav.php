@@ -6,6 +6,7 @@
     <title>Edit Student Saving Interest</title>
     <link rel="stylesheet" href="./style/edit.css">
     <script src="./onEditCancel.js"></script>
+    <script src="./Add/validate.js"></script>
 </head>
 <body>
 <?php
@@ -41,12 +42,12 @@
     
             <div class="ed">
                 <label>Minimum Balance</label>
-                <input type="number" step="0.0001" name="min" value="<?php echo $data['minBalance']?>" required>
+                <input type="number" oninput="validateMinBalance()" step="0.0001" name="min" value="<?php echo $data['minBalance']?>" required>
             </div>
     
             <div class="ed">
                 <label>Interest Rate</label>
-                <input type="number" step="0.0001" name="rate" value="<?php echo $data['interest']?>" required>
+                <input type="number" oninput="validateInterestRate()" step="0.0001" name="rate" value="<?php echo $data['interest']?>" required>
             </div>
             </div>
             <div class="editBtn">

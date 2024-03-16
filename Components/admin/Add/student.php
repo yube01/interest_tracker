@@ -6,6 +6,7 @@
     <title>Edit Student Saving Interest</title>
     <link rel="stylesheet" href="../style/edit.css">
     <script src="./onCancel.js"></script>
+    <script src="./validate.js"></script>
 </head>
 <body>
 
@@ -29,12 +30,12 @@
     
             <div class="ed">
                 <label>Minimum Balance</label>
-                <input type="number" step="0.0001" name="min" required>
+                <input type="number" oninput="validateMinBalance()" step="0.0001" name="min" required>
             </div>
     
             <div class="ed">
                 <label>Interest Rate</label>
-                <input type="number" step="0.0001" name="rate" required>
+                <input type="number" oninput="validateInterestRate()" step="0.0001" name="rate" required>
             </div>
             </div>
             <div class="editBtn">

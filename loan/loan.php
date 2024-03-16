@@ -14,6 +14,11 @@
             include "../Components/sidebar.php"
         ?>
         </div>
+
+<?php include "../msgStatus/msg.php" ?> 
+<?php include "../msgStatus/msg1.php" ?> 
+<?php include "../msgStatus/msg2.php" ?> 
+
         <div class="deposit">
             <div class="sbtn">
                 <?php include "../Components/search.php" ?>
@@ -38,6 +43,11 @@
        
         
     </div>
+    <script>
+    setTimeout(function(){
+        document.getElementById('toast').style.display = 'none';
+    }, 5000); // 4000 milliseconds = 4 seconds
+</script>
     
 </body>
 </html>

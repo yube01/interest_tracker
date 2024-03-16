@@ -153,14 +153,14 @@ const isConfirmed = confirm(`Are you sure you want to delete ${bank}?`);
 
 // If the user clicks OK, proceed with the deletion
 if (isConfirmed) {
-deleteInterest(pid);
+deleteInterest(pid,bank);
 }
 
 }
 
 
-const deleteInterest = (pid)=>{
-console.log(pid)
+const deleteInterest = (pid,name)=>{
+
 $.ajax({
        type: 'POST',
        url: '../Db/admin/delete/deleteBank.php', // Specify the server-side script to handle the data
@@ -168,12 +168,7 @@ $.ajax({
         name:name},
        success: function(response) {
            console.log(response); // Log the server's response (you can handle it accordingly)
-           var messageDiv = $('<div>').text(response).addClass('toast1');
-                    $('body').append(messageDiv);
-                    setTimeout(function() {
-                    messageDiv.remove();
-                    }, 2000); // Remove after 4 seconds
-           location.reload()
+           window.location.href = `http://localhost/interest_tracker/loan/loan.php?msg2=${name} detail deleted`;
        }
    });
 }

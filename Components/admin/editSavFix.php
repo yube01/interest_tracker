@@ -6,6 +6,7 @@
     <title>Edit Saving and Fixed Interest</title>
     <link rel="stylesheet" href="./style/edit.css">
     <script src="./onEditCancel.js"></script>
+    <script src="./Add/validate.js"></script>
 </head>
 <body>
 <?php
@@ -38,12 +39,12 @@
     
             <div class="ed">
                 <label>Saving Interest Rate</label>
-                <input type="number" step="0.0001" name="sRate" value="<?php echo $data['saving_rate']?>" required>
+                <input type="number" oninput="validateSave()" step="0.0001" name="sRate" value="<?php echo $data['saving_rate']?>" required>
             </div>
     
             <div class="ed">
                 <label>Fixed Interest Rate</label>
-                <input type="number" step="0.0001" name="fRate" value="<?php echo $data['fixed_rate']?>" required>
+                <input type="number" oninput="validateFix()" step="0.0001" name="fRate" value="<?php echo $data['fixed_rate']?>" required>
             </div>
             </div>
             <div class="editBtn">

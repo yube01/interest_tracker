@@ -6,6 +6,7 @@
     <title>Edit Student Loan Interest</title>
     <link rel="stylesheet" href="./style/edit.css">
     <script src="./onEditCancel.js"></script>
+    <script src="./Add/validate.js"></script>
 </head>
 <body>
 <?php
@@ -36,7 +37,7 @@
     
             <div class="ed">
                 <label>Student Interest Rate</label>
-                <input type="number" step="0.0001" name="sRate" value="<?php echo $data['interest']?>" required>
+                <input type="number" oninput="validateInterestRate()" step="0.0001" name="sRate" value="<?php echo $data['interest']?>" required>
             </div>
             </div>
             <div class="editBtn">

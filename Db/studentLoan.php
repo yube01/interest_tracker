@@ -158,13 +158,13 @@ const isConfirmed = confirm(`Are you sure you want to delete ${bank}?`);
 
 // If the user clicks OK, proceed with the deletion
 if (isConfirmed) {
-deleteInterest(eid);
+deleteInterest(eid,bank);
 }
 
 }
 
 
-const deleteInterest = (eid)=>{
+const deleteInterest = (eid,name)=>{
 console.log(eid)
 $.ajax({
        type: 'POST',
@@ -172,12 +172,7 @@ $.ajax({
        data: { eid: eid,name:name},
        success: function(response) {
            console.log(response); // Log the server's response (you can handle it accordingly)
-           var messageDiv = $('<div>').text(response).addClass('toast');
-                    $('body').append(messageDiv);
-                    setTimeout(function() {
-                    messageDiv.remove();
-                    }, 2000); // Remove after 4 seconds
-           location.reload()
+           window.location.href = `http://localhost/interest_tracker/page/studentLoan.php?msg2=${name} detail deleted`;
        }
    });
 }

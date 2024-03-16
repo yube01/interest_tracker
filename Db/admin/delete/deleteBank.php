@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id']))  {
     $query  =   mysqli_query($conn, $del);
    
     if( $query){
-        echo 'Bank name deleted successfully';
+        echo 'detail deleted successfully';
         exit();
 
      }
@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['eid']))  {
     $query  =   mysqli_query($conn, $del);
    
     if( $query){
-        echo 'Bank name deleted successfully';
+        echo 'detail deleted successfully';
         exit();
 
      }
@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['sidf']))  {
     $query  =   mysqli_query($conn, $del);
    
     if( $query){
-        echo 'Bank name deleted successfully';
+        echo 'detail deleted successfully';
         exit();
 
      }
@@ -56,14 +56,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['sidf']))  {
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['pid']))  {
     $id = mysqli_real_escape_string($conn, $_POST['pid']);
+    $bank = mysqli_real_escape_string($conn, $_POST['name']);
 
-    echo $id;
 
     $del = "DELETE FROM personal_loan WHERE pid = '$id'";
     $query  =   mysqli_query($conn, $del);
    
     if( $query){
-        echo 'Bank name deleted successfully';
+        echo "$bank detail deleted successfully";
         exit();
 
      }
