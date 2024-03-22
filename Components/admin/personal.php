@@ -43,11 +43,11 @@
             <?php
                 if($bank == "none"){
                     ?>
-                    <input type="submit" name="personal" class="submit" value="Edit">
+                    <input type="submit" name="rpersonal" class="submit" value="Edit">
                     <?php
                 }else{
                     ?>
-                    <input type="submit" name="personal" class="submit" value="Request Edit">
+                    <input type="submit" name="rpersonal" class="submit" value="Request Edit">
                     <?php
                 }
             ?>

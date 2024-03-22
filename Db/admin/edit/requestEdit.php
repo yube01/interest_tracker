@@ -27,6 +27,7 @@ if(isset($_POST['rpersonal'])){
     $code = uniqid();
     $request = "INSERT into personal_loan (name,code,interest,status) values ('$bank','$code','$interest',1)";
 
+    echo $bank;
     $result = mysqli_query($conn, $request);
     if($result){
         echo "requested";
