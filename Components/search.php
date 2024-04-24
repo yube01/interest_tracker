@@ -42,11 +42,13 @@
                         
                     }else{
                         ?>
-        <div class="search">
-            <input type="text" placeholder="Search">
+        <form class="search">
+            <input type="text" placeholder="Search" name="search">
+            <button type="submit" name="submit">
             <img src="../assets/icon/search.png" alt="">
+            </button>
 
-        </div>
+        </form>
                         <?php
                     }?>
 
