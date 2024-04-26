@@ -35,11 +35,28 @@ if($bank != "none"){
     
 
 }else{
+    if(isset($_GET['search'])){
+        $searchName = $_GET['search'];
+        $query = "select * FROM `student_saving` as ss LEFT JOIN star on ss.stid = star.stdSav and star.userId = '$userId' where ss.bank_name LIKE '%$searchName%' and ss.status = 0 ORDER BY ss.stid ASC ";
+    }else{
+        
+        $query = "SELECT * FROM `student_saving` as ss LEFT JOIN star on ss.stid = star.stdSav and star.userId = '$userId' where ss.status = 0 ORDER BY ss.stid ASC";
 
-    $query = "SELECT * FROM `student_saving` as ss LEFT JOIN star on ss.stid = star.stdSav and star.userId = '$userId' where ss.status = 0 ORDER BY ss.stid ASC";
+    }
+
+
  
     $result = mysqli_query($conn, $query);
 
+    $num = mysqli_num_rows($result);
+    
+    if($num <= 0){
+        ?>
+        <tr>
+        <td style="text-align:center;padding:1rem" colspan=6>Empty</td>
+        </tr>
+        <?php
+    }else{
     while ($row = mysqli_fetch_assoc($result)) {
         ?>
         <tr>
@@ -97,9 +114,8 @@ if($bank != "none"){
 
         <?php
 
-    }
-           
-
+    }       
+}
 }
 
 

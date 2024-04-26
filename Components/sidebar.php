@@ -11,13 +11,13 @@
            
         </div>
         <div class="options">
-            <a href="../home/home.php">
+            <a href="../home/home.php?type=saving">
                 <div class="ologo">
                     <img src="../assets/icon/deposit.png" alt="">
                     <p>Deposit</p>
                 </div>
             </a>
-            <a href="../loan/loan.php">
+            <a href="../loan/loan.php?type=loan">
                 <div class="ologo">
                     <img src="../assets/icon/loans.png" alt="">
                     <p>Loan</p>

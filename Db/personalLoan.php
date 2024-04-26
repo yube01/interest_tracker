@@ -32,9 +32,26 @@ if($bank != "none"){
 
 
 }else{
-    $query = "SELECT * FROM `personal_loan` as pl LEFT JOIN star on pl.pid = star.pdid and star.userId = '$userId' where pl.status = 0 ORDER BY pl.pid ASC";
+    if(isset($_GET['search'])){
+        $searchName = $_GET['search'];
+        $query = "select * from personal_loan as pl LEFT JOIN star on pl.pid = star.pdid and star.userId = '$userId' where pl.name LIKE '%$searchName%' and pl.status = 0 ORDER BY pl.pid ASC ";
+    }else{
+        
+        $query = "SELECT * FROM `personal_loan` as pl LEFT JOIN star on pl.pid = star.pdid and star.userId = '$userId' where pl.status = 0 ORDER BY pl.pid ASC";
+
+    }
+
     $result = mysqli_query($conn, $query);
 
+    $num = mysqli_num_rows($result);
+    
+    if($num <= 0){
+        ?>
+        <tr>
+        <td style="text-align:center;padding:1rem" colspan=5>Empty</td>
+        </tr>
+        <?php
+    }else{
     while ($row = mysqli_fetch_assoc($result)) {
         ?>
         <tr>
@@ -88,7 +105,7 @@ if($bank != "none"){
 
         <?php
 
-    }
+    }}
 }
 
 

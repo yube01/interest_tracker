@@ -29,7 +29,7 @@ if(isset($_POST['submit'])){
                 $_SESSION['name'] = "none";
              
 
-                header("Location: ../home/home.php?msg=Login Sucess");
+                header("Location: ../home/home.php?type=saving&msg=Login Sucess");
                 exit();
             } else {
                 echo "Password incorrect";

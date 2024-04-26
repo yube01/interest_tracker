@@ -3,6 +3,8 @@
 
 include "dbConnect.php";
 
+
+
 if($bank != "none"){
  
     $personal = "select * from saving_fixed where name = '$bank' and status = 0 ";
@@ -32,9 +34,29 @@ if($bank != "none"){
     }
 
 
-}else{
+}
+else{
+    if(isset($_GET['search'])){
+        $searchName = $_GET['search'];
+        $query = "select * from saving_fixed as sfi LEFT JOIN star on sfi.sid = star.sf and star.userId = '$userId' where sfi.name LIKE '%$searchName%' and sfi.status = 0 ORDER BY sfi.sid ASC ";
+    }else{
+        
     $query = "SELECT * FROM `saving_fixed` as sfi LEFT JOIN star on sfi.sid = star.sf and star.userId = '$userId' where sfi.status = 0 ORDER BY sfi.sid ASC";
-$result = mysqli_query($conn, $query);
+
+    }
+    $result = mysqli_query($conn, $query);
+
+    $num = mysqli_num_rows($result);
+    
+    if($num <= 0){
+        ?>
+        <tr>
+        <td style="text-align:center;padding:1rem" colspan=5>Empty</td>
+        </tr>
+        <?php
+    }else{
+
+
 
     while ($row = mysqli_fetch_assoc($result)) {
         ?>
@@ -47,18 +69,20 @@ $result = mysqli_query($conn, $query);
                     ?>
 
             <td id="imageCell" style="text-align:center">
-            <img onclick="changeImage(this,'<?php echo $row['sid']; ?>',
-            '<?php echo $row['name']; ?>',
-            '<?php echo $row['fixed_rate']?>','<?php echo $userId;?>' )" src="<?php
-             if($row['isStar'] == 1){
-                echo "http://localhost/interest_tracker/assets/icon/star1.png";
-             }else{
-                echo "http://localhost/interest_tracker/assets/icon/star.png";
-             }
-             
-             
-             
-             ?>" style="height:1.6rem;width:1.6rem;cursor:pointer" alt="">
+
+                    <img onclick="changeImage(this,'<?php echo $row['sid']; ?>',
+                    '<?php echo $row['name']; ?>',
+                    '<?php echo $row['fixed_rate']?>','<?php echo $userId;?>' )" src="<?php
+                     if($row['isStar'] == 1){
+                        echo "http://localhost/interest_tracker/assets/icon/star1.png";
+                     }else{
+                        echo "http://localhost/interest_tracker/assets/icon/star.png";
+                     }
+                     
+                     
+                     
+                     ?>" style="height:1.6rem;width:1.6rem;cursor:pointer" alt="">
+
             </td>
             <td style="text-align:center">
   
@@ -98,7 +122,7 @@ $result = mysqli_query($conn, $query);
 
     }
 
-}
+}}
 
 
             
