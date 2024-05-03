@@ -47,6 +47,7 @@
                         <?php
                 }
             ?>
+
             <?php
                 if ($bank != "none" || $isAdmin == 1 ) {
                     ?>
@@ -54,6 +55,19 @@
                 <div class="ologo">
                     <img src="../assets/icon/interview.png" alt="">
                     <p>Request</p>
+                </div>
+            </a>
+
+                    <?php
+                }
+            ?>
+                        <?php
+                if($isAdmin == 1){
+                    ?>
+                                    <a href="../request/savingFixed.php?type=savingFix&option=history">
+                <div class="ologo">
+                    <img src="../assets/icon/history.png" alt="">
+                    <p>History</p>
                 </div>
             </a>
                     <?php

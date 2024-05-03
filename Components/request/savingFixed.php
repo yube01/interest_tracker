@@ -12,6 +12,11 @@
         if(isset($_GET['type'])){
             $type =  $_GET['type'];
         }
+        $option = 0;
+if(isset($_GET['type']) && isset($_GET['option'])){
+    $type = $_GET['type'];
+    $option=1;
+}
     ?>
     <div clas="savingFd">
        
@@ -54,9 +59,16 @@
 
                     <?php
                         if($isAdmin == 1){
-                            ?>
-                                <th>Requests</th>
-                            <?php
+                            if($option == 1){
+                                ?>
+                                    <th>Status</th>
+                                <?php
+                            }else{
+                                ?>
+
+<th>Requests</th>
+<?php
+                            }
                         }else{
                             ?>
                                  <th>Status</th>

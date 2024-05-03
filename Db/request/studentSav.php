@@ -2,9 +2,18 @@
 <?php
 
 include "../Db/dbConnect.php";
+$option = 0;
+if(isset($_GET['type']) && isset($_GET['option'])){
+    $type = $_GET['type'];
+    $option=1;
+}
+if($bank != "none" || $option == 1){
+    if($option == 1){
+        $personal = "select * from student_saving where status in (1,2,3) ";
+    }else{
+        $personal = "select * from student_saving where bank_name = '$bank' and status in (1,2,3) ";
+    }
 
-if($bank != "none"){
-    $personal = "select * from student_saving where bank_name = '$bank' and status in (1,2,3) ";
     $perRes = mysqli_query($conn,$personal);
 
     $num = mysqli_num_rows($perRes);
@@ -16,7 +25,17 @@ if($bank != "none"){
                 <td style="text-align:center;padding:1rem"><?php echo $row['type'] ?></td>
                 <td style="text-align:center"><?php echo $row['interest'] ?></td>
                 <td style="text-align:center"><?php echo $row['minBalance'] ?></td>
-                <td style="text-align:center">
+                <td style="text-align:center;color:white;font-weight:700;font-size:1.2rem; <?php
+            if($row['status'] == 1){
+                echo "background-color: orange;";
+            }
+            if($row['status'] == 2){
+                echo "background-color: green;";
+            }
+            if($row['status'] == 3){
+                echo "background-color: red;";
+            }
+            ?>">
                 <?php
                     if($row['status'] == 1){
                         echo "Pending";
@@ -41,6 +60,7 @@ if($bank != "none"){
         <?php
     }
 }else{
+    
     $personal = "select * from student_saving where status = 1 ";
     $perRes = mysqli_query($conn,$personal);
 

@@ -8,6 +8,14 @@
     <title>Loan</title>
 </head>
 <body>
+<?php
+$option = 0;
+if(isset($_GET['type']) && isset($_GET['option'])){
+    $type = $_GET['type'];
+    $option=1;
+}
+    ?>
+    
     <div class="container">
         <div class="side">
         <?php
@@ -16,7 +24,13 @@
         </div>
         <div class="deposit">
             <div class="sbtn">
-                <?php include "../Components/requestnav.php" ?>
+            <?php 
+                    if($option == 0){
+                        include "../Components/requestnav.php" ;
+                    }else{
+                        include "../Components/historyNav.php" ;
+                    }
+                ?>
             </div>
 
             <div class="first">
