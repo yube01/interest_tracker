@@ -13,7 +13,7 @@ if(isset($_POST['rsavFix'])){
     $result = mysqli_query($conn, $request);
     if($result){
         echo "requested";
-        header("Location: ../../home/home.php?msg=$bank detail requested to admin");
+        header("Location: ../../home/home.php?msg=$bank detail requested to admin&type=saving");
     }else{
         echo "Error";
     }
@@ -31,7 +31,7 @@ if(isset($_POST['rpersonal'])){
     $result = mysqli_query($conn, $request);
     if($result){
         echo "requested";
-        header("Location: ../../loan/loan.php?msg=$bank detail requested to admin");
+        header("Location: ../../loan/loan.php?msg=$bank detail requested to admin&type=loan");
     }else{
         echo "Error";
     }
@@ -47,7 +47,7 @@ if(isset($_POST['rstudentLoan'])){
     $result = mysqli_query($conn, $request);
     if($result){
         echo "Requested";
-        header("Location: ../../page/studentLoan.php?msg=$bank detail requested to admin");
+        header("Location: ../../page/studentLoan.php?msg=$bank detail requested to admin&type=studentloan");
     }else{
         echo "Error";
     }
@@ -67,7 +67,7 @@ if(isset($_POST['rstudentSav'])){
     $result = mysqli_query($conn, $request);
     if($result){
         echo "Requested";
-        header("Location: ../../page/studentSaving.php?msg=$bank detail requested to admin");
+        header("Location: ../../page/studentSaving.php?msg=$bank detail requested to admin&type=studentSav");
     }else{
         echo "Error";
     }

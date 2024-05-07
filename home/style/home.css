@@ -60,6 +60,7 @@
     color: white;
     font-weight: bold;
     padding: 1rem;
+    z-index: 99;
 }
 .toast2{
     position: absolute;
@@ -70,6 +71,7 @@
     color: white;
     font-weight: bold;
     padding: 1rem;
+    z-index: 99;
 }
 .toast1{
     position: absolute;
@@ -80,4 +82,5 @@
     color: white;
     font-weight: bold;
     padding: 1rem;
+    z-index: 99;
 }

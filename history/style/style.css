@@ -43,4 +43,5 @@
     color: white;
     font-weight: bold;
     padding: 1rem;
+    z-index: 99;
 }

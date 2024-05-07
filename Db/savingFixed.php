@@ -203,7 +203,7 @@ $.ajax({
        data: { sidf: sidf,name:name},
        success: function(response) {
            console.log(response); // Log the server's response (you can handle it accordingly)
-           window.location.href = `http://localhost/interest_tracker/home/home.php?msg2=${name} detail deleted`;
+           window.location.href = `http://localhost/interest_tracker/home/home.php?msg2=${name} detail deleted&type=saving`;
        }
    });
 }

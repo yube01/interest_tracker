@@ -17,7 +17,7 @@ if(isset($_POST['savFix'])){
     $result = mysqli_query($conn, $add);
     if($result){
         echo "Added";
-        header("Location: ../../../home/home.php?msg1=$name bank detail added");
+        header("Location: ../../../home/home.php?msg1=$name bank detail added&type=saving");
     }else{
         echo "Error";
     }
@@ -34,7 +34,7 @@ if(isset($_POST['personal'])){
     $result = mysqli_query($conn, $add);
     if($result){
         echo "Added";
-        header("Location: ../../../loan/loan.php?msg1=$name bank detail added");
+        header("Location: ../../../loan/loan.php?msg1=$name bank detail added&type=loan");
     }else{
         echo "Error";
     }
@@ -50,7 +50,7 @@ if(isset($_POST['studentLoan'])){
     $result = mysqli_query($conn, $add);
     if($result){
         echo "Added";
-        header("Location: ../../../page/studentLoan.php?msg1=$name bank detail added");
+        header("Location: ../../../page/studentLoan.php?msg1=$name bank detail added&type=studentloan");
     }else{
         echo "Error";
     }
@@ -70,7 +70,7 @@ if(isset($_POST['studentSav'])){
     $result = mysqli_query($conn, $add);
     if($result){
         echo "Added";
-        header("Location: ../../../page/studentSaving.php?msg1=$name bank detail added");
+        header("Location: ../../../page/studentSaving.php?msg1=$name bank detail added&type=studentSav");
     }else{
         echo "Error";
     }
