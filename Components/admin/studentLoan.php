@@ -37,7 +37,7 @@
     
             <div class="ed">
                 <label>Student Interest Rate</label>
-                <input type="number" oninput="validateInterestRate()" step="0.0001" name="sRate" value="<?php echo $data['interest']?>" required>
+                <input type="number" oninput="validateInterestRate()" step="0.0001" name="rate" value="<?php echo $data['interest']?>" required>
             </div>
             </div>
             <div class="editBtn">

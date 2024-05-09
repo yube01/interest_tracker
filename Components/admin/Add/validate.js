@@ -121,3 +121,35 @@ function validateSave() {
         rateInput.focus();
     }
 }
+
+
+function validateSave() {
+    // Get the input element for the interest rate
+    var rateInput = document.getElementsByName("sRate")[0];
+    
+    // Get the value entered by the user
+    var rateValue = parseFloat(rateInput.value);
+
+    // Check if the rate is greater than 100
+    if (rateValue > 100) {
+        // Display an error message
+        alert("Error: Saving Interest rate cannot be greater than 100.");
+        
+        // Clear the input field
+        rateInput.value = '';
+
+        // Set focus back to the input field
+        rateInput.focus();
+    }
+    if (rateValue <= 0) {
+        // Display an error message
+        alert("Error: Saving Interest rate cannot be lower than 0");
+        
+        // Clear the input field
+        rateInput.value = '';
+
+        // Set focus back to the input field
+        rateInput.focus();
+    }
+}
+

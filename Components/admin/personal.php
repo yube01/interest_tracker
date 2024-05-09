@@ -36,14 +36,14 @@
     
             <div class="ed">
                 <label>Personal Interest Rate</label>
-                <input type="number" oninput="validateInterestRate()" step="0.0001" name="sRate" value="<?php echo $data['interest']?>" required>
+                <input type="number" oninput="validateInterestRate()" step="0.0001" name="rate" value="<?php echo $data['interest']?>" required>
             </div>
             </div>
             <div class="editBtn">
             <?php
                 if($bank == "none"){
                     ?>
-                    <input type="submit" name="rpersonal" class="submit" value="Edit">
+                    <input type="submit" name="personal" class="submit" value="Edit">
                     <?php
                 }else{
                     ?>

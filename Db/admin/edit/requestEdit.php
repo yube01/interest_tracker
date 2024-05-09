@@ -23,7 +23,7 @@ if(isset($_POST['rsavFix'])){
 
 if(isset($_POST['rpersonal'])){
    
-    $interest = $_POST['sRate'];
+    $interest = $_POST['rate'];
     $code = uniqid();
     $request = "INSERT into personal_loan (name,code,interest,status) values ('$bank','$code','$interest',1)";
 
@@ -40,7 +40,7 @@ if(isset($_POST['rpersonal'])){
 // for student loan interest rate
 if(isset($_POST['rstudentLoan'])){
     
-    $interest = $_POST['sRate'];
+    $interest = $_POST['rate'];
     $code = uniqid();
     $request = "INSERT into education_loan (name,code,interest,status) values ('$bank','$code','$interest',1)";
 

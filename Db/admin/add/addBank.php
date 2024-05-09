@@ -28,7 +28,7 @@ if(isset($_POST['savFix'])){
 if(isset($_POST['personal'])){
     $name = $_POST['bank'];
     $code = $_POST['code'];
-    $interest = $_POST['sRate'];
+    $interest = $_POST['rate'];
 
     $add = "INSERT INTO personal_loan (name,code,interest) VALUES ('$name','$code','$interest')";
     $result = mysqli_query($conn, $add);
@@ -44,7 +44,7 @@ if(isset($_POST['personal'])){
 if(isset($_POST['studentLoan'])){
     $name = $_POST['bank'];
     $code = $_POST['code'];
-    $interest = $_POST['sRate'];
+    $interest = $_POST['rate'];
 
     $add = "INSERT INTO education_loan (name,code,interest) VALUES ('$name','$code','$interest')";
     $result = mysqli_query($conn, $add);

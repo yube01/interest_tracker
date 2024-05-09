@@ -25,7 +25,7 @@
     
             <div class="ed">
                 <label>Personal Interest Rate</label>
-                <input type="number" oninput="validateInterestRate()" step="0.0001" name="sRate" required>
+                <input type="number" oninput="validateInterestRate()" step="0.0001" name="rate" required>
             </div>
             </div>
             <div class="editBtn">

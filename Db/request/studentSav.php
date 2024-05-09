@@ -9,9 +9,9 @@ if(isset($_GET['type']) && isset($_GET['option'])){
 }
 if($bank != "none" || $option == 1){
     if($option == 1){
-        $personal = "select * from student_saving where status in (1,2,3) ";
+        $personal = "select * from student_saving where status in (1,2,3) order by stid desc ";
     }else{
-        $personal = "select * from student_saving where bank_name = '$bank' and status in (1,2,3) ";
+        $personal = "select * from student_saving where bank_name = '$bank' and status in (1,2,3) order by stid desc";
     }
 
     $perRes = mysqli_query($conn,$personal);

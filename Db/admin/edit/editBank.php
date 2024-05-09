@@ -26,7 +26,7 @@ if(isset($_POST['savFix'])){
 
 if(isset($_POST['personal'])){
     $name = $_POST['bank'];
-    $interest = $_POST['sRate'];
+    $interest = $_POST['rate'];
 
     $update = "UPDATE personal_loan SET name = '$name', 
     interest = '$interest'
@@ -43,7 +43,7 @@ if(isset($_POST['personal'])){
 // for student loan interest rate
 if(isset($_POST['studentLoan'])){
     $name = $_POST['bank'];
-    $interest = $_POST['sRate'];
+    $interest = $_POST['rate'];
 
     $update = "UPDATE education_loan SET name = '$name', 
     interest = '$interest'
